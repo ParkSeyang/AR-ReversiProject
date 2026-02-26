@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7557307168",
+    "project_id": "studynetwork-42c19",
+    "storage_bucket": "studynetwork-42c19.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7557307168:android:aff2cd10f624353abfd545",
+        "android_client_info": {
+          "package_name": "com.PSYCompany.Study_GameNetWork"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzo_zDCkQL-NhucyIAstv3RziWGjseCEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
