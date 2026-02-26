@@ -1,0 +1,27 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[探]ogs/
+/[MemoryCaptures]/
+/Assets/AssetStoreTools*
+
+# Visual Studio / JetBrains Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.unityproj
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.idle
+*.orig
+*.rej
+*.swp
+
+# OS generated
+.DS_Store
+Thumbs.db
