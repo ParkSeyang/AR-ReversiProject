@@ -170,7 +170,12 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)
     {
         Debug.Log($"OnPlayerLeft : AsIndex : {player.AsIndex}, {player.PlayerId}");
-        
+
+        if (spawnedCharacters.TryGetValue(player, out NetworkObject networkPlayerObject))
+        {
+            runner.Despawn(networkPlayerObject);
+            spawnedCharacters.Remove(player);
+        }
     }
     
     
