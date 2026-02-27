@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Fusion;
 using Fusion.Sockets;
+using Study.Fusion;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
@@ -54,12 +55,7 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
     {
        
     }
-
-    public void OnInput(NetworkRunner runner, NetworkInput input)
-    {
     
-    }
-
     public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input)
     {
       
@@ -176,6 +172,52 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
             runner.Despawn(networkPlayerObject);
             spawnedCharacters.Remove(player);
         }
+    }
+
+    private bool mouseButton0;
+    private bool mouseButton1;
+    
+    
+    private void Update()
+    {
+        mouseButton0 = mouseButton0 | Input.GetMouseButton(0);
+        mouseButton1 = mouseButton1 | Input.GetMouseButton(1);
+    }
+    
+    public void OnInput(NetworkRunner runner, NetworkInput input)
+    {
+        // 입력을 감지해서 새로운 data를 생성하고 input에 담아서 동기화 합니다.
+        NetworkInputData data = new NetworkInputData();
+
+        // data에 방향값을 넣어 줍니다.
+        if (Input.GetKey(KeyCode.W))
+        {
+            data.Direction += Vector3.forward;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            data.Direction += Vector3.left;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            data.Direction += Vector3.back;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            data.Direction += Vector3.right;
+        }
+        
+        // 입력을 보내고 
+        data.Buttons.Set(NetworkInputData.MOUSE_BUTTON_0, mouseButton0);
+        // mouseButton1을 false 처리 해줍니다.
+        mouseButton0 = false;
+        
+        data.Buttons.Set(NetworkInputData.MOUSE_BUTTON_1, mouseButton1);
+        mouseButton1 = false;
+        
+        // input에 해당 data를 설정해줍니다.
+        input.Set(data);
+
     }
     
     
