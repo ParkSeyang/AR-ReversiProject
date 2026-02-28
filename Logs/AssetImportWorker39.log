@@ -1,0 +1,1599 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32386 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-02-28T10:30:48.3535771Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-28T10:30:48Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker39
+-projectPath
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+-logFile
+Logs/AssetImportWorker39.log
+-srvPort
+58049
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/AR-ReversiProject
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [42624]  Target information:
+
+Player connection [42624]  * "[IP] 172.30.1.55 [Port] 0 [Flags] 2 [Guid] 4040081138 [EditorId] 4040081138 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BTF4SNP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42624] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [42624] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 34.83 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/AR-ReversiProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              8a04a6c401574aa2a7f69fd5c33d45d3
+  Correlation Id:          2e1677b044b26191d80a4bb1d64b199d
+  External correlation Id: 6308534956938930543
+  Machine Id:              dJ8Tfn01EciPmnYvmSiKPSjQkro=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 1.41s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-02-28T10:30:49.7685125Z"
+[Licensing::Module] Licensing Background thread has ended after 1.42s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004439 seconds.
+- Loaded All Assemblies, in  0.526 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.420 seconds
+Domain Reload Profiling: 938ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (174ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (420ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568654860447-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.251 seconds
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 12.40 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.454 seconds
+Domain Reload Profiling: 2691ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (877ms)
+		LoadAssemblies (755ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1260ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (901ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 19.73 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (4.3 MB). Loaded Objects now: 7931.
+Memory consumption went from 227.3 MB to 223.0 MB.
+Total: 30.700100 ms (FindLiveObjects: 0.834500 ms CreateObjectMapping: 0.657600 ms MarkObjects: 26.031800 ms  DeleteObjects: 3.174400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1385460.508154 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Dodge-Left.FBX
+  artifactKey: Guid(1970f9c17bca8d047afc046c2685dcd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Dodge-Left.FBX using Guid(1970f9c17bca8d047afc046c2685dcd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '679e47a0ecef23fb3ae1a282a88e1b4c') in 0.2028418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/PerfectLookAt
+  artifactKey: Guid(15a1ae1b164825e4d9948bb1f19bf248) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/PerfectLookAt using Guid(15a1ae1b164825e4d9948bb1f19bf248) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '024399fddee9a32e0b89a2226e2e323a') in 0.0075695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Idle-Alert1.FBX
+  artifactKey: Guid(afbdaedb6fed059489bc231e5557f109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Idle-Alert1.FBX using Guid(afbdaedb6fed059489bc231e5557f109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e273e2db672b67c97472f7a2f077f0a7') in 0.0248035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Aiming.FBX
+  artifactKey: Guid(775b35ef17a0cb342ada452b7e343629) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Aiming.FBX using Guid(775b35ef17a0cb342ada452b7e343629) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '579bcb95c69d434b3a5af3f5e59db4fe') in 0.0616867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Walk-Injured.FBX
+  artifactKey: Guid(62196ab8b670de146b6be9041f3bd30a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Walk-Injured.FBX using Guid(62196ab8b670de146b6be9041f3bd30a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2388cc62ad4fce80c024f1675d9b0f07') in 0.0203826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Special1.FBX
+  artifactKey: Guid(834592163f62b0543a94457c53cbfcc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Special1.FBX using Guid(834592163f62b0543a94457c53cbfcc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b92defcbd7e0fe93576d651e066b39d') in 0.0216861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256648 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed
+  artifactKey: Guid(604d2bc4d66587f419fe593ff51e697e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed using Guid(604d2bc4d66587f419fe593ff51e697e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38ecf1f72e0e588cc352d8b51c93370f') in 0.0050811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Strafe-Left.FBX
+  artifactKey: Guid(3fd7b80ed4a5c024dabf195d1ecb5de8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Strafe-Left.FBX using Guid(3fd7b80ed4a5c024dabf195d1ecb5de8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a039ec55a64e5157c6149775929345e8') in 0.0094111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Code/Core/SuperStateMachine.cs
+  artifactKey: Guid(863732f8a6e9a6a498c793425ea50038) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Code/Core/SuperStateMachine.cs using Guid(863732f8a6e9a6a498c793425ea50038) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df23a3a6ae8370a1c4b266c61de2e902') in 0.0071717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/UI/Controller.psd
+  artifactKey: Guid(a89b87919aade4c498f4e0df342ab278) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/UI/Controller.psd using Guid(a89b87919aade4c498f4e0df342ab278) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8db4cd6fc569d9e8b13c03ef8001c097') in 0.0479605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Materials/BluePlastic.mat
+  artifactKey: Guid(09238216794b460489da82f8f4464580) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Materials/BluePlastic.mat using Guid(09238216794b460489da82f8f4464580) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b8fe2d2f1b315fc1a2dec68a48f1db8') in 0.0253524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Models
+  artifactKey: Guid(19b8b0169b82b9044b2e6214a7a3ba0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Models using Guid(19b8b0169b82b9044b2e6214a7a3ba0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd20900cf92bf93304ca7f123c0e3357f') in 0.0053411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.685363 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Pickup.FBX
+  artifactKey: Guid(8acfb4e359443e34ca672897f2b34b72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Pickup.FBX using Guid(8acfb4e359443e34ca672897f2b34b72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5ecffe0e83e0bb8ffb1cebb0daa99d0') in 0.0135368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Strafe-Backward-Right.FBX
+  artifactKey: Guid(58267a743beb6c84ab7f7d52527f1665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Strafe-Backward-Right.FBX using Guid(58267a743beb6c84ab7f7d52527f1665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3f4c6687d1f100b2cf8615a8fd18b50') in 0.0132712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Dodge-Right.fbx
+  artifactKey: Guid(a992936c96e523946913a9bc39ccaad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Dodge-Right.fbx using Guid(a992936c96e523946913a9bc39ccaad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68d5cfe115f5786a9f9ca184e49f10cf') in 0.0106981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Attack-Kick-L2.FBX
+  artifactKey: Guid(c48199f0305d51e449b7bf02340b713f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Attack-Kick-L2.FBX using Guid(c48199f0305d51e449b7bf02340b713f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21f22f0cb5ca9c7bbbc56279b40fe98f') in 0.0111544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Block-Dual-Break.FBX
+  artifactKey: Guid(768c11f2515590141bc2f11f06e7eb24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Block-Dual-Break.FBX using Guid(768c11f2515590141bc2f11f06e7eb24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f81b7ab797ca40b1e0f84bef801f5ed') in 0.0129162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Crouch-Walk-Backward.FBX
+  artifactKey: Guid(8521d99dccfeb3142b15c500b999aa2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Crouch-Walk-Backward.FBX using Guid(8521d99dccfeb3142b15c500b999aa2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91c4d912c5efc91bb645665d59643533') in 0.0100111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Knockback-Back2.FBX
+  artifactKey: Guid(249c803f183527c438ebf43a7f3c02dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Knockback-Back2.FBX using Guid(249c803f183527c438ebf43a7f3c02dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92f273b70b95cbd85a4e3ab63dcb6002') in 0.0104582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-L-Attack3.FBX
+  artifactKey: Guid(7aa16589dfc93494caefc6eccf90aa53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-L-Attack3.FBX using Guid(7aa16589dfc93494caefc6eccf90aa53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcdf9770edf9ba631f31600e8e11c8b6') in 0.0141672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.453500 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Attack-Dual3.FBX
+  artifactKey: Guid(cb140d8df12930e40bbb2bd5b2a74557) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Attack-Dual3.FBX using Guid(cb140d8df12930e40bbb2bd5b2a74557) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0b6547bda6441be3abc832bcc42ba73') in 0.0084666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Roll-Forward.FBX
+  artifactKey: Guid(685f155e179a82d4f9e5aca467ad4a0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Roll-Forward.FBX using Guid(685f155e179a82d4f9e5aca467ad4a0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '555d50b7e58b7076b48b9c6e85720fd6') in 0.0096563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Dodge-Backward.FBX
+  artifactKey: Guid(48a8374badd192641883944b605aef98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Dodge-Backward.FBX using Guid(48a8374badd192641883944b605aef98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f82f948f8933ded0c057746a33e2694a') in 0.0100028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Walk-Slow.FBX
+  artifactKey: Guid(033e70dbed352694aab6265a6dd5b0ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Walk-Slow.FBX using Guid(033e70dbed352694aab6265a6dd5b0ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21224c442e9d351ffc584f0c61c99e1d') in 0.0132791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Materials/LightBlueWall.mat
+  artifactKey: Guid(ee4cbf115a0efc44fb045f5084ab3339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Materials/LightBlueWall.mat using Guid(ee4cbf115a0efc44fb045f5084ab3339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f9b5ec73347bce3c3cc9ff8d1fc6e01') in 0.0081525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Walk.FBX
+  artifactKey: Guid(3c23279e3e02346458b3f82bb43abf94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Walk.FBX using Guid(3c23279e3e02346458b3f82bb43abf94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f64632e486a7725d560ce5e235d7741') in 0.0090894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Aiming.FBX
+  artifactKey: Guid(ecd33f0c7933386478a8128ed464e56b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Aiming.FBX using Guid(ecd33f0c7933386478a8128ed464e56b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70f09fc7b683e1cdcd5c115f310d8d80') in 0.0218617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Foward.FBX
+  artifactKey: Guid(f8e0a3512fe05e240bf9d4cff6d8fc26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Foward.FBX using Guid(f8e0a3512fe05e240bf9d4cff6d8fc26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca02071eac3f7991ab7ad45e4a6238c3') in 0.0113105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.332728 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Unsheath-Back-Unarmed.FBX
+  artifactKey: Guid(a8900af1485b335408e0f7de37c9d394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Unsheath-Back-Unarmed.FBX using Guid(a8900af1485b335408e0f7de37c9d394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1edda8d26d1045923c2aba3de7af80f') in 0.0122086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Run-Forward-Right.FBX
+  artifactKey: Guid(e33349a8bcfb33d45b046fd471f11e59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Run-Forward-Right.FBX using Guid(e33349a8bcfb33d45b046fd471f11e59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7c7867b678c7db319000195ec26b008') in 0.012378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Attack6.fbx
+  artifactKey: Guid(9a30e1d5a08198046b998ff084ada9d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Attack6.fbx using Guid(9a30e1d5a08198046b998ff084ada9d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2cb40a46601ccc187b9891f851217fa1') in 0.0126153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ExplosiveLLC/PerfectLookAt/Models/Human/Materials/InverseSoldier_Head_LOD2_Diff.mat
+  artifactKey: Guid(249762495a1a3a9489d7dc1d3b230c3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/PerfectLookAt/Models/Human/Materials/InverseSoldier_Head_LOD2_Diff.mat using Guid(249762495a1a3a9489d7dc1d3b230c3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a2f8803e276bae26c339f6657ec19ce') in 0.0105666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Pickup.FBX
+  artifactKey: Guid(9d4c402fed7412f4ca6aeec1d228b859) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Pickup.FBX using Guid(9d4c402fed7412f4ca6aeec1d228b859) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7b9512ac98902e44cfb5ca442d5bcb2') in 0.0109649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Idle-Drunk-Female1.FBX
+  artifactKey: Guid(6d6049a579447ac4eabc8b31812eb27a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Idle-Drunk-Female1.FBX using Guid(6d6049a579447ac4eabc8b31812eb27a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a536cfaafdbf4adaa2119e8ce9948dc') in 0.0095721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Idle-Pistol-L-Static.FBX
+  artifactKey: Guid(84dad90f397574c4598b65faa5319419) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Idle-Pistol-L-Static.FBX using Guid(84dad90f397574c4598b65faa5319419) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c31db9caa286dad9e68ec6b1bc1b4682') in 0.0107533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Unsheath-Dual-Back.FBX
+  artifactKey: Guid(24845cfd1851dff4b849b1e79bfe51a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Unsheath-Dual-Back.FBX using Guid(24845cfd1851dff4b849b1e79bfe51a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '779bfeec4ea0b646386da511b6c716ae') in 0.0105621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Materials/Target.mat
+  artifactKey: Guid(bfd7757b7f9a8a74796f9d7ab8e8ee8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Materials/Target.mat using Guid(bfd7757b7f9a8a74796f9d7ab8e8ee8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcd5d87638c5093dc4b7a5627046b47c') in 0.0079075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Sheath-Hips-Unarmed.FBX
+  artifactKey: Guid(8c776fa9e39552c4da9f1123bd18df60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Sheath-Hips-Unarmed.FBX using Guid(8c776fa9e39552c4da9f1123bd18df60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d26d0ea515626f2ef64c96b4076df43') in 0.0092981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Turn-Right-Loop.FBX
+  artifactKey: Guid(41de35df66677b04bbd1f2c5f46af152) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Turn-Right-Loop.FBX using Guid(41de35df66677b04bbd1f2c5f46af152) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '656a20fbcf63799027ef78fb265be517') in 0.0136057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-L-Buff2.FBX
+  artifactKey: Guid(cb7a5adf4d8272b4bbf4254cdb95809d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-L-Buff2.FBX using Guid(cb7a5adf4d8272b4bbf4254cdb95809d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ff229e0c1bcc0fce338063e5918145c') in 0.0112727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/PerfectLookAt/Models/Human/InverseSoldier_BodyP1_LOD2_Spec.jpg
+  artifactKey: Guid(ddcbf2adc5a35d84f94c3852cd9ff720) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/PerfectLookAt/Models/Human/InverseSoldier_BodyP1_LOD2_Spec.jpg using Guid(ddcbf2adc5a35d84f94c3852cd9ff720) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b86aa3c286a3c21f056292f05e3a4d2b') in 0.0151762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Block-Break1.FBX
+  artifactKey: Guid(0fc3752f9b3960342b88066e61938c0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Block-Break1.FBX using Guid(0fc3752f9b3960342b88066e61938c0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'add50070c3afec2ace9a12f9b7cb31da') in 0.0092182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Models/Stage/Ladder.FBX
+  artifactKey: Guid(d203e4db2f2289843a8082732373ff51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Models/Stage/Ladder.FBX using Guid(d203e4db2f2289843a8082732373ff51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ace1eaad7e5f48b40cede479dc76c47') in 0.0367388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Cast-Dual-AOE1.FBX
+  artifactKey: Guid(eac9b4a94f1a48c4aa4696c83e127253) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Cast-Dual-AOE1.FBX using Guid(eac9b4a94f1a48c4aa4696c83e127253) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '693af4ba7ad7a081ba371e7511b7fa06') in 0.0153485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Textures/Target.psd
+  artifactKey: Guid(ff52602033753744aa65216dcf0a9b50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Textures/Target.psd using Guid(ff52602033753744aa65216dcf0a9b50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e5aa52284cbe1b08737dabfd2579e72') in 0.0139058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Turn-Right-180.FBX
+  artifactKey: Guid(3a9a7522dee8c8549a9ed9df91892a67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Turn-Right-180.FBX using Guid(3a9a7522dee8c8549a9ed9df91892a67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '776783a75abc94b3cc6d6635e094d635') in 0.0145092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack-Kick-L2.FBX
+  artifactKey: Guid(cec8db4725680ef4690f3e7db70ababc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack-Kick-L2.FBX using Guid(cec8db4725680ef4690f3e7db70ababc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d5a1c6d798e8acd3c3cad9ff0570818') in 0.0138505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Idle-Alert1.FBX
+  artifactKey: Guid(5a7327a9c3ec1f348a3e5db3dff6fc9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Idle-Alert1.FBX using Guid(5a7327a9c3ec1f348a3e5db3dff6fc9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23ba0137ece77f0b24958eb26acd7f3a') in 0.0114382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Idle-Alert1.FBX
+  artifactKey: Guid(18e16464ff92d89418cf6371c66d2c49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Idle-Alert1.FBX using Guid(18e16464ff92d89418cf6371c66d2c49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae2ef148ab14060625e428341d4b7ef3') in 0.0111183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Scenes/RPG-Character
+  artifactKey: Guid(1c17e66a5ffb49a4c92ddeec54767b90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Scenes/RPG-Character using Guid(1c17e66a5ffb49a4c92ddeec54767b90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4146668c942668cc6b43299d410c613') in 0.0064152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/AnimationData.cs
+  artifactKey: Guid(5c2dd2f29d53b4f509873c1c375119c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/AnimationData.cs using Guid(5c2dd2f29d53b4f509873c1c375119c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55b1fdc972ca6e8475b787c775efafcc') in 0.008159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Jump-Flip.FBX
+  artifactKey: Guid(e1c27724d7efcb54db2d17a909c369d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Jump-Flip.FBX using Guid(e1c27724d7efcb54db2d17a909c369d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06a0406b413f58090cddd1f6c47244a7') in 0.015447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Knockback-Back2.FBX
+  artifactKey: Guid(d66336446112a1942a204cd1780bc422) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Knockback-Back2.FBX using Guid(d66336446112a1942a204cd1780bc422) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4380b6e1e58e6499072d3218baba183d') in 0.0113277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Walk-Slow-Drunk1.FBX
+  artifactKey: Guid(bcc5302f57c2e9d42ae4c3b786e56b25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Walk-Slow-Drunk1.FBX using Guid(bcc5302f57c2e9d42ae4c3b786e56b25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '893a51c7a9b9437af06a0412d7be9a76') in 0.0118173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Attack-R1.FBX
+  artifactKey: Guid(ce17781955d25c647922801319f24e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Attack-R1.FBX using Guid(ce17781955d25c647922801319f24e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bbc2772578dcb5dba6fcd2c48ff5e73') in 0.0113435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Swimming/RPG-Character@Swim2-Fast.fbx
+  artifactKey: Guid(c9de2f9a0eb53514dbfbd4af56cb3c08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Swimming/RPG-Character@Swim2-Fast.fbx using Guid(c9de2f9a0eb53514dbfbd4af56cb3c08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90cb5187285dd437ce1b88652a51692b') in 0.010204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Sheath-L-Back-Relax.FBX
+  artifactKey: Guid(c10595db79b33624080794cb1cf7f863) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Sheath-L-Back-Relax.FBX using Guid(c10595db79b33624080794cb1cf7f863) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c1a1b5cf310d5834d7e2d1400e0826b') in 0.0122922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Idle-Static.FBX
+  artifactKey: Guid(9f6f3a645014dc44cb4cd72c32014861) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Idle-Static.FBX using Guid(9f6f3a645014dc44cb4cd72c32014861) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfd76cddc1ad5eccadf0d17b603e80b1') in 0.0107152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Attack-Dual1.FBX
+  artifactKey: Guid(43b3bf1526e697f4f8b06e53457dfa2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Attack-Dual1.FBX using Guid(43b3bf1526e697f4f8b06e53457dfa2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a1b06fc633395e237d5bed09c9fe6cd') in 0.0153259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Sword/RPG-Character@Sword-Attack-L1.FBX
+  artifactKey: Guid(01ce608905e9d3e48928ced7d03f19ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Sword/RPG-Character@Sword-Attack-L1.FBX using Guid(01ce608905e9d3e48928ced7d03f19ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '870dd0d34af51538b6535869a2d77c7b') in 0.0115107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Strafe-Left.FBX
+  artifactKey: Guid(f98dd6d6c8aa07b4c86c42233d700073) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Strafe-Left.FBX using Guid(f98dd6d6c8aa07b4c86c42233d700073) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b1fa93dfd18f6926f1cd512ebe1802b') in 0.0109026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Left.FBX
+  artifactKey: Guid(1be3ff3375b4baa4a96dee49e98c944d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Left.FBX using Guid(1be3ff3375b4baa4a96dee49e98c944d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7232041d15c164994c3329a1b1b60dfb') in 0.0115824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Crouch-Walk-Backward.FBX
+  artifactKey: Guid(e221608e53b3e2a4fb2ee50b5f764b7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Crouch-Walk-Backward.FBX using Guid(e221608e53b3e2a4fb2ee50b5f764b7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1415ca2eadedb9e19b41040943dec86') in 0.0129497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-GetHit-B1.FBX
+  artifactKey: Guid(be27eac04bde68040994c827068530ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-GetHit-B1.FBX using Guid(be27eac04bde68040994c827068530ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4f4ee63ce6225d20eccc2414b4584eb') in 0.0119314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Land.FBX
+  artifactKey: Guid(37e4532405deab74581ed8fe01091a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Land.FBX using Guid(37e4532405deab74581ed8fe01091a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5e172ca2f1492f439e35a9a73f55cde') in 0.0133039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Crouch-Walk-Forward-Right.FBX
+  artifactKey: Guid(c4279d1f104f69c43a62996bcd55abe5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Crouch-Walk-Forward-Right.FBX using Guid(c4279d1f104f69c43a62996bcd55abe5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6afd8b729b04713796e2788c56be3513') in 0.0127505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-L-Attack2.FBX
+  artifactKey: Guid(d30fe2b2195324242a83838ba388da74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-L-Attack2.FBX using Guid(d30fe2b2195324242a83838ba388da74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fba594e5bcf2af08b2c02d01badb970') in 0.016759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Turn-Right-180.FBX
+  artifactKey: Guid(b92f16f7188afd44ab6804874432de8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Turn-Right-180.FBX using Guid(b92f16f7188afd44ab6804874432de8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47cdbfd4b6c02517ffd3f52a2af06933') in 0.0129602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Roll-Left.FBX
+  artifactKey: Guid(a5151a1c33b16674e9ab2a9ae7cf6f8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Roll-Left.FBX using Guid(a5151a1c33b16674e9ab2a9ae7cf6f8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '793f221d96fb86b6478cfcbf8a8c531d') in 0.010001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-No.FBX
+  artifactKey: Guid(105c6ce049078f244beeaeb06ba354d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-No.FBX using Guid(105c6ce049078f244beeaeb06ba354d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da963098b39628403a361c088a288408') in 0.0098514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Block.FBX
+  artifactKey: Guid(884ca423a24fb5541b2c91f9986642a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Block.FBX using Guid(884ca423a24fb5541b2c91f9986642a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b565102168fd79cba86bdf33e3ef82f') in 0.0205863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.513125 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Strafe-Left.FBX
+  artifactKey: Guid(27a06ce0e9b53804c9e39ea4de6f17ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Strafe-Left.FBX using Guid(27a06ce0e9b53804c9e39ea4de6f17ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c7f95715981a3e6e5307962a9d0bc66') in 0.0127645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ExplosiveLLC/Editor
+  artifactKey: Guid(99d610dbedac0ba448b0aad316846584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/Editor using Guid(99d610dbedac0ba448b0aad316846584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca0655eee46fe424c5d4cb12745c4910') in 0.0062718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExplosiveLLC/PerfectLookAt/Models/UnityModel/Materials/DefaultAvatar-eyes.mat
+  artifactKey: Guid(e4a12fd3405832f448a43cdddb4a4e87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/PerfectLookAt/Models/UnityModel/Materials/DefaultAvatar-eyes.mat using Guid(e4a12fd3405832f448a43cdddb4a4e87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38d6b73a5fd2b6bb002a3d5b32c0757a') in 0.0107232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.497014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Attack-Kick-L1.FBX
+  artifactKey: Guid(5e0355c488f8d8948946cc7ff12e360e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Attack-Kick-L1.FBX using Guid(5e0355c488f8d8948946cc7ff12e360e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '603e256141e8992a87efec8a743a2ef7') in 0.0160933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-DiveRoll-Forward1.FBX
+  artifactKey: Guid(d05e1e87bea596f49b01fedb8c7da04c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-DiveRoll-Forward1.FBX using Guid(d05e1e87bea596f49b01fedb8c7da04c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '852540a9c188204c86d3b1557734dcb1') in 0.0127368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Turn-Right-90.FBX
+  artifactKey: Guid(7404705e40711a04a8471dea3e58ded1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Turn-Right-90.FBX using Guid(7404705e40711a04a8471dea3e58ded1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34393b92d8580b7f791315845a8d8d0d') in 0.0101489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.481202 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Movement/DiveRoll.cs
+  artifactKey: Guid(3a4aa3ca1e779644bbcb72f1a5f921dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Movement/DiveRoll.cs using Guid(3a4aa3ca1e779644bbcb72f1a5f921dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db2680b9c49b1c1c136a2f85ec46a8b5') in 0.0089094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Walk-Backward-Left.FBX
+  artifactKey: Guid(32e0720084df6194e807335884f58b85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Walk-Backward-Left.FBX using Guid(32e0720084df6194e807335884f58b85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '671df43a4b4def01deae4e895d652c36') in 0.0120701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Attack5.FBX
+  artifactKey: Guid(94fab5ff4ecde6e4fa6b50cb96ed6a36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Attack5.FBX using Guid(94fab5ff4ecde6e4fa6b50cb96ed6a36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c2a8bbbf41d3750602bdddfad9e2d67') in 0.0142382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.455127 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Idle-Alt.FBX
+  artifactKey: Guid(5710eac6a15b3ea45831916a20a6d34f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Idle-Alt.FBX using Guid(5710eac6a15b3ea45831916a20a6d34f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f05efa0d35a6daf036a9b4b3229cab4') in 0.0194684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Attack6.FBX
+  artifactKey: Guid(970763778d10958409f02b9fe84a9dab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Attack6.FBX using Guid(970763778d10958409f02b9fe84a9dab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '125b47f578bef1f85b9b9c85898a15f4') in 0.0155391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Death1.FBX
+  artifactKey: Guid(9a26352c93a81e947b73b8e47cc931bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Death1.FBX using Guid(9a26352c93a81e947b73b8e47cc931bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3dc8aeecca30d6beea1b874c4a7b6b3') in 0.0096935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.427013 seconds.
+  path: Assets/ExplosiveLLC/PerfectLookAt/Prefabs
+  artifactKey: Guid(8c024bee88e9b8945974e616ec18829d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/PerfectLookAt/Prefabs using Guid(8c024bee88e9b8945974e616ec18829d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f41c1b1aef4ce10bce6b1bc94594b0dc') in 0.0064529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack11.FBX
+  artifactKey: Guid(807a4f9cdadaafe4491d43653dfab0c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack11.FBX using Guid(807a4f9cdadaafe4491d43653dfab0c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '747b8f1b4d2d8f1412b02ad9f8655b92') in 0.0108695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Attack4.FBX
+  artifactKey: Guid(53ddfb67396ece24ba7f176345cb3c96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Attack4.FBX using Guid(53ddfb67396ece24ba7f176345cb3c96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fb51d26a5bf1d1336133d1031882880') in 0.0108521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.405527 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Movement/Crawl.cs
+  artifactKey: Guid(db753fc2638b21045a3022edd6312ed9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Movement/Crawl.cs using Guid(db753fc2638b21045a3022edd6312ed9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '178cba0675086e4bf9bfc97bce29bfab') in 0.0062262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Fall.FBX
+  artifactKey: Guid(35e13a490ac6af3408e0e77d254ff864) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Fall.FBX using Guid(35e13a490ac6af3408e0e77d254ff864) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f335509556c9f1f6da257e2d008d53c') in 0.0107597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Turn-Right-Loop.FBX
+  artifactKey: Guid(0ae2d603074ea35489d7afc4766414d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Turn-Right-Loop.FBX using Guid(0ae2d603074ea35489d7afc4766414d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38045782e1b21d061f33bdf690eba175') in 0.0101794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.416582 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Run-Left.FBX
+  artifactKey: Guid(34cf87f11bbc57c4b9b73fdd5fa93281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Run-Left.FBX using Guid(34cf87f11bbc57c4b9b73fdd5fa93281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2e3a3bb7811f9e36cfb58640db2f3a0') in 0.014111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-GetHit-F2.FBX
+  artifactKey: Guid(1921569d188aca64e9249ae2ba656c16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-GetHit-F2.FBX using Guid(1921569d188aca64e9249ae2ba656c16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a763b75c4b6c8238c133a4874a66651') in 0.0112333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Getup1.FBX
+  artifactKey: Guid(ff44ae55e118241449cfe883512385b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Getup1.FBX using Guid(ff44ae55e118241449cfe883512385b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57ee294cc2be36aaa5074316cdfeaa8a') in 0.0105483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331661 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Lookups/Animations/PistolAttack.cs
+  artifactKey: Guid(3d516a1c767e4fe88c0d6a616462d3de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Lookups/Animations/PistolAttack.cs using Guid(3d516a1c767e4fe88c0d6a616462d3de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57b0b8fa05713b40cc6ba708d78ba0fa') in 0.0055771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow
+  artifactKey: Guid(5e14944f7bba51c4f945b0e81610d00f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow using Guid(5e14944f7bba51c4f945b0e81610d00f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f0893fcc3449c46ac58cc7ed6620558') in 0.0043569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Sword/RPG-Character@Sword-Attack-R1.FBX
+  artifactKey: Guid(d82669b37833c5f4db716b82428a5ad6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Sword/RPG-Character@Sword-Attack-R1.FBX using Guid(d82669b37833c5f4db716b82428a5ad6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a95a222b2588ddcd30de0f1723dd64a') in 0.0119587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360711 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Turn-Left-180.FBX
+  artifactKey: Guid(3a54d48c31bf78841adff592fe684974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Turn-Left-180.FBX using Guid(3a54d48c31bf78841adff592fe684974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c358c8be2d4e3ff8a3933c989a4f1637') in 0.0150252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Backward-Left.FBX
+  artifactKey: Guid(3a28f057f009e0841a2c7332e40e8279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Backward-Left.FBX using Guid(3a28f057f009e0841a2c7332e40e8279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae0cb261e108976a7fb469d968721849') in 0.0118333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack-Kick-R2.FBX
+  artifactKey: Guid(7ec232e706924f5478aa3bde3fa8f394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack-Kick-R2.FBX using Guid(7ec232e706924f5478aa3bde3fa8f394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab1b29c62937b0302a2c3436667ce0c9') in 0.0119439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285052 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Walk.FBX
+  artifactKey: Guid(35b48dbca4fb73f4ebd47e90ee87fcb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Walk.FBX using Guid(35b48dbca4fb73f4ebd47e90ee87fcb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2d6a5ab659e6b633508a2e62218cd74') in 0.0135662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Climb-Ledge/RPG-Character@Ledge-Climb.FBX
+  artifactKey: Guid(d9a95841af4917448b9472a9758537bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Climb-Ledge/RPG-Character@Ledge-Climb.FBX using Guid(d9a95841af4917448b9472a9758537bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21f72894bd340370c242c04f4f185ec9') in 0.0108854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Cast-Dual-Buff2.FBX
+  artifactKey: Guid(0c196507eb212634d85704d9b887c1ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Cast-Dual-Buff2.FBX using Guid(0c196507eb212634d85704d9b887c1ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a019bb56b3015ae249d1ef6d8c572dfb') in 0.0110411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.566249 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Knockback-Back1.FBX
+  artifactKey: Guid(be465c0ebfacfb0479d270703d4e44ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Knockback-Back1.FBX using Guid(be465c0ebfacfb0479d270703d4e44ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0039cb57382e708d4e75b949ffb5418f') in 0.0146123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Crouch-Idle.FBX
+  artifactKey: Guid(4ca9e6d17f27ebe44a7729db6b333bf9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Crouch-Idle.FBX using Guid(4ca9e6d17f27ebe44a7729db6b333bf9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae57167d664e493b0a98ac3abea9c539') in 0.0090757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Walk-Forward-Right.FBX
+  artifactKey: Guid(1d27e3dcf3de15a4f89385be0e54498d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Walk-Forward-Right.FBX using Guid(1d27e3dcf3de15a4f89385be0e54498d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3295747feb81a88a64afceb384acf06') in 0.010236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.619393 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Character/EmoteCombat.cs
+  artifactKey: Guid(5edb1fdf7ec794bb3ac57d49f214dd63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Character/EmoteCombat.cs using Guid(5edb1fdf7ec794bb3ac57d49f214dd63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9908e81126ba121b09a7f06a7d8e3c77') in 0.0074924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed-Shield/RPG-Character@Armed-Shield-Run-Backward-Left.fbx
+  artifactKey: Guid(8cfb27f0fb2f09242aaceff2e8528456) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed-Shield/RPG-Character@Armed-Shield-Run-Backward-Left.fbx using Guid(8cfb27f0fb2f09242aaceff2e8528456) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6f81ec6aa80553240884e415dd8144d') in 0.0108741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Dodge-Right.FBX
+  artifactKey: Guid(0d29c012870e88e498724f6716cd226d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Dodge-Right.FBX using Guid(0d29c012870e88e498724f6716cd226d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f221b0a1d519244f7015724a576a38f8') in 0.0119216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-GetHit-R1.FBX
+  artifactKey: Guid(b8b57ffbbebc6b947a9512315c957fe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-GetHit-R1.FBX using Guid(b8b57ffbbebc6b947a9512315c957fe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a225d6ccc708e908bb27a0f961f1874') in 0.0122021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156037 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Lookups/Animations/HitType.cs
+  artifactKey: Guid(35b03e943148448092fefef0f3809ef0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Lookups/Animations/HitType.cs using Guid(35b03e943148448092fefef0f3809ef0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aee7a4779391d37c83481665c51d4fee') in 0.0067007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Prefabs
+  artifactKey: Guid(a8b0236d5d4afab4988619cbc58cda84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Prefabs using Guid(a8b0236d5d4afab4988619cbc58cda84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d0097f07197ea2fda932d7f0f7d8987') in 0.0047095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed-Shield/RPG-Character@Armed-Shield-Walk.FBX
+  artifactKey: Guid(bc0ed20b42a890b4da206b1bc5f61b73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed-Shield/RPG-Character@Armed-Shield-Walk.FBX using Guid(bc0ed20b42a890b4da206b1bc5f61b73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9dfa3d9b8d843a761c6a01a087826fc7') in 0.013837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Roll-Forward.FBX
+  artifactKey: Guid(6f9d9b5dde069034282820e10db8b748) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Roll-Forward.FBX using Guid(6f9d9b5dde069034282820e10db8b748) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ba30499c426bd1c30c6bc7b0497bff5') in 0.0105779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Sheath-Back-Unarmed.FBX
+  artifactKey: Guid(b7aa6d401e8433d459a05e0ab7f2aae7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Sheath-Back-Unarmed.FBX using Guid(b7aa6d401e8433d459a05e0ab7f2aae7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccb7fef0d73a6b0622357979705487f3') in 0.0150133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Crouch-Walk-Backward-Left.FBX
+  artifactKey: Guid(f2b1830524591d640a58633bbb2a219e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Crouch-Walk-Backward-Left.FBX using Guid(f2b1830524591d640a58633bbb2a219e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '936bf8628ff0c53ba7fdab9f75d4ace8') in 0.0148245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-R-Attack-Hand1.FBX
+  artifactKey: Guid(fd2eda3550a6f1344866db46a225eea7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-R-Attack-Hand1.FBX using Guid(fd2eda3550a6f1344866db46a225eea7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45fcab4a7fd241e1122a8172ccc98a3a') in 0.0197679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Run-Attack-R1.FBX
+  artifactKey: Guid(ffb6e3cc1a973c741b8ebfdb8b1cc697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Run-Attack-R1.FBX using Guid(ffb6e3cc1a973c741b8ebfdb8b1cc697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fb2db9d02f9786f6b63ccc352bb58f7') in 0.0098584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow
+  artifactKey: Guid(51fd3bc2f75f7d240b0d415e212f2ea1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow using Guid(51fd3bc2f75f7d240b0d415e212f2ea1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c35422cabd1a2bbfe6e72d5bd9f2581') in 0.0048689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Lookups/Animations/TwoHandedStaffAttack.cs
+  artifactKey: Guid(e1ef0f1515084f82a18167e185f60944) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Lookups/Animations/TwoHandedStaffAttack.cs using Guid(e1ef0f1515084f82a18167e185f60944) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e03a09a4026589d1a3b4858b9af9e199') in 0.0070793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Strafe-Forward-Left.FBX
+  artifactKey: Guid(48ee4950ae33b764e8fddd1b5525d571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Strafe-Forward-Left.FBX using Guid(48ee4950ae33b764e8fddd1b5525d571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11690729882ac85d0c5186d260c0977f') in 0.0087237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016151 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Materials/ReflectiveOrange.mat
+  artifactKey: Guid(fe50042dadfcbe14b89863b4d8ad9028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Materials/ReflectiveOrange.mat using Guid(fe50042dadfcbe14b89863b4d8ad9028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f6f19d883703fe8950074b78bb09373') in 0.0070885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Crouch-Idle.FBX
+  artifactKey: Guid(8dc9ebf801230de42a380ab2e8044559) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Crouch-Idle.FBX using Guid(8dc9ebf801230de42a380ab2e8044559) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09c88c0d3b8b03864340f7749cc0791e') in 0.0093411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Turn-Left-Loop.FBX
+  artifactKey: Guid(e506710720a8ab14581f96fe46ad1fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Turn-Left-Loop.FBX using Guid(e506710720a8ab14581f96fe46ad1fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae69cda2a18ab3675df7f90841cb9d39') in 0.0090383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Activate.fbx
+  artifactKey: Guid(45bacb29cf49e834a9b8542b802c89fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Activate.fbx using Guid(45bacb29cf49e834a9b8542b802c89fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'acb90e042399e2de696f0b2ef1feb245') in 0.009719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Unsheath-Hips-Relax.FBX
+  artifactKey: Guid(ae2936a382009174eabbf6001043b1bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Unsheath-Hips-Relax.FBX using Guid(ae2936a382009174eabbf6001043b1bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad5277406a55f66bbbeca1f182764402') in 0.0101392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Materials/OrangeWall.mat
+  artifactKey: Guid(6271a62f4bbd49641a54f55a64209956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Materials/OrangeWall.mat using Guid(6271a62f4bbd49641a54f55a64209956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8a713041f92aab598677e284918e49c') in 0.0117158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Attack2.fbx
+  artifactKey: Guid(f0f38438b1a0602489d98f902699342b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Attack2.fbx using Guid(f0f38438b1a0602489d98f902699342b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5efbf2aff5b0f3e31e49cc06e69c3ed7') in 0.0094813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Unsheath-Hips-Relax.FBX
+  artifactKey: Guid(8a8689602a4526f479ea49866a29a919) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Unsheath-Hips-Relax.FBX using Guid(8a8689602a4526f479ea49866a29a919) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe25bf26d288ce0a957a22e3f95f6d83') in 0.0115268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Roll-Left.FBX
+  artifactKey: Guid(932a2fbd80b585f4ebde688aeec3110b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Roll-Left.FBX using Guid(932a2fbd80b585f4ebde688aeec3110b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0b62fe4932ff8ca90ba583c3a1cf6d0') in 0.0115754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Talk5.FBX
+  artifactKey: Guid(18a7ffe9935d2894d8fa3bac93dbc5cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Talk5.FBX using Guid(18a7ffe9935d2894d8fa3bac93dbc5cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1008ca74229550eca9407c51dbb86c2') in 0.0115869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Fall.FBX
+  artifactKey: Guid(e84258f23cee7ba4a9e3b340ef89828e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/Old Pose/RPG-Character@2Hand-Axe-Fall.FBX using Guid(e84258f23cee7ba4a9e3b340ef89828e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8453ec1bbb9a3a622661c82211e0af03') in 0.013718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Block-Break1.FBX
+  artifactKey: Guid(06e79572ebcdb2f4381bc0e480b38f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Block-Break1.FBX using Guid(06e79572ebcdb2f4381bc0e480b38f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6563051f891b3de85c5d836c9433d92') in 0.0111925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-GetHit-F1.FBX
+  artifactKey: Guid(63e94d830dcea794ca5e62f25e00f833) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-GetHit-F1.FBX using Guid(63e94d830dcea794ca5e62f25e00f833) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3d17c5ff815a50e6e82c89222762967') in 0.009707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/RPGCharacterWeaponController.cs
+  artifactKey: Guid(5958cd024b2eaad48be530c6c18db3df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/RPGCharacterWeaponController.cs using Guid(5958cd024b2eaad48be530c6c18db3df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3f0cae90c3d66d9fcc569255eab23e2') in 0.0089926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Textures/Tile.png
+  artifactKey: Guid(7078aef5fa3e09245bacb87bd3340fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Textures/Tile.png using Guid(7078aef5fa3e09245bacb87bd3340fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89e027eecdb77a3305ab79df226aa522') in 0.0117158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/PerfectLookAt/Models/UnityModel/Materials/DefaultAvatar-face.mat
+  artifactKey: Guid(b7ea6aee242ed8349816e5ad85f181a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/PerfectLookAt/Models/UnityModel/Materials/DefaultAvatar-face.mat using Guid(b7ea6aee242ed8349816e5ad85f181a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41f00c79e3eed6d7bcf1462b6991f4bc') in 0.0135895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed-Shield/RPG-Character@Armed-Shield-Run-Backward-Right.fbx
+  artifactKey: Guid(d39ea4a96f4662f4a9e9636338a45fde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed-Shield/RPG-Character@Armed-Shield-Run-Backward-Right.fbx using Guid(d39ea4a96f4662f4a9e9636338a45fde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db978afb058c5783adf9b69c8fa736e9') in 0.0096085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Right.FBX
+  artifactKey: Guid(8b1ee08a5ff6fa74383ab7b9a8e8641d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Right.FBX using Guid(8b1ee08a5ff6fa74383ab7b9a8e8641d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd5e7b904ed7ef515cc8ed2f395ea6aa') in 0.0108432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Item/RPG-Character@Item-Attack-L1.FBX
+  artifactKey: Guid(a0530361df34bb24786b5416003db3f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Item/RPG-Character@Item-Attack-L1.FBX using Guid(a0530361df34bb24786b5416003db3f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccf27157a44d16da2b77b08eff167f95') in 0.009438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack6.FBX
+  artifactKey: Guid(f5377f2f448061d46b5df7470d90342e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack6.FBX using Guid(f5377f2f448061d46b5df7470d90342e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94df6ce00fdd47bf37161e5a67924c53') in 0.0092971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Run-Backward-Left.FBX
+  artifactKey: Guid(d0b438c1bbe8d694fa4c4c65aa9d2341) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Relax/RPG-Character@Relax-Run-Backward-Left.FBX using Guid(d0b438c1bbe8d694fa4c4c65aa9d2341) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '757cdaf82ebfdfdc381d96d74a0c4734') in 0.0092515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Turn-Left-Loop.FBX
+  artifactKey: Guid(94cc99d63206dcf40b494f22d6ded050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Turn-Left-Loop.FBX using Guid(94cc99d63206dcf40b494f22d6ded050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '147a285f4e94817c15ff0728ff62d1e4') in 0.0093484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack1.FBX
+  artifactKey: Guid(6572be1761d2cc342951ebf49aae8242) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack1.FBX using Guid(6572be1761d2cc342951ebf49aae8242) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8fe8fcab2cf2a16efab5c9b4ca31447') in 0.0133127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Roll-Left.FBX
+  artifactKey: Guid(4e3247414bee4f447ae17ac12604adf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Roll-Left.FBX using Guid(4e3247414bee4f447ae17ac12604adf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26a2c72f26ec7d320f69489a9d73c229') in 0.012393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/ActionHandler.cs
+  artifactKey: Guid(2cc7c5d5a1c3d4a5bbc4ed8606ac3b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/ActionHandler.cs using Guid(2cc7c5d5a1c3d4a5bbc4ed8606ac3b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25ca1a0a21a7583074d0da7a8cd0a867') in 0.0061194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Sheath.FBX
+  artifactKey: Guid(70f1841474540264c96597c43c09b46c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Sheath.FBX using Guid(70f1841474540264c96597c43c09b46c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6dfcb5d727eb7c66dff4ad0bc54ea1ea') in 0.0125237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Attack6.FBX
+  artifactKey: Guid(6c06abe464d25514d84efe52dcfa0139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Attack6.FBX using Guid(6c06abe464d25514d84efe52dcfa0139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3c1e8063a0d62fa5531c3cfe7a13b59') in 0.0103681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Attack1.FBX
+  artifactKey: Guid(24d693751e9fd0b42ba8f9595d8b5f5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Attack1.FBX using Guid(24d693751e9fd0b42ba8f9595d8b5f5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22d71aa4c55482ed2858a0c3c83b8cc2') in 0.011434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Aiming.FBX
+  artifactKey: Guid(2300aaa3b3d27bf4b95b44ea0090beda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Aiming.FBX using Guid(2300aaa3b3d27bf4b95b44ea0090beda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd182194f97493b20cb842df5050ed9da') in 0.026042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController
+  artifactKey: Guid(4704c89c54beeac4c9bf1a9cdb9df149) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/SuperCharacterController using Guid(4704c89c54beeac4c9bf1a9cdb9df149) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21fc028ac6604beee518c2040682ca6e') in 0.0048283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Climb-Ledge/RPG-Character@Ledge-Right_S.FBX
+  artifactKey: Guid(b8d76a7de91846344a893583f42dee3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Climb-Ledge/RPG-Character@Ledge-Right_S.FBX using Guid(b8d76a7de91846344a893583f42dee3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd0a550382773f1f6365e891c8b86a21') in 0.0106182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Block-GetHit1.FBX
+  artifactKey: Guid(6b0bc02ea1a85494f8ae2197be1df9fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Block-GetHit1.FBX using Guid(6b0bc02ea1a85494f8ae2197be1df9fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb3a74fa4de82000df43060d7ae1e264') in 0.0104567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Sheath-Hips-Unarmed.FBX
+  artifactKey: Guid(a79d33d8b20e66143871b4436d3f4f7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Shooting/RPG-Character@2Hand-Shooting-Sheath-Hips-Unarmed.FBX using Guid(a79d33d8b20e66143871b4436d3f4f7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd73c6b0e79041a6fdb8e1b6fb8ebd0d') in 0.0118988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Character/CastContext.cs
+  artifactKey: Guid(69f7cf47b75c4315a982b03e8cb0dba3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Character/CastContext.cs using Guid(69f7cf47b75c4315a982b03e8cb0dba3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '429f2adba29019c706cca72366bf236a') in 0.0080015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Attack-Kick-R2.fbx
+  artifactKey: Guid(e86799db1d2d59c43ade1778ff7d371d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Attack-Kick-R2.fbx using Guid(e86799db1d2d59c43ade1778ff7d371d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fab6bec7ccf5d3c5d9b30132b4a504d') in 0.0108292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Unsheath-R-Back.FBX
+  artifactKey: Guid(44fbb37608f331c49bc7b96ca36035e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Unsheath-R-Back.FBX using Guid(44fbb37608f331c49bc7b96ca36035e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9909f9130c4c2cffddb444a9afa4894f') in 0.0097281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Death1.FBX
+  artifactKey: Guid(9757788373ec8734cb4f7a3db84aef2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Death1.FBX using Guid(9757788373ec8734cb4f7a3db84aef2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d02c27be1a3480f9bd7622385d3ebbe') in 0.0111296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Cast-R-AOE1.FBX
+  artifactKey: Guid(d238d901865420845a5d79fdd8659d50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Unarmed/RPG-Character@Unarmed-Cast-R-AOE1.FBX using Guid(d238d901865420845a5d79fdd8659d50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'edaaebd9a16941bb667bee2424d04116') in 0.0152423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Cast-L-Buff1.fbx
+  artifactKey: Guid(8157d83ccd1e1204183e4c4152e94e0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Staff/RPG-Character@2Hand-Staff-Cast-L-Buff1.fbx using Guid(8157d83ccd1e1204183e4c4152e94e0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6749e55f6c5d976d5c2b98c9b5846e4f') in 0.0138815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/Character/Charamodel/Corin (Zenless Zone Zero)/Corin (zenless zone zero).fbx
+  artifactKey: Guid(68bf208107a9b5144bab9f5dc6003169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/Character/Charamodel/Corin (Zenless Zone Zero)/Corin (zenless zone zero).fbx using Guid(68bf208107a9b5144bab9f5dc6003169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '321179bce9e5a3266ba22b31e0e5cbe5') in 0.0278469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 434
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-R-Attack-Hand2.FBX
+  artifactKey: Guid(a8c7ecd9441feb54e831e5b731278cf9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Cast-R-Attack-Hand2.FBX using Guid(a8c7ecd9441feb54e831e5b731278cf9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aae6bb4826c6de13d6bda76bd1803f4c') in 0.0201886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Prefabs/Character
+  artifactKey: Guid(2a5bee562bce4184d8da5f3d1ad01807) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Prefabs/Character using Guid(2a5bee562bce4184d8da5f3d1ad01807) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3460cdd3ce42ba079d91e704ca77ce1') in 0.005599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/Character/Charamodel/Wise (Zenless Zone Zero)/Textures/Eff_Noise_01.png
+  artifactKey: Guid(190e8364ecf5bd6489c21efeb8e44460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/Character/Charamodel/Wise (Zenless Zone Zero)/Textures/Eff_Noise_01.png using Guid(190e8364ecf5bd6489c21efeb8e44460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '406bfe9005c9f37df8ae9fee2a28782f') in 0.012505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Dagger/RPG-Character@Dagger-Attack-L2.FBX
+  artifactKey: Guid(1df409e6ddc86e349bd1b737f4742f37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Dagger/RPG-Character@Dagger-Attack-L2.FBX using Guid(1df409e6ddc86e349bd1b737f4742f37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a4162ffa3c7d34fd64de451c9a5e3e0') in 0.0141966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Crouch-Idle.FBX
+  artifactKey: Guid(59127a7f5faf1a145bd0b9020583b1e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Crouch-Idle.FBX using Guid(59127a7f5faf1a145bd0b9020583b1e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '009e6b770e57abe7e38f6b8ceecaefa9') in 0.0114836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Mace/RPG-Character@Mace-Attack-L1.FBX
+  artifactKey: Guid(a685f6ccfb11e43498850d8b44c4252f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Mace/RPG-Character@Mace-Attack-L1.FBX using Guid(a685f6ccfb11e43498850d8b44c4252f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '239e6cfb7ed38d69bae4afe871dfa187') in 0.0116055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Block-L-GetHit1.FBX
+  artifactKey: Guid(81fa92022b8d05640a321bf1d0dbb98a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/Armed/RPG-Character@Armed-Block-L-GetHit1.FBX using Guid(81fa92022b8d05640a321bf1d0dbb98a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44cf5863455f69a61b49a74eeb009e88') in 0.0102172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Block-GetHit2.FBX
+  artifactKey: Guid(5819315c7699ecf40a5aedc9d5bc825c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Block-GetHit2.FBX using Guid(5819315c7699ecf40a5aedc9d5bc825c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '557d1dde7fa4493458d99b56ad911ab3') in 0.0104581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack4.FBX
+  artifactKey: Guid(34641b89487ae9640b4bc0ef1d956be3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack4.FBX using Guid(34641b89487ae9640b4bc0ef1d956be3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f3cf6e6f29c4f9bbce441b2c36ed01c') in 0.0103611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Attack-Kick-L2.FBX
+  artifactKey: Guid(b74d814c742e49140b693abe466acc0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Attack-Kick-L2.FBX using Guid(b74d814c742e49140b693abe466acc0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86d0517198b6b84c739cf7384d565b1f') in 0.0103043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Character/Cast.cs
+  artifactKey: Guid(3337a6c6cf6634f55b691528f5921cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Code/Actions/Character/Cast.cs using Guid(3337a6c6cf6634f55b691528f5921cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5971b28dab265738b37ddeaabb62cd94') in 0.007743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

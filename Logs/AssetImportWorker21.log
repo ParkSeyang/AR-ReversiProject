@@ -1,0 +1,423 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-02-28T09:34:40.3518566Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32386 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-28T09:34:40Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker21
+-projectPath
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+-logFile
+Logs/AssetImportWorker21.log
+-srvPort
+58049
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/AR-ReversiProject
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [27080]  Target information:
+
+Player connection [27080]  * "[IP] 172.30.1.55 [Port] 0 [Flags] 2 [Guid] 2785904697 [EditorId] 2785904697 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BTF4SNP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27080] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 29.93 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/AR-ReversiProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              55b39fafc24940918d2bd63ba807bd53
+  Correlation Id:          2e1677b044b26191d80a4bb1d64b199d
+  External correlation Id: 92060413499141185
+  Machine Id:              dJ8Tfn01EciPmnYvmSiKPSjQkro=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 1.26s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-02-28T09:34:41.6171757Z"
+[Licensing::Module] Licensing Background thread has ended after 1.27s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004960 seconds.
+- Loaded All Assemblies, in  0.656 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.558 seconds
+Domain Reload Profiling: 1207ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (236ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (558ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568654860447-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.834 seconds
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 20.40 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.342 seconds
+Domain Reload Profiling: 4163ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (1340ms)
+		LoadAssemblies (932ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (615ms)
+			TypeCache.Refresh (463ms)
+				TypeCache.ScanAssembly (431ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2342ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2012ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (1481ms)
+			ProcessInitializeOnLoadMethodAttributes (276ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 20.07 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6814 unused Assets / (4.9 MB). Loaded Objects now: 7715.
+Memory consumption went from 225.0 MB to 220.1 MB.
+Total: 33.475300 ms (FindLiveObjects: 0.715700 ms CreateObjectMapping: 0.587100 ms MarkObjects: 27.344000 ms  DeleteObjects: 4.826900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1382094.631467 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Pancakes_01.fbx
+  artifactKey: Guid(590db54a95d68124f88a636c7413d4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Pancakes_01.fbx using Guid(590db54a95d68124f88a636c7413d4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f1cae994df8684138eceafad342e096') in 0.9196955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_14_V2.fbx
+  artifactKey: Guid(8262abe6ea0a27c4e80099a08dc86c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_14_V2.fbx using Guid(8262abe6ea0a27c4e80099a08dc86c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99c9e164c522321dc0b97f51e020dd98') in 0.0213936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Pool_08.fbx
+  artifactKey: Guid(4d0b7c2c57a8b34438deb5216767ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Pool_08.fbx using Guid(4d0b7c2c57a8b34438deb5216767ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd40a1d56ba4cce019a5b1599309dbdae') in 0.0149392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_03.fbx
+  artifactKey: Guid(f27b2ae280f6cd846ac51f2f1c6ec9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_03.fbx using Guid(f27b2ae280f6cd846ac51f2f1c6ec9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93286afe3cfdcd7193137e661691613c') in 0.0269427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Pool_05.fbx
+  artifactKey: Guid(05e6111182333f940aefbc9608b33d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Pool_05.fbx using Guid(05e6111182333f940aefbc9608b33d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c3a19a7e77fa0d221f7de962a40819c') in 0.0185551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_01_Door_L.fbx
+  artifactKey: Guid(87cc3763b893009458c9e3f574995c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_01_Door_L.fbx using Guid(87cc3763b893009458c9e3f574995c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '859e5c39299c47f68bec6a1928fcebd6') in 0.0209251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Pool_09.fbx
+  artifactKey: Guid(90bbd2b753cd3b94498e44429d841a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Pool_09.fbx using Guid(90bbd2b753cd3b94498e44429d841a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a06ed2fa1e37aa3a9e1261ae330e7ac') in 0.0191003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_Train_01.fbx
+  artifactKey: Guid(a4fa34091e9098046a29c14bdd1ce0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_Train_01.fbx using Guid(a4fa34091e9098046a29c14bdd1ce0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '520f3b32b5cebf008f6489b3ed9beaa5') in 0.0170325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Models/SportsCar.fbx
+  artifactKey: Guid(70609b141af263444990dc1febd86e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Models/SportsCar.fbx using Guid(70609b141af263444990dc1febd86e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ac1db122971d9ff40564c6c33099e1f') in 19.769751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Furniture_04.fbx
+  artifactKey: Guid(f1e2752c1a5266a45895bc54471607a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Furniture_04.fbx using Guid(f1e2752c1a5266a45895bc54471607a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21b5d353cb5d2fefc0212d754297b383') in 0.0127201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097108 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_GameConsole_03.fbx
+  artifactKey: Guid(75a40f4ee45f9fc41b21997c623a1d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_GameConsole_03.fbx using Guid(75a40f4ee45f9fc41b21997c623a1d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a9219c77f83fb5b991eb3e04fb56cb1') in 0.0233806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_05.fbx
+  artifactKey: Guid(460426084abe22748a262bc6906b22e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_05.fbx using Guid(460426084abe22748a262bc6906b22e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20ed002f7bd9ac95f260f37037618ffe') in 0.0139653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058793 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_09.fbx
+  artifactKey: Guid(b709a656d05ec0041930ee1e10b70d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_09.fbx using Guid(b709a656d05ec0041930ee1e10b70d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '849d23533a7a48704327d64382526aca') in 0.01612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Gym_02.fbx
+  artifactKey: Guid(78987ad9f9c747944a3af6ab89a82b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Gym_02.fbx using Guid(78987ad9f9c747944a3af6ab89a82b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31c6da84a4063845cf5d1c51c6b47128') in 0.0210802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148423 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Park_02_Cabin_02.fbx
+  artifactKey: Guid(58c372502c008174e8bf794379ca70fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Park_02_Cabin_02.fbx using Guid(58c372502c008174e8bf794379ca70fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0113c999f08be9774aded21e8af3de8d') in 0.0174237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221044 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_ParkDecor_01.fbx
+  artifactKey: Guid(326b1156bce7d5c4b9a16437274aaa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_ParkDecor_01.fbx using Guid(326b1156bce7d5c4b9a16437274aaa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '634412b0b61591a8a0c3e611dda1a865') in 0.0165467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139441 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_PC_04.fbx
+  artifactKey: Guid(f4ea9436b7ee7db44ace9fd9f4356de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_PC_04.fbx using Guid(f4ea9436b7ee7db44ace9fd9f4356de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc211c82f66db0af03da113e98a332de') in 0.0284616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149591 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Plant_02.fbx
+  artifactKey: Guid(0b486a554f6e2494eb7377e35c1d7982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Plant_02.fbx using Guid(0b486a554f6e2494eb7377e35c1d7982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a46c7726cda59390f5ffabb25db3e0e') in 0.0333454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258033 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Pool_01.fbx
+  artifactKey: Guid(55ddafbf94a536e4ab221c09c43e09db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Pool_01.fbx using Guid(55ddafbf94a536e4ab221c09c43e09db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '236ef72c5e71f9e4bb1e380e610ae607') in 0.0380455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.964643 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_SurfBoard_02.fbx
+  artifactKey: Guid(79a49dd2702e17143bd66dcaaec1233b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_SurfBoard_02.fbx using Guid(79a49dd2702e17143bd66dcaaec1233b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '975a846a7a9db0c5084c6ec74ffa401d') in 0.016725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_TV_01.fbx
+  artifactKey: Guid(78887d17f7011534eb2a2923d4a2a263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_TV_01.fbx using Guid(78887d17f7011534eb2a2923d4a2a263) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a1b0664a63cbbfa5ee78c949d0830ce') in 0.013818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193211 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_VendingMachine_02.fbx
+  artifactKey: Guid(6b48ce30a68861c46987b3f8201810b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_VendingMachine_02.fbx using Guid(6b48ce30a68861c46987b3f8201810b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aab62c6c857541d28502e9f7c81628fa') in 0.021059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.261693 seconds.
+  path: Assets/Scenes/Yous_CharacterTest.unity
+  artifactKey: Guid(436b6a336b769ee469f3da33a29d1015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Yous_CharacterTest.unity using Guid(436b6a336b769ee469f3da33a29d1015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86d2483ee7c82ad1bc02353f86b12e2b') in 0.0548201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

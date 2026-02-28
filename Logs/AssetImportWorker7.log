@@ -1,0 +1,1159 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-02-28T09:18:09.0628115Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32386 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-28T09:18:09Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+58049
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/AR-ReversiProject
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [5148]  Target information:
+
+Player connection [5148]  * "[IP] 172.30.1.55 [Port] 0 [Flags] 2 [Guid] 2661086205 [EditorId] 2661086205 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BTF4SNP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5148] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5148] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 26.73 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/AR-ReversiProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              46da60c47b38437dbe1af24d4fc74964
+  Correlation Id:          2e1677b044b26191d80a4bb1d64b199d
+  External correlation Id: 3876065396417594511
+  Machine Id:              dJ8Tfn01EciPmnYvmSiKPSjQkro=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.01s, handshake: 1.56s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-02-28T09:18:10.6334872Z"
+[Licensing::Module] Licensing Background thread has ended after 1.57s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004895 seconds.
+- Loaded All Assemblies, in  0.534 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.424 seconds
+Domain Reload Profiling: 952ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (174ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568654860447-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.323 seconds
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.93 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.556 seconds
+Domain Reload Profiling: 2866ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (960ms)
+		LoadAssemblies (783ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (226ms)
+			BuildScriptInfoCaches (70ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1557ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (949ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 17.69 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6814 unused Assets / (4.3 MB). Loaded Objects now: 7713.
+Memory consumption went from 221.5 MB to 217.2 MB.
+Total: 32.105400 ms (FindLiveObjects: 1.026700 ms CreateObjectMapping: 0.801000 ms MarkObjects: 27.283100 ms  DeleteObjects: 2.992400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1381102.615927 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_LightDefault.shader
+  artifactKey: Guid(49a85c2adca475e40881bd4f20961ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_LightDefault.shader using Guid(49a85c2adca475e40881bd4f20961ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07bb8f2a37b318dad036279d6d385926') in 0.107111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192940 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Prefabs/DemoElements/P_Demo_HueShift.prefab
+  artifactKey: Guid(1425bff58fcd3174b875497bf9663c8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Prefabs/DemoElements/P_Demo_HueShift.prefab using Guid(1425bff58fcd3174b875497bf9663c8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eea0bd5c1dd79a39b56313d1eb9111ca') in 0.0505473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.994600 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Prefabs/Models/FloorCircular.prefab
+  artifactKey: Guid(ca08806c5613ba6498a2a23618fe16a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Prefabs/Models/FloorCircular.prefab using Guid(ca08806c5613ba6498a2a23618fe16a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79f9cdc0653d8aed4609185bb074216e') in 0.0484441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/FloorPanel2x2Normal.tif
+  artifactKey: Guid(7947280753cd6e342a6277d2f280cab9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/FloorPanel2x2Normal.tif using Guid(7947280753cd6e342a6277d2f280cab9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad1a3c4091e64aa56bac91ebd2c409ba') in 0.0381888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/Ellen_Body_Emission.tif
+  artifactKey: Guid(fc1aac32c3221ab4f8b5699723d8e7bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/Ellen_Body_Emission.tif using Guid(fc1aac32c3221ab4f8b5699723d8e7bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd9b646e78cce6301f4e0747de74ec90') in 0.0110634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_BuildingsRamp2.mat
+  artifactKey: Guid(1529bff9ad36e784a8b3ed044c58fac9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_BuildingsRamp2.mat using Guid(1529bff9ad36e784a8b3ed044c58fac9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e24931e3e7728b836eeb801adbdb62e5') in 0.2069511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Prefabs/Models/Ellen.prefab
+  artifactKey: Guid(103841f2227435f41a5ab924609c01c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Prefabs/Models/Ellen.prefab using Guid(103841f2227435f41a5ab924609c01c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e370157cc2edd387dfe3aad1798ea47c') in 0.0351459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 228
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448864 seconds.
+  path: Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShaderHelper_URP.hlsl
+  artifactKey: Guid(29e55f1233e1c0c4c8080ca68ec48682) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShaderHelper_URP.hlsl using Guid(29e55f1233e1c0c4c8080ca68ec48682) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e112f6ffe8054990990945e2e95a5bf6') in 0.0073084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Drawers/EffectDrawers/AllIn13DShaderGradientDrawer.cs
+  artifactKey: Guid(aaf7449ec0a51804980a5d076861735c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Drawers/EffectDrawers/AllIn13DShaderGradientDrawer.cs using Guid(aaf7449ec0a51804980a5d076861735c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52f38d4d6a1803559d2e8bbb73de3f5b') in 0.008407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Data/DemoElements/Combined Effects/DemoElement_Baked_LightModels.asset
+  artifactKey: Guid(dae1d44136fdd854bb902c49ad9713c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Data/DemoElements/Combined Effects/DemoElement_Baked_LightModels.asset using Guid(dae1d44136fdd854bb902c49ad9713c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78a1bedc078974dd8e5bd62fe1d72854') in 0.0549644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/AlienStatueAlbedo.tif
+  artifactKey: Guid(39a78d41cf720cc44b021d49ad333395) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/AlienStatueAlbedo.tif using Guid(39a78d41cf720cc44b021d49ad333395) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0eaa8bc0f6fb90011b2005f4485865fa') in 0.0110691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Drawers/NoiseCreatorValues.cs
+  artifactKey: Guid(14c147009aa5dae418a84b61107ada3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Drawers/NoiseCreatorValues.cs using Guid(14c147009aa5dae418a84b61107ada3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd42f8e0dd2b14e6ce019c4cba70887ca') in 0.0089722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_KnightAndSkeleton.asset
+  artifactKey: Guid(f0ffc830b0dfd2a4abfa9eabf78ce7be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_KnightAndSkeleton.asset using Guid(f0ffc830b0dfd2a4abfa9eabf78ce7be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39efde7ba616c9f074bcd02f419628df') in 0.0473815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 552
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Prefabs/DemoElements/P_Demo_DepthColor.prefab
+  artifactKey: Guid(6a0266dc98652204dbe3621e86ba0f88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Prefabs/DemoElements/P_Demo_DepthColor.prefab using Guid(6a0266dc98652204dbe3621e86ba0f88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f9ca77f4192ddf87a4c9aadf0ce87c4') in 0.0190101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_LightPBR.mat
+  artifactKey: Guid(c717849fccc3fed40905a79cbcb851b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_LightPBR.mat using Guid(c717849fccc3fed40905a79cbcb851b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '097dc26e2af22ac973e1e245d6a1532b') in 0.1814958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Models/Pine.fbx
+  artifactKey: Guid(f011dae7075413548a27aa9d7ef57b2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Models/Pine.fbx using Guid(f011dae7075413548a27aa9d7ef57b2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72ab628da10b5c9ad8580a23b3920fd0') in 0.0219613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_PuppetHologram.mat
+  artifactKey: Guid(8c6faa00becd9ed469c73e4f642666c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_PuppetHologram.mat using Guid(8c6faa00becd9ed469c73e4f642666c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db82b1b15e43fa980ec2a3e75b7fdfac') in 0.2522137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Environment/MAT_SkyDayAllIn13DShader.mat
+  artifactKey: Guid(e3f622b574f59ba4f9f7e8fed9c6599c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Environment/MAT_SkyDayAllIn13DShader.mat using Guid(e3f622b574f59ba4f9f7e8fed9c6599c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d44c648284190043bd6a69ef0a26ac9') in 0.0112613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Prefabs/Environment_Baked_Platform.prefab
+  artifactKey: Guid(b012335d02c65db4f976c96eb98659ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Prefabs/Environment_Baked_Platform.prefab using Guid(b012335d02c65db4f976c96eb98659ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ca52adf862c8cd1e628d01b9272635f') in 0.0145987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_CrazyFresnel.asset
+  artifactKey: Guid(5171ba78548cecc45932f8600ec779a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_CrazyFresnel.asset using Guid(5171ba78548cecc45932f8600ec779a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fd8e6160e7b22fd9594b527a9d7b394') in 0.0133763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_TestObj2.shader
+  artifactKey: Guid(8d0b05043b8ea6848b522f949aba6326) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_TestObj2.shader using Guid(8d0b05043b8ea6848b522f949aba6326) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '901dcf8305463f81feadab8040dcb603') in 0.009112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_ColorRamp.asset
+  artifactKey: Guid(fb8eb7769e3fb94439fa958c741e9cda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_ColorRamp.asset using Guid(fb8eb7769e3fb94439fa958c741e9cda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'def5045c844bd040b1b83cd125b80cdf') in 0.0117204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Utilities/RightClickMaterialCreator.cs
+  artifactKey: Guid(adcc78e01c8d09c46b440d328c933fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Utilities/RightClickMaterialCreator.cs using Guid(adcc78e01c8d09c46b440d328c933fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b751bdfba861dcd726dbc18ab312491') in 0.0089271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_ChomperDistortion.shader
+  artifactKey: Guid(46c335afdb62b0f46a713ec8950eea40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_ChomperDistortion.shader using Guid(46c335afdb62b0f46a713ec8950eea40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2e1b450a21e974a7fd1afc12637643c') in 0.0127438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Models/Grass.fbx
+  artifactKey: Guid(b5f45c1baaf84df41a3fb8f8e22c03ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Models/Grass.fbx using Guid(b5f45c1baaf84df41a3fb8f8e22c03ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1abf01ebffe941af8346eba71b740f4') in 0.0183231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/LeavesTex.png
+  artifactKey: Guid(fa383c8a86633d54090af5e505cbfd41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/LeavesTex.png using Guid(fa383c8a86633d54090af5e505cbfd41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '059ff35f4693ec1deb3b05b10338a84e') in 0.0130065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShaderLight.hlsl
+  artifactKey: Guid(a8bd53a2a522aa9488877a9bb281ec11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShaderLight.hlsl using Guid(a8bd53a2a522aa9488877a9bb281ec11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8890f0f7183ad22431748e17a90ab697') in 0.0051319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/AllIn13DShader/DefaultTextures/RgbNoiseDefault.png
+  artifactKey: Guid(5a775794f8704ba4385b9c92cf9f1224) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/DefaultTextures/RgbNoiseDefault.png using Guid(5a775794f8704ba4385b9c92cf9f1224) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '235402e39bf09b9e598ced5cba49d5c6') in 0.0135714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_SpitterDither.mat
+  artifactKey: Guid(2b39fca1ccb77e8448b20673813f0b89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_SpitterDither.mat using Guid(2b39fca1ccb77e8448b20673813f0b89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78db54e727d0ef155aa5995f69daeb26') in 0.242003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Scripts/DemoElement.cs
+  artifactKey: Guid(1698d847b7bb109498dbc7867667a6f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Scripts/DemoElement.cs using Guid(1698d847b7bb109498dbc7867667a6f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4690152d9299995fbdbbe19ccb7f078') in 0.0063083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_FeaturesURP.hlsl
+  artifactKey: Guid(eabe5d205fb5e244c9e9a4db44ae53f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_FeaturesURP.hlsl using Guid(eabe5d205fb5e244c9e9a4db44ae53f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92de3299442916970d64da51ede6a622') in 0.0046523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Data/DemoElements/Combined Effects/DemoElement_Baked_TextureBlending.asset
+  artifactKey: Guid(5b7a6d4894fdf1a469df5aa8dd5a8d2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Data/DemoElements/Combined Effects/DemoElement_Baked_TextureBlending.asset using Guid(5b7a6d4894fdf1a469df5aa8dd5a8d2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50d5687660fa8ecf744811caee400039') in 0.0118262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_GlowBlue.mat
+  artifactKey: Guid(5b350126306d09e459c36fd7b3f82520) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_GlowBlue.mat using Guid(5b350126306d09e459c36fd7b3f82520) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37b52aeafb88baeddf1c1cb5e6e04ec1') in 0.1574051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/Galaxy.png
+  artifactKey: Guid(783fe375bfe7729438ad09f1e56de9c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/Galaxy.png using Guid(783fe375bfe7729438ad09f1e56de9c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56f3816f9939bdfc09f42741928419f6') in 0.0138558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials
+  artifactKey: Guid(fc5b43787e3be8f4bad44a5f572fca95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials using Guid(fc5b43787e3be8f4bad44a5f572fca95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61c91520f518c36869643ae2f7647cbe') in 0.0062049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_Food.mat
+  artifactKey: Guid(821d1725a1aa7fd43b8c815cf9ec03c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_Food.mat using Guid(821d1725a1aa7fd43b8c815cf9ec03c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8213af6f8ffa5567ec57b6e2f21a9100') in 0.1933466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo
+  artifactKey: Guid(c566b4ff6f1749f4f91d4a4b19214eae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo using Guid(c566b4ff6f1749f4f91d4a4b19214eae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2d631b9fe7757a5ae24ecb5b83a7beb') in 0.0059449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Scripts/DemoUI.cs
+  artifactKey: Guid(192a33b5e551b1a4bad83252c99ec644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Scripts/DemoUI.cs using Guid(192a33b5e551b1a4bad83252c99ec644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1a87a429d3215cbe5acb5734ed52579') in 0.008671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/Ellen_head_SpecularSmoothness.tif
+  artifactKey: Guid(df76e43ebdae78e428fe78b3477e8651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/Ellen_head_SpecularSmoothness.tif using Guid(df76e43ebdae78e428fe78b3477e8651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee7d35073ba7bc09960208fd57615695') in 0.0123188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Animation/FadeAnim1.controller
+  artifactKey: Guid(f91e030a5f71a234994b9b604476e486) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Animation/FadeAnim1.controller using Guid(f91e030a5f71a234994b9b604476e486) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85a4ed3384b30338c410bbb0b314d9b5') in 0.0074838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_FogReceiver.mat
+  artifactKey: Guid(4b7386d7b2730cb47b6a67a6f68daa50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_FogReceiver.mat using Guid(4b7386d7b2730cb47b6a67a6f68daa50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7e311a9bb8cf20a2650d420a8bd133c') in 0.1946523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Fonts/PoetsenOne-Regular SDF.asset
+  artifactKey: Guid(dd20a00d2990dda4f91f63569a11ff3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Fonts/PoetsenOne-Regular SDF.asset using Guid(dd20a00d2990dda4f91f63569a11ff3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1a92886632d835c5629bb797246720c') in 0.0697531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Prefabs/Models/Tomato.prefab
+  artifactKey: Guid(162be89518e62c843a2340c96916ac64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Prefabs/Models/Tomato.prefab using Guid(162be89518e62c843a2340c96916ac64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fedae7b1daca26b80a80cbfc340b5ed') in 0.0111992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_Copy.mat
+  artifactKey: Guid(2f6f5fe75535db341af0ac792ff5ef02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_Copy.mat using Guid(2f6f5fe75535db341af0ac792ff5ef02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0c7f94f3ad01be6705799d4fa6ed206') in 0.1652093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/EffectGroup.cs
+  artifactKey: Guid(e6e1909f56e3b3540a34f422ffa46b41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/EffectGroup.cs using Guid(e6e1909f56e3b3540a34f422ffa46b41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23140f7ea5225ce2b0c6144ef4c5f8b0') in 0.0059236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Data/Gradients/DepthColoringPropertiesDemo.asset
+  artifactKey: Guid(0d55d262f6c28f8439e08f0ffa26cf84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Data/Gradients/DepthColoringPropertiesDemo.asset using Guid(0d55d262f6c28f8439e08f0ffa26cf84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd06b64a6eb18f7b42e01e6ebb4dcb6ab') in 0.0123645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Shaders/Skybox3Colors.shader
+  artifactKey: Guid(32594f642fa30d241a564f1fd52c81a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Shaders/Skybox3Colors.shader using Guid(32594f642fa30d241a564f1fd52c81a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '579c5b9b10b29d2245a272781516aecf') in 0.0077348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098635 seconds.
+  path: Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_VertexEffects.hlsl
+  artifactKey: Guid(6d625c6ff0d698c4cad5f90150312f70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_VertexEffects.hlsl using Guid(6d625c6ff0d698c4cad5f90150312f70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00bb026f6aed06905da6b16848df6963') in 0.0057903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_CarMetal.shader
+  artifactKey: Guid(147937bd6a46957489042105610031b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_CarMetal.shader using Guid(147937bd6a46957489042105610031b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e52a3576c848b1fb9931268ac181c31f') in 0.0100022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_DemoDefault.mat
+  artifactKey: Guid(2c1bc918e25be5040abbf47f0f524573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_DemoDefault.mat using Guid(2c1bc918e25be5040abbf47f0f524573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf3281d5a019d03f6c99a5e47608c9bc') in 0.2006331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_SpitterSSS.shader
+  artifactKey: Guid(925307c626639e842a6e17465467a67b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_SpitterSSS.shader using Guid(925307c626639e842a6e17465467a67b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c4eecc76d9fb3d7c080d8c5e791932c') in 0.0116076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022738 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Prefabs/DemoElements/P_Demo_MeshEffects.prefab
+  artifactKey: Guid(5b7a590a48dad58439537d674dd5971c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Prefabs/DemoElements/P_Demo_MeshEffects.prefab using Guid(5b7a590a48dad58439537d674dd5971c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b7b3b34407614440c88870a7dcac303') in 0.0418374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/MossAlbedo.tif
+  artifactKey: Guid(35941fce2e88a0743b47a79665443cba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/MossAlbedo.tif using Guid(35941fce2e88a0743b47a79665443cba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b4bceea5cd5f6c3e301fdb7ebaa2370') in 0.0143059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Windows/AssetWindowTabDrawer.cs
+  artifactKey: Guid(00d52e9709d8b1b439bae51fe4b61969) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Windows/AssetWindowTabDrawer.cs using Guid(00d52e9709d8b1b439bae51fe4b61969) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cd080b028a144bd5e95c5e9e592d170') in 0.007141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_Spaceship.shader
+  artifactKey: Guid(c23a18bb27fbdb0478a01cde2c5d3a3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_Spaceship.shader using Guid(c23a18bb27fbdb0478a01cde2c5d3a3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '768e0ccc632b0a3a2fcd35700100ca92') in 0.0120256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_UVEffects.hlsl
+  artifactKey: Guid(d61ca1c3b2921b4458b28e3b02288808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_UVEffects.hlsl using Guid(d61ca1c3b2921b4458b28e3b02288808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '507bc57a8de369cb873b39b5a1047865') in 0.0053499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_Spitter.shader
+  artifactKey: Guid(96f372854bc9adb40b2b7306f3d30a30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_Spitter.shader using Guid(96f372854bc9adb40b2b7306f3d30a30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b674786ffcd87f1643fac6f9e515a699') in 0.0121039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_ScreenspaceUv.asset
+  artifactKey: Guid(a53b93650abf95b43b626f330157d93f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_ScreenspaceUv.asset using Guid(a53b93650abf95b43b626f330157d93f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68a75f97334713b2e5e12149b0ee7206') in 0.011515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Texture/AllIn13dShaderCustomEditorHeader.png
+  artifactKey: Guid(a809dbea5a55b18408389954731bd51c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Texture/AllIn13dShaderCustomEditorHeader.png using Guid(a809dbea5a55b18408389954731bd51c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ddc0fa5ce10e8b1e573dc9ae3d82858') in 0.0170647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_TextureBlending.asset
+  artifactKey: Guid(83489d9ae9a0f03438db99ce88d1b914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_TextureBlending.asset using Guid(83489d9ae9a0f03438db99ce88d1b914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3869d3ad2da47fb5e0634f0821869ba1') in 0.0134705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_CarBlack.shader
+  artifactKey: Guid(e477a23de3685b54bb55a7ff47a9836b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_CarBlack.shader using Guid(e477a23de3685b54bb55a7ff47a9836b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50575e9f6cef9b27539d7122ddf8162f') in 0.0093525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Scripts/EnvironmentSpotlightController.cs
+  artifactKey: Guid(d3a1024b9f4c6f140b730bdc467420cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Scripts/EnvironmentSpotlightController.cs using Guid(d3a1024b9f4c6f140b730bdc467420cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e59c368cedf376782986a3fbaf34f3df') in 0.0137499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Gizmos/GizmoIcon_Wind.png
+  artifactKey: Guid(6e5669f91329b474b9a081e479853f82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Gizmos/GizmoIcon_Wind.png using Guid(6e5669f91329b474b9a081e479853f82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6336dd17e5151bc8a8d7b9e6a1e2d18c') in 0.012311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_StatueVoxel.mat
+  artifactKey: Guid(2e929bb139f975e4eaa8c8bfd1ba442f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_StatueVoxel.mat using Guid(2e929bb139f975e4eaa8c8bfd1ba442f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2fc063cc7dd1bb6fb3dbffcfae359c47') in 0.2685682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Prefabs/DemoElements/P_Demo_ColorRamp.prefab
+  artifactKey: Guid(f1939858350c542459a67b501e8f311a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Prefabs/DemoElements/P_Demo_ColorRamp.prefab using Guid(f1939858350c542459a67b501e8f311a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4252de07b8e4c45d863a7c97e6d6dff5') in 0.0171023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_StatueGlitch.mat
+  artifactKey: Guid(6832c6e6c0d79aa4b9a3135e11c67786) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_StatueGlitch.mat using Guid(6832c6e6c0d79aa4b9a3135e11c67786) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad11a873081af9078bf1a07133392e3d') in 0.3117904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/AllIn13DShader/Matcaps/Matcap23.png
+  artifactKey: Guid(7cbc844f48c94cc4986e9ae7e88ca0d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Matcaps/Matcap23.png using Guid(7cbc844f48c94cc4986e9ae7e88ca0d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c701d9a85dfc3c0047d441084bb3456a') in 0.0128388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Utilities/MaterialUtils.cs
+  artifactKey: Guid(76cb362c3af9e6f418634ca3a9510c9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Utilities/MaterialUtils.cs using Guid(76cb362c3af9e6f418634ca3a9510c9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be0f4ed4f64424f54edf5273e9e2afdc') in 0.0084512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/AllIn13DShader/DefaultTextures/StoneWallNormalsDefault.png
+  artifactKey: Guid(6246e3fe4a63c1f4f9acec9623576fc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/DefaultTextures/StoneWallNormalsDefault.png using Guid(6246e3fe4a63c1f4f9acec9623576fc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7a6e6cf08fe8cd9c9fc2aab50d427fb') in 0.0176115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/AllIn13DShader/Scripts/ConstantsRuntime.cs
+  artifactKey: Guid(3ea460bdd0e63b64e8d01c3ed5f2d97e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Scripts/ConstantsRuntime.cs using Guid(3ea460bdd0e63b64e8d01c3ed5f2d97e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '971a8deef659fd33d3e82721d47d43b9') in 0.0055073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_ChomperHologram.mat
+  artifactKey: Guid(1ec4da3200e13be4b8a24b9cc8a388de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_ChomperHologram.mat using Guid(1ec4da3200e13be4b8a24b9cc8a388de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31bc6d36655651fbf08a22e1616806f4') in 0.2712592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_FogReceiver.shader
+  artifactKey: Guid(15ff81e9a23aa9c43990d056548c8736) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_FogReceiver.shader using Guid(15ff81e9a23aa9c43990d056548c8736) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8adc0e10f33d254ca484243c9bba602') in 0.0122679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Data/DemoElements/Combined Effects/DemoElement_Baked_FakeSSS.asset
+  artifactKey: Guid(dceb61ae697e6cd4399927dff3d28a1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Data/DemoElements/Combined Effects/DemoElement_Baked_FakeSSS.asset using Guid(dceb61ae697e6cd4399927dff3d28a1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d002c0bdfbdff2201346ab1c6c613be') in 0.0639666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 285
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_EllenCompare.asset
+  artifactKey: Guid(0949a381dc7c32747aba2259b88d80a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Data/DemoElements/Combined Effects/DemoElement_EllenCompare.asset using Guid(0949a381dc7c32747aba2259b88d80a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a07abdebd89f213234b8dcb94b14184') in 0.0626961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 474
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_ChomperHit.shader
+  artifactKey: Guid(78e46c20dae808449bb497273b9773be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_ChomperHit.shader using Guid(78e46c20dae808449bb497273b9773be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db2cfade0dfc840d740e78d046661eea') in 0.0101136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_StatueShake.shader
+  artifactKey: Guid(85dc124b5364ef945a460508388a02b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_StatueShake.shader using Guid(85dc124b5364ef945a460508388a02b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2335a8514a894cd6e32ef285ce35c12') in 0.014971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_ChomperFade.shader
+  artifactKey: Guid(6febb42bb0cc90f4a91602ec35c8e15a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_ChomperFade.shader using Guid(6febb42bb0cc90f4a91602ec35c8e15a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '469b3d3a6217bfdbcc89f88cfc023aab') in 0.0111751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/CustomEditors/EffectsProfileCollectionCustomEditor.cs
+  artifactKey: Guid(df521890445440245b75e88c4fb4bd73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/CustomEditors/EffectsProfileCollectionCustomEditor.cs using Guid(df521890445440245b75e88c4fb4bd73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd066c0c654886fed9e4e88cefcdf4605') in 0.0065109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Drawers/TextureEditorValuesDrawer.cs
+  artifactKey: Guid(d9909526746655a4a9be1aaef56a41b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Drawers/TextureEditorValuesDrawer.cs using Guid(d9909526746655a4a9be1aaef56a41b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '181b54950369932ba4c0a8fbc80977bc') in 0.0066662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_ChomperHueShift.mat
+  artifactKey: Guid(5845d280691bdab4f903e123d891bde8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_ChomperHueShift.mat using Guid(5845d280691bdab4f903e123d891bde8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53108bf16b88f1a7b44046427ed3087d') in 0.2547697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Prefabs
+  artifactKey: Guid(b14f12ba4dfbfca49a5091b54d38ff1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Prefabs using Guid(b14f12ba4dfbfca49a5091b54d38ff1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51079a2b00b51203acb4e3e8f3457dea') in 0.0055461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Data/Gradients
+  artifactKey: Guid(2d9437f08b03624409b0450c93d1ebf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Data/Gradients using Guid(2d9437f08b03624409b0450c93d1ebf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37ea2d713ac5aa6aed3f061d790cfdab') in 0.0054857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/AllIn13DShader/Matcaps/Matcap22.png
+  artifactKey: Guid(d480d59f6f5acd94d82a3aeb852ec967) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Matcaps/Matcap22.png using Guid(d480d59f6f5acd94d82a3aeb852ec967) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ee85007711474e1b74032aca81b9157') in 0.0111047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Scripts/EnvironmentController.cs
+  artifactKey: Guid(1cc14354005b97848bd03e676e4e2f75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Scripts/EnvironmentController.cs using Guid(1cc14354005b97848bd03e676e4e2f75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50ab5eda82c62cf9e9acbc6715b18408') in 0.0074569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_BasePass.hlsl
+  artifactKey: Guid(3f95914655851fb429e79f8b41ef5cf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_BasePass.hlsl using Guid(3f95914655851fb429e79f8b41ef5cf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8369645b452a6a7a41bb6dde59a3df8e') in 0.0051533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_StatueInflate.mat
+  artifactKey: Guid(2eb3eb51ce78c514e84ff20270776a9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_StatueInflate.mat using Guid(2eb3eb51ce78c514e84ff20270776a9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbe7a85d700964a2142f54ed21063e93') in 0.2614762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_SpitterHue.mat
+  artifactKey: Guid(0bb633a766df1524298bd19ae6ab9052) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_SpitterHue.mat using Guid(0bb633a766df1524298bd19ae6ab9052) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cafe2a413ba77709c5b577a0cd39c661') in 0.2230742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Templates/AllIn13DShader_ShaderProperties.allIn13DData
+  artifactKey: Guid(f305286a585cdaa41a9c9773cb033d92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Templates/AllIn13DShader_ShaderProperties.allIn13DData using Guid(f305286a585cdaa41a9c9773cb033d92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a794a09d42f9e5aec5a1746d742bba0') in 0.004526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/Chomper_DissolveGradient.tif
+  artifactKey: Guid(9b8b17f510604fb47924f388e774802f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Textures/ModelsTextures/Chomper_DissolveGradient.tif using Guid(9b8b17f510604fb47924f388e774802f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '824b5f0810090d283aa27547a5c81052') in 0.0177185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Tools
+  artifactKey: Guid(1d97a0c301d814b449fafcf9cd34c220) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Tools using Guid(1d97a0c301d814b449fafcf9cd34c220) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78b24047f9a0d046d299223de2e7c643') in 0.0051788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/PostProcessingProfile/3DShaderPP_URP.asset
+  artifactKey: Guid(39ba2e016b5a593459e1e4f03143a1d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/PostProcessingProfile/3DShaderPP_URP.asset using Guid(39ba2e016b5a593459e1e4f03143a1d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a885865c086c32b4139a9ca3286bc76') in 0.006901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/AllIn13DShader/Matcaps/Matcap26.png
+  artifactKey: Guid(df8b2a7e5b824a24fb2054edb471bede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Matcaps/Matcap26.png using Guid(df8b2a7e5b824a24fb2054edb471bede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59736ae595e3d71ca59b226f3e3e030d') in 0.0132243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Environment/MAT_SkyFlatAllIn13DShader.mat
+  artifactKey: Guid(3f75f7693ae85f240a7d1e29f3a48cb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Environment/MAT_SkyFlatAllIn13DShader.mat using Guid(3f75f7693ae85f240a7d1e29f3a48cb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3b729ee3fad1f0618589fbfd3c6ecc3') in 0.0106155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/GlobalConfiguration.cs
+  artifactKey: Guid(592122c0ab3d6c04d85891bcd2f332bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/GlobalConfiguration.cs using Guid(592122c0ab3d6c04d85891bcd2f332bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da92c6e690ddf2c2a7a4f1b161f07be8') in 0.0058056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/AllIn13DShader/Matcaps/Matcap21.png
+  artifactKey: Guid(8b52205439d608847939c878d5f920f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Matcaps/Matcap21.png using Guid(8b52205439d608847939c878d5f920f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a641cf108ebc104404fb76beb454a81') in 0.0121376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/PropertiesConfigCollection.asset
+  artifactKey: Guid(dd904bb96c4405749bbd64a355ef59b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/PropertiesConfigCollection.asset using Guid(dd904bb96c4405749bbd64a355ef59b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc258c05ac1008703847bd0fc6018894') in 0.0433481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_TreeBarkMaterial.mat
+  artifactKey: Guid(48eb7b2f73d27b34fa711592cc3b617d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_TreeBarkMaterial.mat using Guid(48eb7b2f73d27b34fa711592cc3b617d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73b71a4f3c511395bbb0f6fae6b9e96c') in 0.2741185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A5.mat
+  artifactKey: Guid(c3d5d437937690d44abbc33f31a67cec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A5.mat using Guid(c3d5d437937690d44abbc33f31a67cec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1c14349cd4ffa58a4bfe251536db3ee') in 0.4253407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/AllIn13DShader/Editor/Windows/TextureCreatorTabDrawer.cs
+  artifactKey: Guid(13ec4b12120f25c43bfae408eec0aa1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Editor/Windows/TextureCreatorTabDrawer.cs using Guid(13ec4b12120f25c43bfae408eec0aa1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29bfd93c1b0a7246b9cfb999d2adc688') in 0.009373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BeautifulSkyPack02/Panoramic/Textures
+  artifactKey: Guid(686a7bcd822b6ff428ab46bb3018bd6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/Panoramic/Textures using Guid(686a7bcd822b6ff428ab46bb3018bd6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17266ae8d201356961be75343e2cd384') in 0.0082209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BeautifulSkyPack02/CubeMap/Textures/SKY_A5.png
+  artifactKey: Guid(288c96bf8374f304bbc1544139c47da7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/CubeMap/Textures/SKY_A5.png using Guid(288c96bf8374f304bbc1544139c47da7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9057fb6541ada778ceb196c522b7bbda') in 0.0869651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BeautifulSkyPack02/Panoramic/Textures/SKY_A4_high contrast.png
+  artifactKey: Guid(6ebb781e7090cb644a730c4722b20cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/Panoramic/Textures/SKY_A4_high contrast.png using Guid(6ebb781e7090cb644a730c4722b20cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0636e22dcf67a4509c9a206f02674a00') in 0.2615567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BeautifulSkyPack02/CubeMap/Textures/SKY_A7_high contrast.png
+  artifactKey: Guid(46de8cf784a3a0743afa30784fb08c1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/CubeMap/Textures/SKY_A7_high contrast.png using Guid(46de8cf784a3a0743afa30784fb08c1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dd77d9448c5a24642fdb19e97ac26df') in 0.1112922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A3.mat
+  artifactKey: Guid(8e62ba374c0f4444ab51b2240669a2b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A3.mat using Guid(8e62ba374c0f4444ab51b2240669a2b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33e0a71969029fc13477c62d357337fd') in 0.1801829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BeautifulSkyPack02/CubeMap/Materials/SKY_A10_high contrast.mat
+  artifactKey: Guid(b3788d3d4d7c3d947a47855a7df524ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/CubeMap/Materials/SKY_A10_high contrast.mat using Guid(b3788d3d4d7c3d947a47855a7df524ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa874cf452be85f96fdf7aaa0c715ff1') in 0.0588432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A10.mat
+  artifactKey: Guid(00012d5e198115c44a6c9639d5e5f26c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A10.mat using Guid(00012d5e198115c44a6c9639d5e5f26c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e6f9444a6e5fb655ca63ede4f388669') in 0.3860817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_Copy.mat
+  artifactKey: Guid(3e74e60fcd3ce634eb20e8ed73f27eab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_Copy.mat using Guid(3e74e60fcd3ce634eb20e8ed73f27eab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f4f06933d0e5065add8e6d9636cb827') in 0.225943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BeautifulSkyPack02/Panoramic/Textures/SKY_A9_high contrast.png
+  artifactKey: Guid(547d961ba81f2824f966326a791157ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/Panoramic/Textures/SKY_A9_high contrast.png using Guid(547d961ba81f2824f966326a791157ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '628e4a48c19be0c897e5afd90a491c86') in 0.1171236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A9.mat
+  artifactKey: Guid(eaa745927e1989445913dcae1a842fbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A9.mat using Guid(eaa745927e1989445913dcae1a842fbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a78f04640e339372f50430029d3b175') in 0.1026767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_AlienStatueDither.shader
+  artifactKey: Guid(f9a5ddf3163d7554b82484ebfaeb03d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Shaders/AllIn13D_BakedEffects_MAT_Baked_AlienStatueDither.shader using Guid(f9a5ddf3163d7554b82484ebfaeb03d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8df5becea80fd6290e70a12a16acda77') in 0.0163639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Textures/ColorRamps/RedRampInflate.png
+  artifactKey: Guid(7f42bf73cc8280c468af923917aa8589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Textures/ColorRamps/RedRampInflate.png using Guid(7f42bf73cc8280c468af923917aa8589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54fbde72239cbe7b067c9e4e113d6b90') in 0.0155685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_AlienStatueHologram.mat
+  artifactKey: Guid(a2885f1f8d730684a9c98f04b20256a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_AlienStatueHologram.mat using Guid(a2885f1f8d730684a9c98f04b20256a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2f5c8dc670089cec5e7c64b2f0344e3') in 0.2414755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BeautifulSkyPack02/CubeMap/Textures/SKY_A6.png
+  artifactKey: Guid(1ffb39a8eb2667448865e942979442a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/CubeMap/Textures/SKY_A6.png using Guid(1ffb39a8eb2667448865e942979442a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5895d99c31da37256b8e63c2e95cc67a') in 0.0418464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/Export/Atlases
+  artifactKey: Guid(ab749b59e17423445b65be050f141f86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/AllIn13DShader/AllIn3DShaderConfig/Export/Atlases using Guid(ab749b59e17423445b65be050f141f86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3850995c21fb08d9064d602a9d70d42f') in 0.0055411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A5_HD.mat
+  artifactKey: Guid(9b73945ee410fc647ae1a0a0508c1f6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BeautifulSkyPack02/Panoramic/Materials/SKY_A5_HD.mat using Guid(9b73945ee410fc647ae1a0a0508c1f6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c538b35f5708a1dba05904b972f42376') in 0.0974647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

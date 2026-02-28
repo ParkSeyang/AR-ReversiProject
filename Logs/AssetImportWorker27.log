@@ -1,0 +1,1055 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32386 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-28T09:59:24Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-02-28T09:59:24.7519354Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker27
+-projectPath
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+-logFile
+Logs/AssetImportWorker27.log
+-srvPort
+58049
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/AR-ReversiProject
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [17244]  Target information:
+
+Player connection [17244]  * "[IP] 172.30.1.55 [Port] 0 [Flags] 2 [Guid] 829300724 [EditorId] 829300724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BTF4SNP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17244] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17244] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 36.84 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/AR-ReversiProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              8237abda711a4720962625371729b28e
+  Correlation Id:          2e1677b044b26191d80a4bb1d64b199d
+  External correlation Id: 695994391310690052
+  Machine Id:              dJ8Tfn01EciPmnYvmSiKPSjQkro=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 1.47s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-02-28T09:59:26.2237243Z"
+[Licensing::Module] Licensing Background thread has ended after 1.48s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005585 seconds.
+- Loaded All Assemblies, in  0.490 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.412 seconds
+Domain Reload Profiling: 896ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (166ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (412ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (368ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568654860447-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.199 seconds
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.78 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.382 seconds
+Domain Reload Profiling: 2568ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (854ms)
+		LoadAssemblies (720ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (186ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1382ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (845ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 21.70 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6906 unused Assets / (4.5 MB). Loaded Objects now: 7809.
+Memory consumption went from 229.9 MB to 225.4 MB.
+Total: 26.462800 ms (FindLiveObjects: 0.689600 ms CreateObjectMapping: 0.712800 ms MarkObjects: 22.327200 ms  DeleteObjects: 2.731500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1383579.504267 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Common/Bell.png
+  artifactKey: Guid(e55e4ef66043a8747866894761ac06be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Common/Bell.png using Guid(e55e4ef66043a8747866894761ac06be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08f263d840ab59c49a8e8f551b99c164') in 0.1233258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Date & Time/Clock.png
+  artifactKey: Guid(1e41e49e206bc2947b8943351eed53d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Date & Time/Clock.png using Guid(1e41e49e206bc2947b8943351eed53d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a2b80f09cfb4063dd861e7bce13d6c4') in 0.0156436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Animated Icon/Message Bubbles.prefab
+  artifactKey: Guid(beb3db9e0fbec4742809ee8c17932659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Animated Icon/Message Bubbles.prefab using Guid(beb3db9e0fbec4742809ee8c17932659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03d7a9042a5ebfb984dd21c35c2daedf') in 0.0938981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern UI Pack/Animations/Notifications/Fading.controller
+  artifactKey: Guid(55d9e85aba652ad4186ad3fe0190ccfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Notifications/Fading.controller using Guid(55d9e85aba652ad4186ad3fe0190ccfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7c9dee8efd342027d7990a12509b66b') in 0.0079739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944085 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/128px/Rounded Outline 128px - 2x.png
+  artifactKey: Guid(06dec0b1685f62c4d85c8ecce2b95366) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/128px/Rounded Outline 128px - 2x.png using Guid(06dec0b1685f62c4d85c8ecce2b95366) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84f055f388691ade3d89b7ad2337c82e') in 0.0111239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/64px/Rounded Outline 64px - 6x.png
+  artifactKey: Guid(499bdd857b13ec94a97b9b71283a9a73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/64px/Rounded Outline 64px - 6x.png using Guid(499bdd857b13ec94a97b9b71283a9a73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b9bbe78130f77935f1f87d81a25fc28') in 0.01288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Spinner/Spinner - Radial Pie.prefab
+  artifactKey: Guid(8c2e629ac6deda844a25d8051cac8c5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Spinner/Spinner - Radial Pie.prefab using Guid(8c2e629ac6deda844a25d8051cac8c5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61c500072a7ca6c2cfc8b23fb1a73386') in 0.0479396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-Light SDF.asset
+  artifactKey: Guid(2f17e8bb3967fe14093d5fec798fffd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-Light SDF.asset using Guid(2f17e8bb3967fe14093d5fec798fffd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '857d2ce5499dd1814483d551e692c741') in 0.0463979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/64px/Rounded Outline 64px - 8x.png
+  artifactKey: Guid(34584f4cba06190408f14ff6cd96f891) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/64px/Rounded Outline 64px - 8x.png using Guid(34584f4cba06190408f14ff6cd96f891) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0679405a41cb2d46ab0cae4226399138') in 0.0083843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Progress Bar
+  artifactKey: Guid(2b1c34e7cf61bb14d9b30525cd860383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Progress Bar using Guid(2b1c34e7cf61bb14d9b30525cd860383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbc4c337ffb083098e16d9d0c113f874') in 0.0062314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Spinner/Spinner - Radial Trapez.prefab
+  artifactKey: Guid(068b998f6ba513f4e8ce1f3a50ab16ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Spinner/Spinner - Radial Trapez.prefab using Guid(068b998f6ba513f4e8ce1f3a50ab16ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0270b100f80ef7aa9fe212bef457dc4') in 0.0437793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Modal Window/Style 1.prefab
+  artifactKey: Guid(bdb8f55c79de3ce429e354b19dc74938) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Modal Window/Style 1.prefab using Guid(bdb8f55c79de3ce429e354b19dc74938) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30cd7d87bd910f2a3b5df8efcacb266c') in 0.082201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 274
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modern UI Pack/Scripts/UI Manager/UIManagerHSelector.cs
+  artifactKey: Guid(e882cff0df1ed284a8cfdf670297b01d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/UI Manager/UIManagerHSelector.cs using Guid(e882cff0df1ed284a8cfdf670297b01d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a4521863f344d87de821df521bc0705') in 0.0075051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-Regular SDF.asset
+  artifactKey: Guid(4bd810f1cbcb0f446a8f5a31453e243f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-Regular SDF.asset using Guid(4bd810f1cbcb0f446a8f5a31453e243f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75cf1ebaecfd205e4c983c06a74dc9a1') in 0.0358322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Scripts/Editor Handlers/MUIPEditorHandler.cs
+  artifactKey: Guid(0b3d37a8c2278a54380cde1dbb7524d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Editor Handlers/MUIPEditorHandler.cs using Guid(0b3d37a8c2278a54380cde1dbb7524d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c3765bf3f14885906afb5537c1ba84d') in 0.0080694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern UI Pack/Animations/Notifications/Fading Loop.anim
+  artifactKey: Guid(0c9db12da1c7fd04a920ca83c9e0044d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Notifications/Fading Loop.anim using Guid(0c9db12da1c7fd04a920ca83c9e0044d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7df6d614e7b5294eee7b7ae406fd8c81') in 0.0091025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial (Light).prefab
+  artifactKey: Guid(6cc43bc22434dc8449b4d23f62e02542) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial (Light).prefab using Guid(6cc43bc22434dc8449b4d23f62e02542) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13d016e20f57ba6116beaba0338d6fbd') in 0.0474621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Demo/Sway Element.prefab
+  artifactKey: Guid(095a9e4172aacde418b21a7fc118ad79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Demo/Sway Element.prefab using Guid(095a9e4172aacde418b21a7fc118ad79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '268a6278b35cb1e2cfe391d241dde586') in 0.0421369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern UI Pack/Animations/Progress Bar/Standard Run.anim
+  artifactKey: Guid(4cf39d6b10010c8449c36ace3f68ff57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Progress Bar/Standard Run.anim using Guid(4cf39d6b10010c8449c36ace3f68ff57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbd175663fd73e70772bed0a9cfb8226') in 0.0089277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Editor/Icons/HeaderRadialLayout.png
+  artifactKey: Guid(a64b6c3edb2be98409048516a50d0b32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Editor/Icons/HeaderRadialLayout.png using Guid(a64b6c3edb2be98409048516a50d0b32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22dd0bbee7dea0dd46a812b64de8bb30') in 0.0114792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Modern UI Pack/Scripts/Context Menu/ContextMenuContent.cs
+  artifactKey: Guid(fe4f202dc85015b48aa586eba6d38692) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Context Menu/ContextMenuContent.cs using Guid(fe4f202dc85015b48aa586eba6d38692) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1a0d591905c7c0aa00bb30812c94921') in 0.0067328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern UI Pack/Scripts/Progress Bar/ProgressBar.cs
+  artifactKey: Guid(20c6dbf0102c7bc468113ccdd97dad83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Progress Bar/ProgressBar.cs using Guid(20c6dbf0102c7bc468113ccdd97dad83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e1eafaf35c3031bab772bc11ec37567') in 0.0068575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Warning Filled.png
+  artifactKey: Guid(d8781abacd35da0418c7bc7644d51c03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Warning Filled.png using Guid(d8781abacd35da0418c7bc7644d51c03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a28f57940fdbe88a0c2ad8453e5eea09') in 0.0077422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Device/Monitor Filled.png
+  artifactKey: Guid(f74e44b59b87aa04ab56788493e3ad3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Device/Monitor Filled.png using Guid(f74e44b59b87aa04ab56788493e3ad3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25edb40474013ebdebbb919193995655') in 0.0122089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern UI Pack/Scripts/Icon/IconLibrary.cs
+  artifactKey: Guid(0a014fb26f42dfc46937c175544fe894) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Icon/IconLibrary.cs using Guid(0a014fb26f42dfc46937c175544fe894) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbf42623abb5962dcfbaac4e65535833') in 0.0080215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modern UI Pack/Animations/Dropdown/Custom Dropdown.controller
+  artifactKey: Guid(93fbe37370f09fe4a934819f103333ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Dropdown/Custom Dropdown.controller using Guid(93fbe37370f09fe4a934819f103333ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '723cf3914eba9a1fd729d78f645a874f') in 0.006736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Scripts/Icon/IconManagerEditor.cs
+  artifactKey: Guid(cc8d4f7f18559ed43b3f3074a40553e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Icon/IconManagerEditor.cs using Guid(cc8d4f7f18559ed43b3f3074a40553e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52edae9f924f3a1dd5c8d6ab64900b72') in 0.0055448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Common/Heart Filled.png
+  artifactKey: Guid(a40e131b61d22ba42b2955962e636ca4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Common/Heart Filled.png using Guid(a40e131b61d22ba42b2955962e636ca4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '179c307e8d794c4e9e622bfadc7bb4f5') in 0.0126273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Swap.png
+  artifactKey: Guid(af205b89c9f708f4999e3196997c41e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Swap.png using Guid(af205b89c9f708f4999e3196997c41e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f621589dda9655356578448e4138c9ab') in 0.0098123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/32px/Rounded Outline 32px - 10x.png
+  artifactKey: Guid(43bcf983afb7bef4c8e8b4ae39b82935) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/32px/Rounded Outline 32px - 10x.png using Guid(43bcf983afb7bef4c8e8b4ae39b82935) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b48f2e31ca943b562d312299463c982') in 0.0077021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern UI Pack/Animations/Demo/Panel/Demo Window.controller
+  artifactKey: Guid(682ecbb94a70eef418416130d4d18733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Demo/Panel/Demo Window.controller using Guid(682ecbb94a70eef418416130d4d18733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c60b94b817a2b2cabddeaf0b2069c9e3') in 0.0073916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.187628 seconds.
+  path: Assets/Modern UI Pack/Scripts/UI Manager/UIManagerDropdown.cs
+  artifactKey: Guid(025076e9ea2db4748aaecbfb47809745) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/UI Manager/UIManagerDropdown.cs using Guid(025076e9ea2db4748aaecbfb47809745) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0c41f734cec9add023000f806b5d65e') in 0.0064704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern UI Pack/Scripts/Button/ButtonManager.cs
+  artifactKey: Guid(5d218e07e7315e243acdfcc700d01eb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Button/ButtonManager.cs using Guid(5d218e07e7315e243acdfcc700d01eb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87459704ad5c10debafd2ed5328f48d6') in 0.0074762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Device/Power.png
+  artifactKey: Guid(a8cc5f0db692cb24db144d85c01b6838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Device/Power.png using Guid(a8cc5f0db692cb24db144d85c01b6838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90c1d40fe73190bf3e7ecb2cf3a6b3aa') in 0.0118795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Radial/512px/Radial Outline 512px - 6x.png
+  artifactKey: Guid(994f9969403770242aef5a235e6edb37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Radial/512px/Radial Outline 512px - 6x.png using Guid(994f9969403770242aef5a235e6edb37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ae1c598302d51aba0306904866745a4') in 0.0124258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071977 seconds.
+  path: Assets/Modern UI Pack/Scripts/Tooltip/TooltipContent.cs
+  artifactKey: Guid(a81a9e081a4afa64dae6b9d42bc38c9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Tooltip/TooltipContent.cs using Guid(a81a9e081a4afa64dae6b9d42bc38c9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61346c25f88953d79767d3d18092852b') in 0.0083717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Modern UI Pack/Editor/Icons/EditorContextMenu.png
+  artifactKey: Guid(cceded5b1d0834e48849fb152ac8e53d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Editor/Icons/EditorContextMenu.png using Guid(cceded5b1d0834e48849fb152ac8e53d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a821c52c145d9c07f666d9a2fc087d93') in 0.0130997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Search.png
+  artifactKey: Guid(6d669c2082983644b9d4a34c0b22b1e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Search.png using Guid(6d669c2082983644b9d4a34c0b22b1e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cace15281cf157fb80f377b488693008') in 0.0122281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Common
+  artifactKey: Guid(6f75fee0cdbfddc40a5673666bdf2562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Common using Guid(6f75fee0cdbfddc40a5673666bdf2562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '520716aa36e3bfde9df9fd5f25f1ce22') in 0.0056607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079071 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/UI Elements/Progress Bar (Filled).png
+  artifactKey: Guid(4f390e5c78ac1b648bcf79697f1c5d92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/UI Elements/Progress Bar (Filled).png using Guid(4f390e5c78ac1b648bcf79697f1c5d92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c22079a4aa25f83137c7de29ae22cad') in 0.0149794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern UI Pack/Scripts/Rendering/UIGradientEditor.cs
+  artifactKey: Guid(f37cb8af34d443a4d8447ecddc64f5af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Rendering/UIGradientEditor.cs using Guid(f37cb8af34d443a4d8447ecddc64f5af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13063ddfdec01f4a6fb4b940ac634424') in 0.0082103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modern UI Pack/Animations/Modal Window/Style 2/Fade-out.anim
+  artifactKey: Guid(da84dd530c7ec6640b029ba9da532a88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Modal Window/Style 2/Fade-out.anim using Guid(da84dd530c7ec6640b029ba9da532a88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ad1149c3de36d5fda6bb8cfdd82bca2') in 0.0072518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Radial/256px/Radial Outline 256px - 1x.png
+  artifactKey: Guid(5899483649d5aef43bbd15c0945b2ef1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Radial/256px/Radial Outline 256px - 1x.png using Guid(5899483649d5aef43bbd15c0945b2ef1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0c3d15364abe6ad276c247bafda5914') in 0.0096949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080534 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/1024px/Rounded Outline 1024px - 9x.png
+  artifactKey: Guid(930961384d4158049ab80d71a9399eda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/1024px/Rounded Outline 1024px - 9x.png using Guid(930961384d4158049ab80d71a9399eda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a736f1e99a0d101ca541a1612eee49e') in 0.0115166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Modern UI Pack/Animations/Animated Icon/Message Bubbles.controller
+  artifactKey: Guid(8e9522ac609a9bc468de73af2d181860) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Animated Icon/Message Bubbles.controller using Guid(8e9522ac609a9bc468de73af2d181860) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df076dff37fa22141b8d5bdab0db1010') in 0.0062591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Modern UI Pack/Animations/Progress Bar/Standard Fastly.controller
+  artifactKey: Guid(2ccd99e965d83bf4d9355701fd7f868f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Progress Bar/Standard Fastly.controller using Guid(2ccd99e965d83bf4d9355701fd7f868f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3612dfc218f37606eb0aa253eb2ebf63') in 0.0060471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern UI Pack/Scripts/Modal Window/ModalWindowManagerEditor.cs
+  artifactKey: Guid(a4a5d2752ec07da4aa46f6540abbd763) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Modal Window/ModalWindowManagerEditor.cs using Guid(a4a5d2752ec07da4aa46f6540abbd763) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdf351f355692d074fe837ea31fdd878') in 0.0052265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065300 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Radial/512px/Radial Outline 512px - 7x.png
+  artifactKey: Guid(d0173e1ae67fd0d478e000bbe3e38459) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Radial/512px/Radial Outline 512px - 7x.png using Guid(d0173e1ae67fd0d478e000bbe3e38459) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8064ffcdaa494cc61ee6fb7ff05507ec') in 0.0086493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-Semibold.ttf
+  artifactKey: Guid(29d1861da7232b847ad1337bd27c3113) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-Semibold.ttf using Guid(29d1861da7232b847ad1337bd27c3113) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d19c9b7e19314297224ae475397e8a3') in 0.0155532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/32px/Rounded Outline 32px - 3x.png
+  artifactKey: Guid(5c49ef3a1a4460b4ca3a969124efb7fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/32px/Rounded Outline 32px - 3x.png using Guid(5c49ef3a1a4460b4ca3a969124efb7fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c03bc0616f2e5f953027753ab98c7768') in 0.0114286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient
+  artifactKey: Guid(8d01b34971fec1645945bb1f08ee3ed9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient using Guid(8d01b34971fec1645945bb1f08ee3ed9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55ea7acbad5795994025a5178affb166') in 0.0037514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083307 seconds.
+  path: Assets/Modern UI Pack/Scripts/ListView/ListView.cs
+  artifactKey: Guid(67a4caa482ba20f4a8749aba356f6fa9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/ListView/ListView.cs using Guid(67a4caa482ba20f4a8749aba356f6fa9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb33ed1a3df3c545989c13a2bec7887d') in 0.0079939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern UI Pack/Animations/Context Menu
+  artifactKey: Guid(0a615324710a848449e5b921e8eb2aee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Context Menu using Guid(0a615324710a848449e5b921e8eb2aee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddb023880ba07d80fdfc2ba3b54475a9') in 0.0056642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Modern UI Pack/Scripts/Demo/DemoListShadow.cs
+  artifactKey: Guid(e373f9a5f6c9bab449c78beab64a8d53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Demo/DemoListShadow.cs using Guid(e373f9a5f6c9bab449c78beab64a8d53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd3118bee087395752c503096775c924') in 0.006044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Media/Music.png
+  artifactKey: Guid(3881a589da314734096a8ebe09c4e236) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Media/Music.png using Guid(3881a589da314734096a8ebe09c4e236) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9928532648a1647cc73ce041fd6bfef9') in 0.0101345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107443 seconds.
+  path: Assets/Modern UI Pack/Scripts/Icon/IconLibraryEditor.cs
+  artifactKey: Guid(1161e041bde9c9f4f9d1118349cd5968) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Icon/IconLibraryEditor.cs using Guid(1161e041bde9c9f4f9d1118349cd5968) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90823d60932a8588ec05800fd749581d') in 0.0067336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Warning.png
+  artifactKey: Guid(2a19aaadcf7844142a73ce60950ec353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Warning.png using Guid(2a19aaadcf7844142a73ce60950ec353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4b65e433bfd69b9c6f44664f555ba84') in 0.0113422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Document/Book Filled.png
+  artifactKey: Guid(fb111413c0e539e438d6b210bdc63b88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Document/Book Filled.png using Guid(fb111413c0e539e438d6b210bdc63b88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3419b46bcba3cf577d2fae744c8fd0ff') in 0.013151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Radial/32px/Radial Outline 32px - 4x.png
+  artifactKey: Guid(6b0161e21a59dc14e96feff1ada41989) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Radial/32px/Radial Outline 32px - 4x.png using Guid(6b0161e21a59dc14e96feff1ada41989) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd834fc2b6240631062e29dbdbf0a304b') in 0.009984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082782 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Radial/1024px/Radial Filled 1024px.png
+  artifactKey: Guid(4ac4e69019389b14aa1b5a6d19d1a045) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Radial/1024px/Radial Filled 1024px.png using Guid(4ac4e69019389b14aa1b5a6d19d1a045) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b9c1c9759209649411c82a3b6d88979') in 0.012239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/1024px/Rounded Outline 1024px - 8x.png
+  artifactKey: Guid(ac2fc50e031e7244c88e84c77ffc0056) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/1024px/Rounded Outline 1024px - 8x.png using Guid(ac2fc50e031e7244c88e84c77ffc0056) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4ca9bf894045a257c77993996a4e858') in 0.010387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Charts/Pie Chart.prefab
+  artifactKey: Guid(b545d10b89f45a240836a6f07ab0fe37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Charts/Pie Chart.prefab using Guid(b545d10b89f45a240836a6f07ab0fe37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '764431fc42cbf41040fb954cf39a9c92') in 0.0266146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Brown.prefab
+  artifactKey: Guid(2302cfce0c820574d8ba5e56dc9b3e10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Brown.prefab using Guid(2302cfce0c820574d8ba5e56dc9b3e10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76ad49ed5ae3170c156995e3d4702c05') in 0.0535781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 117
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039430 seconds.
+  path: Assets/Modern UI Pack/Animations/Animated Icon/MB Fade.anim
+  artifactKey: Guid(0072406f93530e74bb5f393f9f53ccfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Animated Icon/MB Fade.anim using Guid(0072406f93530e74bb5f393f9f53ccfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2986636e0707ab093f2e57c9c2d118ff') in 0.0093821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/UI Elements/Slider.png
+  artifactKey: Guid(80a855646d4a1e644aff61960bb8957e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/UI Elements/Slider.png using Guid(80a855646d4a1e644aff61960bb8957e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b2623247a61a68c7e390e8d7afd2aba') in 0.0124743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Business & Commerce
+  artifactKey: Guid(a6ad29d9d44751d40866ca5c94573020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Business & Commerce using Guid(a6ad29d9d44751d40866ca5c94573020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0563a0da0df7575dede5ef52cc5a5db2') in 0.0042999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Scripts/Window/WindowDragger.cs
+  artifactKey: Guid(7847a689c7721eb4dba4344e727ab715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Window/WindowDragger.cs using Guid(7847a689c7721eb4dba4344e727ab715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '905421595505478ea5c24071ca511413') in 0.0085641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102717 seconds.
+  path: Assets/Modern UI Pack/Editor/Scripts/InitMUIP.cs
+  artifactKey: Guid(b7ab3ee8e977e594387fbced988525d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Editor/Scripts/InitMUIP.cs using Guid(b7ab3ee8e977e594387fbced988525d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da7074408171f07a905221d0e061be30') in 0.0058033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modern UI Pack/Editor/Icons/SettingsNormal.png
+  artifactKey: Guid(36444c258518c6e4789a631caa2add79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Editor/Icons/SettingsNormal.png using Guid(36444c258518c6e4789a631caa2add79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbc78e511019f6967083b7f1e87c76d1') in 0.0139816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button
+  artifactKey: Guid(fd3f616fff1366b4390f5b23aed7c9ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Button using Guid(fd3f616fff1366b4390f5b23aed7c9ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1856e5dfbb1ed012923bebe972ea60d9') in 0.0045101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Media/Play.png
+  artifactKey: Guid(2f2ed1a167dc67349a42cb44a3d9b115) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Media/Play.png using Guid(2f2ed1a167dc67349a42cb44a3d9b115) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5474d7a626161603d28aa4b3ae49d0e9') in 0.0147135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/256px/Rounded Outline 256px - 8x.png
+  artifactKey: Guid(07832ad64df4aba4ba2a91ff9d40be5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/256px/Rounded Outline 256px - 8x.png using Guid(07832ad64df4aba4ba2a91ff9d40be5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26414f324a936a48d562c6ef86bd58d4') in 0.0095324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern UI Pack/Animations/Animated Icon/Slider Out.anim
+  artifactKey: Guid(32882030c772d8844bfebfb784964564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Animated Icon/Slider Out.anim using Guid(32882030c772d8844bfebfb784964564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2988e2940f89784bbf9873b85c6203f4') in 0.0079613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic/Orange.prefab
+  artifactKey: Guid(a76e23e6dd72a8f4dbdefc46710338e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic/Orange.prefab using Guid(a76e23e6dd72a8f4dbdefc46710338e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1870c21724ca0dbdd5aa1be88adf5f4c') in 0.062678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Device/Headphones Filled.png
+  artifactKey: Guid(00b92cf396be96d49b9a933654bceda0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Device/Headphones Filled.png using Guid(00b92cf396be96d49b9a933654bceda0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef215e6e0257f9f8b2d5765df01d664d') in 0.0142339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/512px/Rounded Outline 512px - 10x.png
+  artifactKey: Guid(96daee5178438474f980b8ec6dbbb2ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/512px/Rounded Outline 512px - 10x.png using Guid(96daee5178438474f980b8ec6dbbb2ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fc249e8ba6ee2ace2501d7c082a2cd2') in 0.0113055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/256px/Rounded Outline 256px - 9x.png
+  artifactKey: Guid(fc7f96ee4f833fd4a94f39893c574012) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/256px/Rounded Outline 256px - 9x.png using Guid(fc7f96ee4f833fd4a94f39893c574012) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8697e667b32928f7080c1b64c8290cff') in 0.0111457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded/Night.prefab
+  artifactKey: Guid(800ce624678abc04983ac5c0782983b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded/Night.prefab using Guid(800ce624678abc04983ac5c0782983b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c84ebd3ade2bda6a526d8fa4f19a05d9') in 0.0456642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/UI Elements/Button.png
+  artifactKey: Guid(3faebebfb41380b4f8820adf0d965690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/UI Elements/Button.png using Guid(3faebebfb41380b4f8820adf0d965690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8627e79e0183cbe03653790da4cd2399') in 0.0094796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Radial/1024px/Radial Outline 1024px - 8x.png
+  artifactKey: Guid(a31767925d876914ab09673b2a9eb2b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Radial/1024px/Radial Outline 1024px - 8x.png using Guid(a31767925d876914ab09673b2a9eb2b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd75a270d8fc8363c4606e51f5522e005') in 0.0093661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern UI Pack/Scripts/Notification/NotificationStacking.cs
+  artifactKey: Guid(1d6e5a79c713c094fb2ea4246d215d24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Scripts/Notification/NotificationStacking.cs using Guid(1d6e5a79c713c094fb2ea4246d215d24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec38362e68081830b72be9252deb3fdd') in 0.0068028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Help Filled.png
+  artifactKey: Guid(ba19c3c8a5cc12841a5296ee7c2a1c0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Help Filled.png using Guid(ba19c3c8a5cc12841a5296ee7c2a1c0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3dff63fe0f8c6c4dbf1cbbc104a96dd6') in 0.0144345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/64px/Rounded Outline 64px - 2x.png
+  artifactKey: Guid(04afe2bffe7002542ad7fb5dd55c6b9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/64px/Rounded Outline 64px - 2x.png using Guid(04afe2bffe7002542ad7fb5dd55c6b9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c0caa557eead0d378dfc31d263c614d') in 0.0122602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Diamond Coin Filled.png
+  artifactKey: Guid(4b1b86b7d41db324c891a5e0135c4510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Diamond Coin Filled.png using Guid(4b1b86b7d41db324c891a5e0135c4510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '517eea17fef734ae367f18802870aa1f') in 0.0116552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern UI Pack/Animations/Window Manager/WMA Out.anim
+  artifactKey: Guid(afc5f61ca8dac0f4c8bc0974a9360d3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Window Manager/WMA Out.anim using Guid(afc5f61ca8dac0f4c8bc0974a9360d3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42217c743e18a881cc7a269c6204b1a1') in 0.0095004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/1024px/Rounded Outline 1024px - 3x.png
+  artifactKey: Guid(9f59acaa662cd914b90c445b845103c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/1024px/Rounded Outline 1024px - 3x.png using Guid(9f59acaa662cd914b90c445b845103c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0feb5d6ce4ab96a548618d191a6f4767') in 0.012194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Window Manager/Window Manager Button.prefab
+  artifactKey: Guid(cdbe8ccefdf356c4db51654de58b7139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Window Manager/Window Manager Button.prefab using Guid(cdbe8ccefdf356c4db51654de58b7139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54a64f9cdda54ef39dd9e47fda711c77') in 0.0491396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Rounded/256px/Rounded Outline 256px - 10x.png
+  artifactKey: Guid(9608a0ed55d16c540893ef0cf95628f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Border/Rounded/256px/Rounded Outline 256px - 10x.png using Guid(9608a0ed55d16c540893ef0cf95628f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3740aa8dc930bac9598fa4af2cfd128') in 0.0437292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-Bold SDF.asset
+  artifactKey: Guid(fa328c1ae3ffb6b4583cf371153b0be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-Bold SDF.asset using Guid(fa328c1ae3ffb6b4583cf371153b0be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e685a05eb154a34cd7a6b10bd95fb46b') in 0.0263804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern UI Pack/Animations/Context Menu/Context Menu.controller
+  artifactKey: Guid(99aa38e45187c2043be381107c9859ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Context Menu/Context Menu.controller using Guid(99aa38e45187c2043be381107c9859ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ca976ae0906d9772ba64f12bdfb6898') in 0.0092001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Input Field/Input Field - Fading (Left).prefab
+  artifactKey: Guid(a77e2c4748edcd5429717838a8f70fb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Input Field/Input Field - Fading (Left).prefab using Guid(a77e2c4748edcd5429717838a8f70fb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa1bfa1ca841f11e70cc5cfcc56a58f2') in 0.0984223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731145 seconds.
+  path: Assets/Modern UI Pack/Animations/Toggle/Toggle On Instant.anim
+  artifactKey: Guid(d66bc0df9cd76f84190ccb10890aa825) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Animations/Toggle/Toggle On Instant.anim using Guid(d66bc0df9cd76f84190ccb10890aa825) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7959c7ebaf22026b1c2ab3a25eca2a26') in 0.0126383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Credit Card.png
+  artifactKey: Guid(96fc5f977dbf5fb4db0aa05d8a7c193b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Credit Card.png using Guid(96fc5f977dbf5fb4db0aa05d8a7c193b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9771d93ba034f24bf23cb8cf099e854d') in 0.0101845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.271910 seconds.
+  path: Assets/Modern UI Pack/Editor/Icons/EditorTooltip.png
+  artifactKey: Guid(146ad7c4429fc764088d2a5139a2537d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Editor/Icons/EditorTooltip.png using Guid(146ad7c4429fc764088d2a5139a2537d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '479663f1e83ae505214ad7164630d88d') in 0.0139234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Purple.prefab
+  artifactKey: Guid(17cd2e7bf116f2e43a5434c276aaa2a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Purple.prefab using Guid(17cd2e7bf116f2e43a5434c276aaa2a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56016e9e0b8cf63d3c1825a176e61c63') in 0.0440534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.779621 seconds.
+  path: Assets/Resource/Character/Charamodel/Corin (Zenless Zone Zero)/Textures/Metal_MatCap.png
+  artifactKey: Guid(8ac62f6de143f694d850798ec9aa121b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/Character/Charamodel/Corin (Zenless Zone Zero)/Textures/Metal_MatCap.png using Guid(8ac62f6de143f694d850798ec9aa121b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fde52f2f90c6e0c667661267f4bbed42') in 0.0125066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/Character/Charamodel/Corin (Zenless Zone Zero)/Read me~.txt
+  artifactKey: Guid(e201f8a149cf6834e9d30354df35e0d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/Character/Charamodel/Corin (Zenless Zone Zero)/Read me~.txt using Guid(e201f8a149cf6834e9d30354df35e0d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c357c96c8b0671bf9e4c651fc34dfdb') in 0.005996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.304854 seconds.
+  path: Assets/Resource/Character/Charamodel/Belle (Zenless Zone Zero)/Textures/Belle_Body_Map2_D.png
+  artifactKey: Guid(2436f2076c2c54c4c89271f175b35d5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/Character/Charamodel/Belle (Zenless Zone Zero)/Textures/Belle_Body_Map2_D.png using Guid(2436f2076c2c54c4c89271f175b35d5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c80d62c8fd9290240fd2ac7d04128b83') in 0.0225832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.631779 seconds.
+  path: Assets/Resource/Character/Charamodel/Von Lycaon (Zenless Zone Zero)/Textures/Lycaon_Body_Map2_D.png
+  artifactKey: Guid(fe65c14706496df4684d4714008ad786) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/Character/Charamodel/Von Lycaon (Zenless Zone Zero)/Textures/Lycaon_Body_Map2_D.png using Guid(fe65c14706496df4684d4714008ad786) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '800387673b4f908426d9ad406276e0b8') in 0.0179099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resource/Character/Charamodel/Von Lycaon (Zenless Zone Zero)/Textures/Lycaon_Body_Map1_D.png
+  artifactKey: Guid(17453fd515f73554a83b7410c774683a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/Character/Charamodel/Von Lycaon (Zenless Zone Zero)/Textures/Lycaon_Body_Map1_D.png using Guid(17453fd515f73554a83b7410c774683a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd791a193ce47f1a18b6f1ce53bbb2fb7') in 0.0176424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.288500 seconds.
+  path: Assets/Resource/Character/Charamodel/Nicole Demara (Zenless Zone Zero)/Texture/Nostradamus_Body_D_CN.png
+  artifactKey: Guid(b253010683b1d054792a33884b5db334) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/Character/Charamodel/Nicole Demara (Zenless Zone Zero)/Texture/Nostradamus_Body_D_CN.png using Guid(b253010683b1d054792a33884b5db334) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6eb8e0d8c34b1c4d491d783025427e21') in 0.0280926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/Character/Charamodel/Nicole Demara (Zenless Zone Zero)/Texture/Nostradamus_Weapon_D.png
+  artifactKey: Guid(5aed1c1f921030643af46b0f02cd3be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/Character/Charamodel/Nicole Demara (Zenless Zone Zero)/Texture/Nostradamus_Weapon_D.png using Guid(5aed1c1f921030643af46b0f02cd3be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21b8aef3bd6dc54b82a880cb009e5799') in 0.0125367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

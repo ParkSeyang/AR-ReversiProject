@@ -1,0 +1,1831 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-02-28T09:25:42.8959096Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32386 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-28T09:25:42Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+58049
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/AR-ReversiProject
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [3296]  Target information:
+
+Player connection [3296]  * "[IP] 172.30.1.55 [Port] 0 [Flags] 2 [Guid] 2679210435 [EditorId] 2679210435 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BTF4SNP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3296] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3296] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 42.70 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/AR-ReversiProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              64d813f684264fd7a749e8374b968fad
+  Correlation Id:          2e1677b044b26191d80a4bb1d64b199d
+  External correlation Id: 5294765406999674265
+  Machine Id:              dJ8Tfn01EciPmnYvmSiKPSjQkro=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 1.23s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-02-28T09:25:44.1330317Z"
+[Licensing::Module] Licensing Background thread has ended after 1.24s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009714 seconds.
+- Loaded All Assemblies, in  0.500 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.399 seconds
+Domain Reload Profiling: 894ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (399ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568654860447-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.367 seconds
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.60 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.424 seconds
+Domain Reload Profiling: 2781ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (1050ms)
+		LoadAssemblies (894ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (179ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (942ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.71 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6814 unused Assets / (4.6 MB). Loaded Objects now: 7714.
+Memory consumption went from 224.1 MB to 219.5 MB.
+Total: 19.074300 ms (FindLiveObjects: 1.373600 ms CreateObjectMapping: 0.467600 ms MarkObjects: 15.302500 ms  DeleteObjects: 1.929200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1381556.742665 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_64.prefab
+  artifactKey: Guid(9bb4f853dde306c49a1a6ff4cbf91149) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_64.prefab using Guid(9bb4f853dde306c49a1a6ff4cbf91149) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c97ea4bce3ee14fc4f86e491fddca3dd') in 0.1139117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Park_02_Cabin_06.fbx
+  artifactKey: Guid(ecd75b73bb7b25b468f2c8e077078acf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Park_02_Cabin_06.fbx using Guid(ecd75b73bb7b25b468f2c8e077078acf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '415dad3b39176c6c9b19343ee9be0e11') in 0.0686809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_12_Door_R.fbx
+  artifactKey: Guid(3700e563a37971f489328147a8b37dab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_12_Door_R.fbx using Guid(3700e563a37971f489328147a8b37dab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a524c7375e57f604fdfde999f78dd259') in 0.056544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.065673 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Garlic_01.prefab
+  artifactKey: Guid(599d08104b40c8e4bb6f3ec74287b05c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Garlic_01.prefab using Guid(599d08104b40c8e4bb6f3ec74287b05c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2aa3b3ff0b7e223fbfbfeab141a5c20') in 0.0213113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_10_V1.fbx
+  artifactKey: Guid(1c8f82c3206d6c74a8e63a279ae1588d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_10_V1.fbx using Guid(1c8f82c3206d6c74a8e63a279ae1588d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07bd9a1a4d1ee27fb69bfcc9bcfd1329') in 0.0097501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_56.prefab
+  artifactKey: Guid(3cae7493138f7604d8fa98a0399b06a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_56.prefab using Guid(3cae7493138f7604d8fa98a0399b06a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50ee4ce19e714050932174fca6b22b4e') in 0.0139584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Port_01.fbx
+  artifactKey: Guid(9fd4cfd0d82348646b4d81fbadf68a87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Port_01.fbx using Guid(9fd4cfd0d82348646b4d81fbadf68a87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc766c09d4ee8a2e1c3773ead3fc456a') in 0.0101743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Tile_05.prefab
+  artifactKey: Guid(a21368d08b118cd4297bd3f87314a36b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Tile_05.prefab using Guid(a21368d08b118cd4297bd3f87314a36b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1e0ecd9ed7b5dbb45247f2abe47cea3') in 0.0137942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_12_V1.prefab
+  artifactKey: Guid(006b1d807a191714caffc86a04984215) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_12_V1.prefab using Guid(006b1d807a191714caffc86a04984215) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '397e82bec8b8c7e33da05d51fec3a233') in 0.0130646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/IndustrialProps/SM_IndustrialProps_ShippingContainer_01.fbx
+  artifactKey: Guid(7eaa97317d3c2614e906b8f79d8f769f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/IndustrialProps/SM_IndustrialProps_ShippingContainer_01.fbx using Guid(7eaa97317d3c2614e906b8f79d8f769f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71dd462824b485f203d61f97aa141834') in 0.0104001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Skyscraper_02.fbx
+  artifactKey: Guid(b21ba7f06ba5ab543b0b5f7a726d58a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Skyscraper_02.fbx using Guid(b21ba7f06ba5ab543b0b5f7a726d58a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a70ce0b1cd74c012c83c7d7cbf8d3440') in 0.0210166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_ShippingContainer_03.prefab
+  artifactKey: Guid(1f4c9793a6e319c4a8dde5c59afc1d9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_ShippingContainer_03.prefab using Guid(1f4c9793a6e319c4a8dde5c59afc1d9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af41acc8f24f3226cd01a331394a961f') in 0.0161351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_08_V2.fbx
+  artifactKey: Guid(d2f86771778a84c4a86ca31ed75a7776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_08_V2.fbx using Guid(d2f86771778a84c4a86ca31ed75a7776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae60f63d4cbd5a5648bbc4ecaff05a9c') in 0.0122688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Skyscraper_01_Door_R.fbx
+  artifactKey: Guid(9b5ea6e0bba3f7a41b8ca36a01767f27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Skyscraper_01_Door_R.fbx using Guid(9b5ea6e0bba3f7a41b8ca36a01767f27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8832bc1b6ca039385ff5fb3c6ff00a68') in 0.012293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_FoodBox_13.fbx
+  artifactKey: Guid(c454c5905a5068a48a6116e50ad6f29e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_FoodBox_13.fbx using Guid(c454c5905a5068a48a6116e50ad6f29e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '839f81a0d13937a93ec9f3bf8a8865f1') in 0.0098695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Sand_01.prefab
+  artifactKey: Guid(2b6bac70e3a784d4191b461279d89e83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Sand_01.prefab using Guid(2b6bac70e3a784d4191b461279d89e83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70398031d86fa7f4c84f9771335112ae') in 0.0107855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Plant_06.prefab
+  artifactKey: Guid(630bfd41496f40240991dadc26587494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Plant_06.prefab using Guid(630bfd41496f40240991dadc26587494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d833b13da520f48447b302a5c952735') in 0.0130615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_Door_02_R.fbx
+  artifactKey: Guid(cd0b03e03b46ecf40a3c091fc032898d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_Door_02_R.fbx using Guid(cd0b03e03b46ecf40a3c091fc032898d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c19a56a2eba4096cfac7445fa71d95f') in 0.0087102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_09.fbx
+  artifactKey: Guid(85ceee73f72fac1448ab5ed5ef890729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_09.fbx using Guid(85ceee73f72fac1448ab5ed5ef890729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0748542d34f87558f46229d8655b16a7') in 0.0094935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_03.fbx
+  artifactKey: Guid(cdaa57a0945c5e6409e4dcd1126565c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_03.fbx using Guid(cdaa57a0945c5e6409e4dcd1126565c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79cd45f77263e577f9fa6006501921a3') in 0.0117217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_Ads_02.fbx
+  artifactKey: Guid(c2a88c25eff7e3745a09cdb01574156e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_Ads_02.fbx using Guid(c2a88c25eff7e3745a09cdb01574156e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2fdd12400b2165e7c83a4acde315152') in 0.0129201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_11_V1.fbx
+  artifactKey: Guid(bdab5d74286007647bf53ad8b19b1e3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_11_V1.fbx using Guid(bdab5d74286007647bf53ad8b19b1e3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ab8dab26281fca52dfacd54a3d87ad5') in 0.0959966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Hotel_01.prefab
+  artifactKey: Guid(b612f35544cee954c807717e201c1283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Hotel_01.prefab using Guid(b612f35544cee954c807717e201c1283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79837e137fd3a96aa1b59858bd76b10f') in 0.0860332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Parking_01.fbx
+  artifactKey: Guid(eb71dbb40026ccf42b57cf9c77267005) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Parking_01.fbx using Guid(eb71dbb40026ccf42b57cf9c77267005) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '375c7fa13b7b442b4641c7ea3b53824e') in 0.0499958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Tree_07.fbx
+  artifactKey: Guid(ce64b7c46a34d8b428c3c62a9a4c354f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Tree_07.fbx using Guid(ce64b7c46a34d8b428c3c62a9a4c354f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f91240e4a7312a928f8895be1157fe77') in 0.0680052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Commercial_15.prefab
+  artifactKey: Guid(4e7973944cecd7543849680c3c2d8e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Commercial_15.prefab using Guid(4e7973944cecd7543849680c3c2d8e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76e7cf3b9ef8a4f75ab3ce46f33ef87a') in 0.0627029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_40.prefab
+  artifactKey: Guid(2f52918290848ba47be8a9aa7ed6bcd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_40.prefab using Guid(2f52918290848ba47be8a9aa7ed6bcd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02de8e5b8105fb4355328e760339925b') in 0.0688061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_WC_01.prefab
+  artifactKey: Guid(cf51ee248865b7e4bb284d8841bf8bf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_WC_01.prefab using Guid(cf51ee248865b7e4bb284d8841bf8bf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa3647e544abd9c7e421a1b4ec459170') in 0.0750224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_28.prefab
+  artifactKey: Guid(41023e25b17a53c4a93279fb883570f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_28.prefab using Guid(41023e25b17a53c4a93279fb883570f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8e61e4d5936763f559361b9e0bd8a6b') in 0.0732804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_11_V2.prefab
+  artifactKey: Guid(519be8e5fa0d6fc478b38baa52f48425) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_11_V2.prefab using Guid(519be8e5fa0d6fc478b38baa52f48425) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f7d53e09cdada91aa1a8a402cf664e7') in 0.0840837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Pie_01.fbx
+  artifactKey: Guid(4f82530698f090e4da3172c4622f117e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Pie_01.fbx using Guid(4f82530698f090e4da3172c4622f117e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf3abbf452016eae4042d854ff2efe9f') in 0.0542915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_10.prefab
+  artifactKey: Guid(686f63a58592a5244b2d73e45b63e768) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_10.prefab using Guid(686f63a58592a5244b2d73e45b63e768) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd38181a80e4fd34ed8964ff1996cfb7a') in 0.0604037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Port_03.fbx
+  artifactKey: Guid(e2c21c953541fd84dbec525ecc907c7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Port_03.fbx using Guid(e2c21c953541fd84dbec525ecc907c7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc12d5276993ad7d54385710f90bf373') in 0.0577508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_Cargo_ship_01.prefab
+  artifactKey: Guid(455e810568389d4488c49bf6c803da2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_Cargo_ship_01.prefab using Guid(455e810568389d4488c49bf6c803da2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e95e6132ed0b8c989d3380ec7a46b78') in 0.0786353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_FoodBox_16.fbx
+  artifactKey: Guid(9e3f0494431b4f9469d32d0f2146abe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_FoodBox_16.fbx using Guid(9e3f0494431b4f9469d32d0f2146abe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '231cfb0f34eccf78989fe7baac2a7c65') in 0.0083931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Tomato_01.prefab
+  artifactKey: Guid(b4659c42c6caa5e459ebe9c52814bb71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Tomato_01.prefab using Guid(b4659c42c6caa5e459ebe9c52814bb71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbcc55bfe3810a1382b1d3d3d7fc3c08') in 0.0785946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_04_V4.prefab
+  artifactKey: Guid(340c96056a6e75448bd3ef7285d8e70d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_04_V4.prefab using Guid(340c96056a6e75448bd3ef7285d8e70d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7f655432b9c8e46f23b2d3c0cd7ec96') in 0.0717138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Plant_02.fbx
+  artifactKey: Guid(aeb390952edaff54392a0d6b2b5b0312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Plant_02.fbx using Guid(aeb390952edaff54392a0d6b2b5b0312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6006e163e7cccb84932f7727f3450c67') in 0.0593142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_RoadPart_02.prefab
+  artifactKey: Guid(831971c6f786145448ee95f2781a33f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_RoadPart_02.prefab using Guid(831971c6f786145448ee95f2781a33f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d8827e36342ed79730f00d541557c95') in 0.0659239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Nature/SM_Nature_BigRock_01.prefab
+  artifactKey: Guid(89cf533671301414a91fdd0633f1d8b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Nature/SM_Nature_BigRock_01.prefab using Guid(89cf533671301414a91fdd0633f1d8b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33ea6eb748802b7ff7823434d31f0ec6') in 0.0508154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_24.prefab
+  artifactKey: Guid(09efb6a647488a446917ad13a5ee0dc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_24.prefab using Guid(09efb6a647488a446917ad13a5ee0dc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8509adb9b6d2c06dbeb6a5d2bf4bba7') in 0.0735296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Garbage_04.prefab
+  artifactKey: Guid(ea75adb600e5f7c479f4eeea1d15fdc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Garbage_04.prefab using Guid(ea75adb600e5f7c479f4eeea1d15fdc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea8f516d0a35da9aedd429fe4c70f432') in 0.0712868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Soda_01.fbx
+  artifactKey: Guid(fc854d12dde14994f972c86447ed60e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Soda_01.fbx using Guid(fc854d12dde14994f972c86447ed60e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '370af9ae82e53f47103243b59014c44f') in 0.06324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Trash_01.prefab
+  artifactKey: Guid(8e94d655854df5a47a9f0115af2aba8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Trash_01.prefab using Guid(8e94d655854df5a47a9f0115af2aba8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b4d5a048b007037b53a31dc3bf3e954') in 0.0623143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Grass_02.fbx
+  artifactKey: Guid(6d32158635ce9af4d906e959d6c928ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Grass_02.fbx using Guid(6d32158635ce9af4d906e959d6c928ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '147e4ebae2a03c9bc6fe309a1f1a501f') in 0.0649032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/IndustrialProps/SM_IndustrialProps_Barrel_01.fbx
+  artifactKey: Guid(14fa08047bc2f0547b5603dbd797567a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/IndustrialProps/SM_IndustrialProps_Barrel_01.fbx using Guid(14fa08047bc2f0547b5603dbd797567a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf51f1f8cf0967c63d98293723f911f1') in 0.0506267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_RoadPart_02.fbx
+  artifactKey: Guid(9df576572d28cc04b81fc2215289e4d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_RoadPart_02.fbx using Guid(9df576572d28cc04b81fc2215289e4d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a061a8b1ac14230f579f966b93875601') in 0.0643164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_PC_02.fbx
+  artifactKey: Guid(076742e6bf6b37646a85a5c6e7368da4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_PC_02.fbx using Guid(076742e6bf6b37646a85a5c6e7368da4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80d7000355964b5b42d05a511ec27863') in 0.058523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Tire_Shop.fbx
+  artifactKey: Guid(b9032af6386472f4ab07a6179f305fda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Tire_Shop.fbx using Guid(b9032af6386472f4ab07a6179f305fda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '844524300bb304616ac5a6ccaaac330d') in 0.0699754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_ Bike_02_V2.prefab
+  artifactKey: Guid(3cd62237a338bd94ea34eef1e0b55e3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_ Bike_02_V2.prefab using Guid(3cd62237a338bd94ea34eef1e0b55e3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67442ab4fafe02b3c2da27794a762db0') in 0.0521683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Tile_08.fbx
+  artifactKey: Guid(2ef9c237cd2be4c46af44c49dddd4c0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Tile_08.fbx using Guid(2ef9c237cd2be4c46af44c49dddd4c0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad72228bcfbd789029e3ff4070617f05') in 0.0669735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_19.fbx
+  artifactKey: Guid(3f6ef5d676d1e8546959ffd51665e7d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_19.fbx using Guid(3f6ef5d676d1e8546959ffd51665e7d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c517c3430f581fb774fa10986b330135') in 0.0722222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_05.fbx
+  artifactKey: Guid(361b7665afa7a8f43801d527928a6f85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_05.fbx using Guid(361b7665afa7a8f43801d527928a6f85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb4a97a277bdab0472d54a9cd56d0a29') in 0.0589517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_17.prefab
+  artifactKey: Guid(615e11d7fd1a1b14ab7ba76b528d034b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_17.prefab using Guid(615e11d7fd1a1b14ab7ba76b528d034b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32d1abf0c104b837c76cbd7901d28891') in 0.0540953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_17.fbx
+  artifactKey: Guid(c6141ab769ab389439dd26a1e3e73cbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_17.fbx using Guid(c6141ab769ab389439dd26a1e3e73cbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0343ebaf1f1eabab02ec65cb09dae9de') in 0.0638315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Tree_06.fbx
+  artifactKey: Guid(487e8787abba9984ab940b50b05dd5ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Tree_06.fbx using Guid(487e8787abba9984ab940b50b05dd5ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab30c2749d4cd607842195c2d1e6bffb') in 0.0685524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Plate_05.prefab
+  artifactKey: Guid(40b485b748835a94999b61b82ee9941d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Plate_05.prefab using Guid(40b485b748835a94999b61b82ee9941d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cf065a06629c579679e5930ed98eaf0') in 0.0704469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_05.prefab
+  artifactKey: Guid(d9af4a06278e8294b9908e12c74912d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_05.prefab using Guid(d9af4a06278e8294b9908e12c74912d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2f8868cfca864e3c281f817c9deab77') in 0.0686986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Plant_04.prefab
+  artifactKey: Guid(a2c106c4032366146baff6b92f6345b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Plant_04.prefab using Guid(a2c106c4032366146baff6b92f6345b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b7ab030aaa5fb9e8348f23c17561d96') in 0.0096021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_07_Door_R.fbx
+  artifactKey: Guid(c459e6b695b0ab443a4a2a7c13abc024) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_07_Door_R.fbx using Guid(c459e6b695b0ab443a4a2a7c13abc024) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f532907eb61063fa590d474bca09f988') in 0.0100991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Garbage_06.prefab
+  artifactKey: Guid(102fda94c5d0631489a0289aaac1d061) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Garbage_06.prefab using Guid(102fda94c5d0631489a0289aaac1d061) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7bccb59607236296ffc1380507592725') in 0.0773464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_BigRock_01.fbx
+  artifactKey: Guid(f38b665896be50b47996f24d83a29637) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_BigRock_01.fbx using Guid(f38b665896be50b47996f24d83a29637) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef5c1f4445d83faaa60023f95fee13d4') in 0.0119924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_20.fbx
+  artifactKey: Guid(034632486f3d11740aaa0c650399b67b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_20.fbx using Guid(034632486f3d11740aaa0c650399b67b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17b618d13af0eecfd729f1c723a0ce12') in 0.0108879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehilces_Metro_01.prefab
+  artifactKey: Guid(3c7fa2f73a51f1a498d096ceaa8a26da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehilces_Metro_01.prefab using Guid(3c7fa2f73a51f1a498d096ceaa8a26da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '929fa68a4c681c721946e55e5808b600') in 0.0199265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 94
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_43.fbx
+  artifactKey: Guid(252645385df5603448579c512d294aec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_43.fbx using Guid(252645385df5603448579c512d294aec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abe8e4ab6646ddca7e282d5bae2b9912') in 0.0714124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Ads_04.prefab
+  artifactKey: Guid(6961422889c1ed24b85b9af0820d4445) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Ads_04.prefab using Guid(6961422889c1ed24b85b9af0820d4445) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e788282da3babb1d103441394ae144b8') in 0.0105765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Factory_01_Door_L.fbx
+  artifactKey: Guid(e4464a187c4849848befe2536ca8865c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Factory_01_Door_L.fbx using Guid(e4464a187c4849848befe2536ca8865c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f661f89f475ae92674c82efbe62d793') in 0.0804871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_05_V3.prefab
+  artifactKey: Guid(15baf6026e045624daade0a6e6924a9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_05_V3.prefab using Guid(15baf6026e045624daade0a6e6924a9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b8f2c3459de908044f2e336c46400a5') in 0.0636092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Bench_01.prefab
+  artifactKey: Guid(7bc5e9287d7d2e94f8fec68f12f92df6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Bench_01.prefab using Guid(7bc5e9287d7d2e94f8fec68f12f92df6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e39466c4dfe0ab92fa4451855c73bc3d') in 0.0512176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Darts_01.prefab
+  artifactKey: Guid(876ded58994cf854cb68eac4eb782a7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Darts_01.prefab using Guid(876ded58994cf854cb68eac4eb782a7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6658a89fc6fcc2f23d4089aa5611d733') in 0.0588429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Commercial_20.prefab
+  artifactKey: Guid(6f8347c85ae6b9949b0fb269c0a57eb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Commercial_20.prefab using Guid(6f8347c85ae6b9949b0fb269c0a57eb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80f92f8d7a009711d371a0d8d3789b77') in 0.0549435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_02.fbx
+  artifactKey: Guid(d5a01dd860bcb9243a545b6cd328fcf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_02.fbx using Guid(d5a01dd860bcb9243a545b6cd328fcf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4f7d4eeea30836a705c51b86f920732') in 0.0542691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Pie_01.prefab
+  artifactKey: Guid(799e76680ac3dad499e30e6116c062ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Pie_01.prefab using Guid(799e76680ac3dad499e30e6116c062ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b466ba48fc5b79b5bb91651ab1aecfd0') in 0.0623246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_02.fbx
+  artifactKey: Guid(cda20b98df981a048af6d56a7963e3a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_02.fbx using Guid(cda20b98df981a048af6d56a7963e3a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12ff33998304117e38c20c07929d0658') in 0.068656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_16_Door_R.fbx
+  artifactKey: Guid(6d7a8bd821520ce40b46205c92bfdca4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_16_Door_R.fbx using Guid(6d7a8bd821520ce40b46205c92bfdca4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b247e851060daf3174507f636d9c37d6') in 0.0094207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Rack_04_V1.prefab
+  artifactKey: Guid(a07401a6e73d20145b483cca8cc4c8db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Rack_04_V1.prefab using Guid(a07401a6e73d20145b483cca8cc4c8db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dad189e19a1ae4fbe26b5438d6260d0c') in 0.0327743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 642
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_FoodBox_08.prefab
+  artifactKey: Guid(f6e63f425bf8e9c4f9a2d5342c0766ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_FoodBox_08.prefab using Guid(f6e63f425bf8e9c4f9a2d5342c0766ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cee789a93c5fc97eb8a03d3919fdb07d') in 0.0111305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_Construction_01.prefab
+  artifactKey: Guid(c847b9755986ebd448dee19857f61ab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_Construction_01.prefab using Guid(c847b9755986ebd448dee19857f61ab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9b82d95d309a73e1829bb4c5dc3100e') in 0.0092959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_02_V2.fbx
+  artifactKey: Guid(467861e4a4c66674da9cf5941c5c23e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_02_V2.fbx using Guid(467861e4a4c66674da9cf5941c5c23e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5bc1550157fc440cbd81c01548a40551') in 0.0093302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_FireStation_01.prefab
+  artifactKey: Guid(52457fa745ee60641a28c1b275d76d2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_FireStation_01.prefab using Guid(52457fa745ee60641a28c1b275d76d2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50f136f4b63e2841374884640d39026b') in 0.0134097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Gas_Station_03.prefab
+  artifactKey: Guid(7c974f12f7b269842a3569819e6f6dfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Gas_Station_03.prefab using Guid(7c974f12f7b269842a3569819e6f6dfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef6d17438f2b9328c4cf86f1df7710fa') in 0.0107222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Laptop_01.fbx
+  artifactKey: Guid(18dc2875ee9bdba46a5c06fb5d4bbd83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Laptop_01.fbx using Guid(18dc2875ee9bdba46a5c06fb5d4bbd83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c22d4d7ddaf7d7a6d303f34c362893cb') in 0.0085828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_07.fbx
+  artifactKey: Guid(d0b07368e1759c647b8f5198c80a5417) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_07.fbx using Guid(d0b07368e1759c647b8f5198c80a5417) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b72af629451e8bbeaa934edb6cefcb37') in 0.0083455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_Taxi_02.prefab
+  artifactKey: Guid(993bed977c68153419f6f3c012631b44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_Taxi_02.prefab using Guid(993bed977c68153419f6f3c012631b44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43d3ee440af359fc72fdb9763fa91d46') in 0.0126696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_16.prefab
+  artifactKey: Guid(0a14b91679a737543a1b5857da647715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_16.prefab using Guid(0a14b91679a737543a1b5857da647715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '190bc7d9c84370b4fcf36b2258ebff3c') in 0.0118727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Plate_01.prefab
+  artifactKey: Guid(b56ff3f8f1ee0ca49a8fa6e9424a4881) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Plate_01.prefab using Guid(b56ff3f8f1ee0ca49a8fa6e9424a4881) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a3ae5e030cf84b2b5ef69833b1f2151') in 0.0096456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Police_01_Door_L_02.fbx
+  artifactKey: Guid(6e911a5826e6e3e419814ade8920752c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Police_01_Door_L_02.fbx using Guid(6e911a5826e6e3e419814ade8920752c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be8ef2032e57c0c38ac9ef8f2ec42324') in 0.0079864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Reception_03.prefab
+  artifactKey: Guid(1af3f32622ba6eb4ca4aca045b95e5a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Reception_03.prefab using Guid(1af3f32622ba6eb4ca4aca045b95e5a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '885205ce81e3ee89db15f40d50860658') in 0.0861043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_RoadPart_07.fbx
+  artifactKey: Guid(10e13bd66fbe41f4582f71bd524bacde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_RoadPart_07.fbx using Guid(10e13bd66fbe41f4582f71bd524bacde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf4f30d0caafcf7008f07f458a548f53') in 0.0655519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_01_L.prefab
+  artifactKey: Guid(a13a19d48febd3d4890d3a57842a49c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_01_L.prefab using Guid(a13a19d48febd3d4890d3a57842a49c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9eb8b31ba3ab9c654a8aa2c9e733bc2') in 0.0644778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_30.fbx
+  artifactKey: Guid(0e8fc282420741945bb6ab5b6ddf55a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_30.fbx using Guid(0e8fc282420741945bb6ab5b6ddf55a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3d245673fb3464b1d095fc308f1f7cc') in 0.0848426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_68.prefab
+  artifactKey: Guid(a8ba5834edae9024dab6e7595ae89826) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_68.prefab using Guid(a8ba5834edae9024dab6e7595ae89826) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7137e748f7cc6c0770264a75a790c70f') in 0.0913492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_PC_07.fbx
+  artifactKey: Guid(0ba9e5b7a55a7c3459b2aed2b5dbbe4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_PC_07.fbx using Guid(0ba9e5b7a55a7c3459b2aed2b5dbbe4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21d1ce17dd44a4ff8388a982c8d37cae') in 0.0471395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_07.fbx
+  artifactKey: Guid(0280abb6e998ddc43ae57662d679ad4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_07.fbx using Guid(0280abb6e998ddc43ae57662d679ad4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d0348d52725a08b532626d9a168bc87') in 0.0116139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Rack_01.fbx
+  artifactKey: Guid(a1cbeb5aec7187d4e966843498f68e01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Rack_01.fbx using Guid(a1cbeb5aec7187d4e966843498f68e01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b531e1cdbcc2a7794ec0cd9cd9416138') in 0.0075987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_11.fbx
+  artifactKey: Guid(ae4b6ac9708bacb428cf26d2b38b4604) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_11.fbx using Guid(ae4b6ac9708bacb428cf26d2b38b4604) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a346ac2897b884666dbe262883dafef2') in 0.010281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_35.fbx
+  artifactKey: Guid(df096e1a034145844a4c97565d05055a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_35.fbx using Guid(df096e1a034145844a4c97565d05055a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b79b13caeb363f9c4816cf5e22256f2') in 0.0144789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Pie_02.prefab
+  artifactKey: Guid(beae1a5986e83cd45b5679083bd1365b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Pie_02.prefab using Guid(beae1a5986e83cd45b5679083bd1365b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c11e3b05fcba826900bfdefacb2e9560') in 0.0157847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Bank_Door_L.fbx
+  artifactKey: Guid(ed3a8baad52b2a64a902915d67f12e8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Bank_Door_L.fbx using Guid(ed3a8baad52b2a64a902915d67f12e8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '162ccc72c5a205d073336dfeed77958e') in 0.0099532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_08.fbx
+  artifactKey: Guid(e249bdaae0aeab1428923ae581ebf52c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_08.fbx using Guid(e249bdaae0aeab1428923ae581ebf52c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cb2caf89d7d43d8791fba7811fe41f6') in 0.0553426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_06_V4.fbx
+  artifactKey: Guid(5354570bacfaeef4aab0a762d2fd92dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_06_V4.fbx using Guid(5354570bacfaeef4aab0a762d2fd92dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19ceae06242a0171b39c8ef852ef3168') in 0.0114198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_08.fbx
+  artifactKey: Guid(a71d6a2b74cdcb44ab3ed06b451a0114) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_08.fbx using Guid(a71d6a2b74cdcb44ab3ed06b451a0114) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a00d7bd7ad1c5fda1c5ddede0b0663bd') in 0.0183531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_23.prefab
+  artifactKey: Guid(c6d72f3b9d9c66f439ac89661adda07b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_23.prefab using Guid(c6d72f3b9d9c66f439ac89661adda07b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '721363bf5cabdc9b02f0d6a283531e84') in 0.0479262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Cafe_20.prefab
+  artifactKey: Guid(f165267a1b3fb9245886debc818ca71c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Cafe_20.prefab using Guid(f165267a1b3fb9245886debc818ca71c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e0841195f67424cc972ec7d2b2a1e15') in 0.0340285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_05.prefab
+  artifactKey: Guid(93ee62095e192d24298e948a871a93be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_05.prefab using Guid(93ee62095e192d24298e948a871a93be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02e5b0b4ed67d5a098867bee5b250d2e') in 0.082333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_Truck_01_V2.prefab
+  artifactKey: Guid(0f0daa8bf9f99fa409ac3fc15bda2b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_Truck_01_V2.prefab using Guid(0f0daa8bf9f99fa409ac3fc15bda2b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e4942f57a12720ccbf3bc135d0245f1') in 0.0312608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Railway_06.prefab
+  artifactKey: Guid(5ce27a6bc560b6b4aa1fef22f77ee858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Railway_06.prefab using Guid(5ce27a6bc560b6b4aa1fef22f77ee858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bcc46ba7511095aa466b38f9a24b2d41') in 0.0495238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_17.fbx
+  artifactKey: Guid(a042140a380674747ae5ae260b919051) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_17.fbx using Guid(a042140a380674747ae5ae260b919051) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02eff7828b62f86627c76f0c290167ad') in 0.0290076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Landscape_05.fbx
+  artifactKey: Guid(7e7e3d4b8f8dd514887a2c648a02217e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Landscape_05.fbx using Guid(7e7e3d4b8f8dd514887a2c648a02217e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50aacc3371b09ee30049bbdcf5e0469e') in 0.0481848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_01_L.fbx
+  artifactKey: Guid(bbc9cb2c72fa9ef4aacb4f57f10ff368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_01_L.fbx using Guid(bbc9cb2c72fa9ef4aacb4f57f10ff368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14ce3c24003e14d683a1809098e40322') in 0.041305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_37.fbx
+  artifactKey: Guid(0514d30cf939fca48b2646b16c01ebfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_37.fbx using Guid(0514d30cf939fca48b2646b16c01ebfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97ac4fdc9bf14fa4a42246abe9e4eb65') in 0.0165644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_08_V1.prefab
+  artifactKey: Guid(d48122fbdd862a84c82524532d94ce38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_08_V1.prefab using Guid(d48122fbdd862a84c82524532d94ce38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f72266e763ba5f9736432049d74a23e') in 0.047331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_Light_02.prefab
+  artifactKey: Guid(0d174b5bc12c3214dbfad5f2206265b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_Light_02.prefab using Guid(0d174b5bc12c3214dbfad5f2206265b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9376609ffaa2020b7513359a106c928a') in 0.0318772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Playground_02.prefab
+  artifactKey: Guid(4d0e095c622e29e47981820cb6af205a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Playground_02.prefab using Guid(4d0e095c622e29e47981820cb6af205a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b826438cc8f041c67d7249a76fda14f5') in 0.0254193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_19_Door_L.fbx
+  artifactKey: Guid(df2a916c78b27be4ab09b44309fb72ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_19_Door_L.fbx using Guid(df2a916c78b27be4ab09b44309fb72ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a1074f0b4ee55d17e82bd3bb0279d96') in 0.0110974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Furniture_08.prefab
+  artifactKey: Guid(1fd758d93622a7a41b2377d760f248ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Furniture_08.prefab using Guid(1fd758d93622a7a41b2377d760f248ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da87437b0bdce8fa7847086908149902') in 0.0182019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_08.fbx
+  artifactKey: Guid(e61d1a3bc262e44479f54fe7e3249d7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_08.fbx using Guid(e61d1a3bc262e44479f54fe7e3249d7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f931d516a7e435f4c9611ae9352e291a') in 0.0146617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_14_V2.prefab
+  artifactKey: Guid(282396da42c71df488efb7e34fd49a5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_14_V2.prefab using Guid(282396da42c71df488efb7e34fd49a5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '050e78c512b410f74ed7f299f8039784') in 0.0469914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Bottle_09.prefab
+  artifactKey: Guid(709dffdcbd4643c47b7535990aa423d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Bottle_09.prefab using Guid(709dffdcbd4643c47b7535990aa423d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '279ca2a9446eb28379c7b32eb4afe976') in 0.0152832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Cafe_10.prefab
+  artifactKey: Guid(062951dcb6a87e24e927e86e0cde11cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Cafe_10.prefab using Guid(062951dcb6a87e24e927e86e0cde11cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42108697751575891160ef1900f12a77') in 0.0358172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_08_V1.prefab
+  artifactKey: Guid(d8262d69066e6294d8d32254b58a536e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_08_V1.prefab using Guid(d8262d69066e6294d8d32254b58a536e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98e28c70b5f424f264b317c874df19bc') in 0.0220574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_PC_07.prefab
+  artifactKey: Guid(b88393e9e40d57b44a98f80e41ee51e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_PC_07.prefab using Guid(b88393e9e40d57b44a98f80e41ee51e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8ae619f94075b3babbad3548ec60f66') in 0.0132099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Office_05.prefab
+  artifactKey: Guid(7244f31d6cfbdbd41917c0badfd167d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Office_05.prefab using Guid(7244f31d6cfbdbd41917c0badfd167d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94146666d66c2a456ad5fcd21f5ec95b') in 0.0154843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Textures/T_MegaCity_Cloud_01.png
+  artifactKey: Guid(4dfda13d52194664190b5d7f878a0516) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Textures/T_MegaCity_Cloud_01.png using Guid(4dfda13d52194664190b5d7f878a0516) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b10eb7d05dba2d973186248edc75e144') in 0.0357187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Rack_01.prefab
+  artifactKey: Guid(47c0d5dcbf0b0764a973134794fc84a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Rack_01.prefab using Guid(47c0d5dcbf0b0764a973134794fc84a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f7bf75f1263704a006136a7df3d3cda') in 0.0138349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_FoodBox_08.fbx
+  artifactKey: Guid(3b6c2a0cce7629e488bde50d92659b6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_FoodBox_08.fbx using Guid(3b6c2a0cce7629e488bde50d92659b6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '596629191372c6b254f596cbb8e994b5') in 0.0495308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Bottle_04.fbx
+  artifactKey: Guid(2d40045d6a3bb19449f509ee453cd009) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Bottle_04.fbx using Guid(2d40045d6a3bb19449f509ee453cd009) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bbed4fd5932c4d99ef75436f4001d8d') in 0.016937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Soda_02.prefab
+  artifactKey: Guid(45ca937d03e254f44a07694f61ecdbfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_Soda_02.prefab using Guid(45ca937d03e254f44a07694f61ecdbfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf15e349fb084f34e1b0bff168a2041b') in 0.0163573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_09_V1.fbx
+  artifactKey: Guid(bd7b964dae2365c4ebcf23bb2aaa9168) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_09_V1.fbx using Guid(bd7b964dae2365c4ebcf23bb2aaa9168) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c04878e693d1dd91ff1c720e7fd0122f') in 0.0253843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Supermarket_01_Door_L.fbx
+  artifactKey: Guid(5abb115de1b04174db5e87b23d64a71f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Supermarket_01_Door_L.fbx using Guid(5abb115de1b04174db5e87b23d64a71f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74c181622c4862a38c372f2d919d6fe9') in 0.0126283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_21.prefab
+  artifactKey: Guid(f2770ed9efb77864e8128f2584338a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_21.prefab using Guid(f2770ed9efb77864e8128f2584338a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c62d3c6bc6e388dc1d51921d7c84e343') in 0.020398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_BarProps_01.prefab
+  artifactKey: Guid(da46b70e7d390b64c84c19ec95293743) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_BarProps_01.prefab using Guid(da46b70e7d390b64c84c19ec95293743) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b16851fbf87cf129a5125f36836a400') in 0.010075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_03.fbx
+  artifactKey: Guid(6bf208bd5e00eac40a90d98f5af96416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_03.fbx using Guid(6bf208bd5e00eac40a90d98f5af96416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b42653dd31f2d3b1e47af9ea8a1d2e41') in 0.0101694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_53.prefab
+  artifactKey: Guid(c36570dd2a52432448f0cad0dd719375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_53.prefab using Guid(c36570dd2a52432448f0cad0dd719375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '440c51ec977e72a3dd52e80e1df5ffb8') in 0.0149314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Tile_13.prefab
+  artifactKey: Guid(3d75483b9cb29db46be8397b7b334ec2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Tile_13.prefab using Guid(3d75483b9cb29db46be8397b7b334ec2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb16c220789aaeffdf291ba8e37d0532') in 0.0136601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Construction_01.fbx
+  artifactKey: Guid(074ef02e95a738d41a8512f57ffa37a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Construction_01.fbx using Guid(074ef02e95a738d41a8512f57ffa37a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4c3dc73efaa665494429c516e38e66a') in 0.020258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Metro_02.fbx
+  artifactKey: Guid(f2424a4eb4d7f3c4e97a3e32dd5a9f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Metro_02.fbx using Guid(f2424a4eb4d7f3c4e97a3e32dd5a9f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72f07cb0119c0bd0806c116e964d2b17') in 0.0115171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Nature/SM_Nature_Tree_07.prefab
+  artifactKey: Guid(3703e33e2b4b8d1458585671a43b39e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Nature/SM_Nature_Tree_07.prefab using Guid(3703e33e2b4b8d1458585671a43b39e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c62a8965674660352c460d4261bc4d7') in 0.011773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_38.fbx
+  artifactKey: Guid(3eb0516dfa207184e80c47089bcc5ded) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/BuildingsDecor/SM_BuildingsDecor_38.fbx using Guid(3eb0516dfa207184e80c47089bcc5ded) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3df0d9b353c5304f8f3f77827075be9e') in 0.0124041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_CityMall_01_Door_L_02.fbx
+  artifactKey: Guid(ca40425c487a47d43946de08c578249b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_CityMall_01_Door_L_02.fbx using Guid(ca40425c487a47d43946de08c578249b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ae8f4fdbded3fd2e9f5d1c06c6dfa5b') in 0.0142708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Playground_01.prefab
+  artifactKey: Guid(b6caa45efc45882478bed389faba295f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Playground_01.prefab using Guid(b6caa45efc45882478bed389faba295f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09c0c17b51a8822c1e43ac16e0075840') in 0.0124277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_07_V1.prefab
+  artifactKey: Guid(cf15f89e2e1f33a4b92f6fa664659abc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Vehicles/SM_Vehicles_07_V1.prefab using Guid(cf15f89e2e1f33a4b92f6fa664659abc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '546edab30cddc57e9b31606f1ee525bf') in 0.0131786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_18.fbx
+  artifactKey: Guid(364cfd6e0745e864994b6a8f7854cb5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Road_18.fbx using Guid(364cfd6e0745e864994b6a8f7854cb5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7639e0d7f301714887d7c485d3048b24') in 0.0129394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_ArcadeMachine_02.prefab
+  artifactKey: Guid(35e2fc2dd9f95414ca637d6896422855) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_ArcadeMachine_02.prefab using Guid(35e2fc2dd9f95414ca637d6896422855) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97e143a69c6e2ee4350e372698b7a5e2') in 0.0128187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_08.fbx
+  artifactKey: Guid(274080cec6057f14dbab384b72564ad7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Garbage_08.fbx using Guid(274080cec6057f14dbab384b72564ad7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6bfdcae2e08eaf09db3ffda715a7f3ae') in 0.0249332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Railway_01.fbx
+  artifactKey: Guid(c403e1ceebb2d8f4a8d564d4a01b20b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Railway_01.fbx using Guid(c403e1ceebb2d8f4a8d564d4a01b20b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4348700f56a410e98653933f5efe9e43') in 0.0456158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_07.prefab
+  artifactKey: Guid(a4ee44ce3eb893847b3844a3d483203b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_07.prefab using Guid(a4ee44ce3eb893847b3844a3d483203b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa2a2aa57e9cc4e21c2456f0aa99c97f') in 0.0400683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_25.prefab
+  artifactKey: Guid(a077c63e0ca444d4986b16077f74f08c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_25.prefab using Guid(a077c63e0ca444d4986b16077f74f08c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'febbe6cee2437cddc94b95a8dc119a93') in 0.0195642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Commercial_03.prefab
+  artifactKey: Guid(c080b90f5cf3b7b4aabf482221451e54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Commercial_03.prefab using Guid(c080b90f5cf3b7b4aabf482221451e54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cae2b3f9aa731ad71ab0f386e49102bb') in 0.0313657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_Truck_01.prefab
+  artifactKey: Guid(f8fa0e1f8f05ad24587714edc2695fe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_Truck_01.prefab using Guid(f8fa0e1f8f05ad24587714edc2695fe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddfce3297ba987e16edd2fb968ee2e44') in 0.0482335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Tile_01.prefab
+  artifactKey: Guid(af2f370f5f8b29b4ab97795d55971438) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Tile_01.prefab using Guid(af2f370f5f8b29b4ab97795d55971438) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e6347d6d8c2fdea8c9bf0599df39aef') in 0.0307286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Rack_04.fbx
+  artifactKey: Guid(90a53f5f0e1c07142a0be9d750f670c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Rack_04.fbx using Guid(90a53f5f0e1c07142a0be9d750f670c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ad68efca972f642bb803203329af109') in 0.0338688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_03.prefab
+  artifactKey: Guid(2cd45e4f8778f1348b29db9bb812d2a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_03.prefab using Guid(2cd45e4f8778f1348b29db9bb812d2a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5af4081d082966c4fc39987eb939670e') in 0.0509345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Hospital_01_Door_1_L.fbx
+  artifactKey: Guid(8032ccbdf1997dd40b53d45548ab0b6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Hospital_01_Door_1_L.fbx using Guid(8032ccbdf1997dd40b53d45548ab0b6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dfe774914f0cabd6448ded75ed75fcb') in 0.0657573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_19.fbx
+  artifactKey: Guid(dd27269f2aa290b43aa717c5093c1dc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_19.fbx using Guid(dd27269f2aa290b43aa717c5093c1dc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5426a89e03e390fdf9f3069c3fce68eb') in 0.0417478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_10.fbx
+  artifactKey: Guid(f3a6068fe09bb1b4f90595f5e9953069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_10.fbx using Guid(f3a6068fe09bb1b4f90595f5e9953069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e9a2069f64170afa82ed652afac78e7') in 0.0345089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_17.prefab
+  artifactKey: Guid(0e6cf18faa5b02b44bfa830296e865a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_17.prefab using Guid(0e6cf18faa5b02b44bfa830296e865a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b2d6e822b0d6eceb6e7117a741633bd') in 0.0166715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_25.prefab
+  artifactKey: Guid(f5be0c291eb6feb4ba3525499bb48738) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FloorProps/SM_FloorProps_RoadSign_25.prefab using Guid(f5be0c291eb6feb4ba3525499bb48738) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b91f66be89824243ac8c375f3ce3ff0a') in 0.0562663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Furniture_05.prefab
+  artifactKey: Guid(5bf39cef3822d9448b9704916d0fccbf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Furniture_05.prefab using Guid(5bf39cef3822d9448b9704916d0fccbf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '161ae1d96e403bac485ebf2a8ea61b44') in 0.0455134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_15_V2.prefab
+  artifactKey: Guid(57582cdf22a382b4facbbedbcc5f7ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_15_V2.prefab using Guid(57582cdf22a382b4facbbedbcc5f7ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7667c915268b92052753916457701ede') in 0.0300154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_03_V1.fbx
+  artifactKey: Guid(ee44a0bfdfcb03941b6d8132c64a1e08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_03_V1.fbx using Guid(ee44a0bfdfcb03941b6d8132c64a1e08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09680c345edf103d2709a300ff05eda2') in 0.0363379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_CannedFood_01.prefab
+  artifactKey: Guid(c8a7ddeffd328c748bfcf471635b8b13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Food/SM_Food_CannedFood_01.prefab using Guid(c8a7ddeffd328c748bfcf471635b8b13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bac7978c8cd38b66d8e93ccf2a36e7ff') in 0.0366515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FX/FX_Fountain_02.prefab
+  artifactKey: Guid(7d3afa1f842938149bb3dfaba215bf1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/FX/FX_Fountain_02.prefab using Guid(7d3afa1f842938149bb3dfaba215bf1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5473b1ea97e94b4b88510ad119151a8') in 0.0279118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Egg_01.fbx
+  artifactKey: Guid(3489704abf96b4b46bfa3f37cae7822c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Egg_01.fbx using Guid(3489704abf96b4b46bfa3f37cae7822c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c5b6ca8f59b4ab0942ed7434310f14c') in 0.0115257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Bank_02.prefab
+  artifactKey: Guid(4e49fbabd088db84ead5d2c205fd23f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Bank_02.prefab using Guid(4e49fbabd088db84ead5d2c205fd23f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db456958e7c892d0d0795e5748d84542') in 0.0393722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Ads_06.prefab
+  artifactKey: Guid(c9b9563ff99700446a69f9879d5e6e94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Props/SM_Props_Ads_06.prefab using Guid(c9b9563ff99700446a69f9879d5e6e94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9466bd69e1cc67db0646c4414370066') in 0.0385009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_21.prefab
+  artifactKey: Guid(534a0789b74c81c489bfa62fdf761ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_21.prefab using Guid(534a0789b74c81c489bfa62fdf761ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdda7535a6a2822fa47c3020f7722693') in 0.0312679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_Plane_01.fbx
+  artifactKey: Guid(c2f6a21f292543a45862ba08b39e67d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_Plane_01.fbx using Guid(c2f6a21f292543a45862ba08b39e67d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e47f24464e96341d37f1411b37f5519') in 0.0336052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_Fence_01.prefab
+  artifactKey: Guid(da35c24a319cdd942946f36a62d72c54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/IndustrialProps/SM_IndustrialProps_Fence_01.prefab using Guid(da35c24a319cdd942946f36a62d72c54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9bab36383d72ffbdc90dc68a1f6bde8') in 0.0346635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Nature/SM_Nature_Landscape_09.prefab
+  artifactKey: Guid(9ec40e7d6fe5bde438acb212228188d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Nature/SM_Nature_Landscape_09.prefab using Guid(9ec40e7d6fe5bde438acb212228188d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6ce2be8a558f17c6978ab8e549e34ff') in 0.041367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_09.fbx
+  artifactKey: Guid(0495173dacb9a91449d562ea79182777) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_09.fbx using Guid(0495173dacb9a91449d562ea79182777) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '265feb7cf6071406dc3861ac16985ef0') in 0.0388208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_10_V2.prefab
+  artifactKey: Guid(dc9b9bf9a07c34e4fa8e5211e8b0b1be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_10_V2.prefab using Guid(dc9b9bf9a07c34e4fa8e5211e8b0b1be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bde3f53d1b45f0cf1f50e79a0d0abbd0') in 0.0476292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Bottle_10.fbx
+  artifactKey: Guid(6e41c34aa5c9b904c95dc706ed746334) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Bottle_10.fbx using Guid(6e41c34aa5c9b904c95dc706ed746334) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ed9d89d8f9d50027fd9b935271159d2') in 0.0387559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_06_V2.prefab
+  artifactKey: Guid(beb286ddb4e98a640b1916c9ecac17db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_House_06_V2.prefab using Guid(beb286ddb4e98a640b1916c9ecac17db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21801e687ef861d70eac77ee97eece8f') in 0.0387675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Commercial_05.prefab
+  artifactKey: Guid(06d7a819d16e71a458b276859afb23ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Buildings/SM_Buildings_Commercial_05.prefab using Guid(06d7a819d16e71a458b276859afb23ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa03decae726ebd814e05b9fb1c0392f') in 0.0328201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Tree_10.fbx
+  artifactKey: Guid(6d7a5bda9b8ab34469a00aba5bdf370e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Nature/SM_Nature_Tree_10.fbx using Guid(6d7a5bda9b8ab34469a00aba5bdf370e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12e141817566fc6554663e3c7fa535ae') in 0.0261847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Tile_14.fbx
+  artifactKey: Guid(24f731fd9f759404093d865ea1f2b58c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Floor/SM_Floor_Tile_14.fbx using Guid(24f731fd9f759404093d865ea1f2b58c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '251535aabc7f865dde7d6bcca262a967') in 0.0324946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_03_V2.fbx
+  artifactKey: Guid(b1d3dbee0d7be7d4a9c14dfd19b2ea1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_03_V2.fbx using Guid(b1d3dbee0d7be7d4a9c14dfd19b2ea1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd11d04ba9fc8faa7e17dddf20df7ebdb') in 0.0359578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_03.prefab
+  artifactKey: Guid(6695724e28ea5f94d803d9b6eb49f0a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_03.prefab using Guid(6695724e28ea5f94d803d9b6eb49f0a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02cd5eba5615b96c49ef84f9efd6b1c6') in 0.0262466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Metro_04.prefab
+  artifactKey: Guid(eaa7fcca8ab29414b8e139a7d30ddf87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Metro_04.prefab using Guid(eaa7fcca8ab29414b8e139a7d30ddf87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddbb67ac1f38eaaba07e9cdb1627e77e') in 0.0378464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_08.prefab
+  artifactKey: Guid(dc17d3ab96ab492479c6709e7e4815ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_08.prefab using Guid(dc17d3ab96ab492479c6709e7e4815ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c65e620939a9bfaee63ad002d3880b99') in 0.0288889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_CannedFood_01.fbx
+  artifactKey: Guid(0d77c73b8900a52439b44ca61b596b89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_CannedFood_01.fbx using Guid(0d77c73b8900a52439b44ca61b596b89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a1517fbc3e869c38868c583698bc2f7') in 0.0115773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_27.prefab
+  artifactKey: Guid(b64cf1061be39be4a944d949c2906651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_27.prefab using Guid(b64cf1061be39be4a944d949c2906651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41775e0611ba33897dd895d7095f26e2') in 0.01327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_18.fbx
+  artifactKey: Guid(1fc4923ac4308dd4db13a42f72f235b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Props/SM_Props_Cafe_18.fbx using Guid(1fc4923ac4308dd4db13a42f72f235b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6677b67711db161a8a37e68d809e2ab2') in 0.0133741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_TrainPart_03.fbx
+  artifactKey: Guid(0b3cee32920a936409f6e8c1888ceaf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Vehicles/SM_Vehicles_TrainPart_03.fbx using Guid(0b3cee32920a936409f6e8c1888ceaf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bea7ff145c15e73c5b1917ae7d523067') in 0.0142705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_58.prefab
+  artifactKey: Guid(76208e9aa02223b42a97526099ac0ec9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/BuildingsDecor/SM_BuildingsDecor_58.prefab using Guid(76208e9aa02223b42a97526099ac0ec9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4355d8845fd045d32e5c2f17cd17a7c3') in 0.0197688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_15.prefab
+  artifactKey: Guid(2636b5db3898f5b4d9175d3f3a1b36bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Prefabs/Floor/SM_Floor_Road_15.prefab using Guid(2636b5db3898f5b4d9175d3f3a1b36bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc243ca012ae3202363836c70cb48336') in 0.0513086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.309034 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/ReadMe.txt
+  artifactKey: Guid(25fdf700067414c4e8d4ebce303baf57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/ReadMe.txt using Guid(25fdf700067414c4e8d4ebce303baf57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b91c750aa56d02a6dd30d32cd0f8b786') in 0.0088761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Materials/SKY_A5.mat
+  artifactKey: Guid(6cec7c341353217429c9467e0fc15250) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Materials/SKY_A5.mat using Guid(6cec7c341353217429c9467e0fc15250) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8e5596ec0e8eedaf74ea8ff7d38f556') in 0.1093051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Textures/SKY_A3_high contrast.png
+  artifactKey: Guid(d453ed591eabbb84f9002e00dd81f572) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Textures/SKY_A3_high contrast.png using Guid(d453ed591eabbb84f9002e00dd81f572) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7220ebb21d38500de5e62be49fb21aa6') in 0.4090278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/DemoScene.unity
+  artifactKey: Guid(1fc88ded0e9f32a4f97f1ce49bbf3196) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/DemoScene.unity using Guid(1fc88ded0e9f32a4f97f1ce49bbf3196) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71a03eb793031736eed61084ea70b44c') in 0.0064684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A3_high contrast.mat
+  artifactKey: Guid(cb818dd855060ef4cb23d629fcf64601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A3_high contrast.mat using Guid(cb818dd855060ef4cb23d629fcf64601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cdf6b4147253ab24722367f706ac28d') in 0.1265863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Textures/SKY_A2_Move.png
+  artifactKey: Guid(d086b6a4cf5e02944aeb2199e271580d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Textures/SKY_A2_Move.png using Guid(d086b6a4cf5e02944aeb2199e271580d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26effacdc682a661e2a544421adb4b2f') in 0.1878175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Textures/SKY_A10.png
+  artifactKey: Guid(395a5fcec0fe85549a3965aba2d04197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Textures/SKY_A10.png using Guid(395a5fcec0fe85549a3965aba2d04197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61971251c94ce8b565f8e59a9ce4f522') in 0.2111143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Textures/SKY_A4_high contrast.png
+  artifactKey: Guid(d154f58b89c402141ba991404dc5cb0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Textures/SKY_A4_high contrast.png using Guid(d154f58b89c402141ba991404dc5cb0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb9e7b6018b7ddd3b52c7648231ba070') in 0.0786187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A3.mat
+  artifactKey: Guid(8e62ba374c0f4444ab51b2240669a2b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A3.mat using Guid(8e62ba374c0f4444ab51b2240669a2b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1aa39fec78390ffb8c2e1b63863bf08c') in 0.282224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Materials/SKY_A8.mat
+  artifactKey: Guid(7515bd5f6ffb0e34b82978cbecd227d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Materials/SKY_A8.mat using Guid(7515bd5f6ffb0e34b82978cbecd227d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c62ec15365aae17b7c6617e47bebe51e') in 0.1161215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A10.mat
+  artifactKey: Guid(00012d5e198115c44a6c9639d5e5f26c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A10.mat using Guid(00012d5e198115c44a6c9639d5e5f26c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19d1caa2883d4682d217d95f9f8675f3') in 0.1434935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A9.mat
+  artifactKey: Guid(eaa745927e1989445913dcae1a842fbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A9.mat using Guid(eaa745927e1989445913dcae1a842fbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3198a9cf95863b1f7347a5c4cd15101') in 0.1010097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

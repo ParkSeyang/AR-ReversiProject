@@ -1,0 +1,799 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-02-28T10:45:04.6854803Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32386 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-28T10:45:04Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker56
+-projectPath
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+-logFile
+Logs/AssetImportWorker56.log
+-srvPort
+58049
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/AR-ReversiProject
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [41132]  Target information:
+
+Player connection [41132]  * "[IP] 172.30.1.55 [Port] 0 [Flags] 2 [Guid] 1343392831 [EditorId] 1343392831 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BTF4SNP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [41132] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [41132] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 30.69 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/AR-ReversiProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              e363be9910824c21892b09ec0fe18fbf
+  Correlation Id:          2e1677b044b26191d80a4bb1d64b199d
+  External correlation Id: 6346081046460042208
+  Machine Id:              dJ8Tfn01EciPmnYvmSiKPSjQkro=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 1.45s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-02-28T10:45:06.1338607Z"
+[Licensing::Module] Licensing Background thread has ended after 1.45s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004469 seconds.
+- Loaded All Assemblies, in  0.545 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 974ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (194ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568654860447-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.081 seconds
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.33 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.423 seconds
+Domain Reload Profiling: 2494ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (785ms)
+		LoadAssemblies (599ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (203ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (917ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 19.33 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (4.6 MB). Loaded Objects now: 7945.
+Memory consumption went from 312.8 MB to 308.3 MB.
+Total: 27.200800 ms (FindLiveObjects: 0.806100 ms CreateObjectMapping: 0.493400 ms MarkObjects: 23.068700 ms  DeleteObjects: 2.830900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1386358.403898 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Hospital_01.fbx
+  artifactKey: Guid(9f0fd1a929ef9ac42a323156ce484017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Hospital_01.fbx using Guid(9f0fd1a929ef9ac42a323156ce484017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6717a5de33fd63ac38f14534f2d499e8') in 0.5164705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.978916 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/2Hand-Axe.FBX
+  artifactKey: Guid(69fd775504e647043a2f1ead4de43cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/2Hand-Axe.FBX using Guid(69fd775504e647043a2f1ead4de43cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bd7a874e17c98f2b737a9c325ca9ffd') in 0.0791679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Models/Nav.FBX
+  artifactKey: Guid(f8e7c224ec81b2545b36bb7bedff3740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Models/Nav.FBX using Guid(f8e7c224ec81b2545b36bb7bedff3740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dec48b21b9ae7db6efa4f30148a282fc') in 0.0460904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022496 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/2Hand-Bow.FBX
+  artifactKey: Guid(84694fee17b59954b999701bb2bc3fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/2Hand-Bow.FBX using Guid(84694fee17b59954b999701bb2bc3fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6f726bc1555d2b5c5536585a0775004') in 0.0123145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.391935 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/2Hand-Crossbow.FBX
+  artifactKey: Guid(e3d9871955835774ea6a0dbddcdc937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/2Hand-Crossbow.FBX using Guid(e3d9871955835774ea6a0dbddcdc937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1e1838e41b3e320640eea36deab861a') in 0.0112042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.403821 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/Knife.FBX
+  artifactKey: Guid(0913bdf8341dc1f499b50ec1ad76aff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/Knife.FBX using Guid(0913bdf8341dc1f499b50ec1ad76aff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd083e1b2ed328b2ef700b6ed635180fe') in 0.0124249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.839222 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Models/Stage/Ladder.FBX
+  artifactKey: Guid(d203e4db2f2289843a8082732373ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Models/Stage/Ladder.FBX using Guid(d203e4db2f2289843a8082732373ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f660e7ea7a0a9f379ac2e99be8b0f975') in 0.0159503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/Mace.FBX
+  artifactKey: Guid(b3df587f1bf34c24c914acee829b0aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/Mace.FBX using Guid(b3df587f1bf34c24c914acee829b0aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9acaa2add8ba6ccf842f79b12a3154b') in 0.0168186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.819917 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-Dual2.FBX
+  artifactKey: Guid(2488bb7c58454ae4784c55bf42a338b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-Dual2.FBX using Guid(2488bb7c58454ae4784c55bf42a338b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e19eb1cb7f9c534c2af808559beb1c63') in 0.0313554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 123
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-R1.FBX
+  artifactKey: Guid(5a1595ed82ec689419c4279b2645c92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-R1.FBX using Guid(5a1595ed82ec689419c4279b2645c92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0b38346c763c3aaa971155cd5957e64') in 0.0268667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 123
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237292 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-Dual1.FBX
+  artifactKey: Guid(86058fe559119c64fa042a50404ac5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-Dual1.FBX using Guid(86058fe559119c64fa042a50404ac5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adb42efe2e77a6b180c29f92bdc6f807') in 0.0268563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 123
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/Pistol.FBX
+  artifactKey: Guid(8b331f7b82097114d99b13274da53c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/Pistol.FBX using Guid(8b331f7b82097114d99b13274da53c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '124b7f1a1859d66fc977374672fec86d') in 0.0130877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-L3.FBX
+  artifactKey: Guid(dfc4e3dde07eec24894cc44fb75c4391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-L3.FBX using Guid(dfc4e3dde07eec24894cc44fb75c4391) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8026499d215a28c55fdb63704aadd39a') in 0.0259779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 123
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-L1.FBX
+  artifactKey: Guid(e09064ae1e1e96f489df2505990de15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Animations/1Hand-Pistol/RPG-Character@Pistol-Attack-L1.FBX using Guid(e09064ae1e1e96f489df2505990de15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f46d7eed0c57d786259856daa780c592') in 0.0238675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 123
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278702 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Mesh/Platform.FBX
+  artifactKey: Guid(c79ba535414d5e34fa35eb83f2703109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Mesh/Platform.FBX using Guid(c79ba535414d5e34fa35eb83f2703109) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbf2823aa46e4730a17cfcd8c5489c07') in 0.0146064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.604249 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/2Hand-Rifle.FBX
+  artifactKey: Guid(21a2c5fc2bd485d4bb99425c2a784bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/2Hand-Rifle.FBX using Guid(21a2c5fc2bd485d4bb99425c2a784bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a76f8cac13ceb5f088fb87fc07280bb4') in 0.0114223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217891 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/Shield.FBX
+  artifactKey: Guid(212f1e39faa16df4fad05922a8faca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Models/Weapons/Shield.FBX using Guid(212f1e39faa16df4fad05922a8faca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b5478413189839b2bf433ddb624f12f') in 0.0125284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.012476 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_01.fbx
+  artifactKey: Guid(522776d171d36bb468befd39f5bfcc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_01.fbx using Guid(522776d171d36bb468befd39f5bfcc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c3464a15618700bc6b594debe94c9db') in 0.0404165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_04.fbx
+  artifactKey: Guid(9ec27bab130076041b80e7d84b1412ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_04.fbx using Guid(9ec27bab130076041b80e7d84b1412ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'decd5c6c9333a6128a0c80b854269de8') in 0.014079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_03.fbx
+  artifactKey: Guid(370981e7ba7dbde459ce0d9acd9e84c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_03.fbx using Guid(370981e7ba7dbde459ce0d9acd9e84c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e8bd1524c312e5bbb297260bc135983') in 0.0123663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_09.fbx
+  artifactKey: Guid(e6439f49adbbaca4aacd0442e66a32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_09.fbx using Guid(e6439f49adbbaca4aacd0442e66a32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31e56f92bba6af3c7fcb4b547830bf95') in 0.0125973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_12_Door_L.fbx
+  artifactKey: Guid(2a12962f47b0d07489900128f081ef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_12_Door_L.fbx using Guid(2a12962f47b0d07489900128f081ef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07662bae4085b8b58bedd36f98a32472') in 0.0136988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_11_Door_R.fbx
+  artifactKey: Guid(e73ca39dee368d541b1cf105d5cacfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_11_Door_R.fbx using Guid(e73ca39dee368d541b1cf105d5cacfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acdbc0c40823a935d428ca6816b64997') in 0.0126423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_12.fbx
+  artifactKey: Guid(6646af2ec46427b45b4986d7c76cffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_12.fbx using Guid(6646af2ec46427b45b4986d7c76cffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58bf2a1387be13be484044386e80ef25') in 0.0147081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_13_Door_L.fbx
+  artifactKey: Guid(adbcc42988a3e8a48aa392d427f455d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_13_Door_L.fbx using Guid(adbcc42988a3e8a48aa392d427f455d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a2e1d486c5f9a06c257b6a3dd7bd2c') in 0.0113563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_13_Door_R.fbx
+  artifactKey: Guid(2fd995ec8dafd6140b65770e64768d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_13_Door_R.fbx using Guid(2fd995ec8dafd6140b65770e64768d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7151c97df6f4c9bf7d5618a8fe5f58b') in 0.0130105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_08.fbx
+  artifactKey: Guid(6106f7a0f94dee34989928f1d3629201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_08.fbx using Guid(6106f7a0f94dee34989928f1d3629201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fd3ed02d0dbe6cd770521e93c176836') in 0.0132433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_17_Door_L.fbx
+  artifactKey: Guid(20ccfbe9c4c3905449580f2e7b9eb907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_17_Door_L.fbx using Guid(20ccfbe9c4c3905449580f2e7b9eb907) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '625d303474e113bd8aa83d2202ac1c1e') in 0.0365932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_14_Door_R.fbx
+  artifactKey: Guid(9444d637dfbf86e438a33c0acad2f4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_14_Door_R.fbx using Guid(9444d637dfbf86e438a33c0acad2f4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19424422433fa6274dd0d42ce7f9f308') in 0.0142161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_18_Door.fbx
+  artifactKey: Guid(3f11783be94b87643b9f844bb6335aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_18_Door.fbx using Guid(3f11783be94b87643b9f844bb6335aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb1e465eda1a823cdb8bc63775be39e6') in 0.0145335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_20_Door_R.fbx
+  artifactKey: Guid(d75957b496218a14397a6993c3d156b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_20_Door_R.fbx using Guid(d75957b496218a14397a6993c3d156b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '081b0c4a98849cd151c21b36be8df0ad') in 0.0149355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_20.fbx
+  artifactKey: Guid(1e5ad9e4e6b6f2e448dcc3e8d6e0399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_20.fbx using Guid(1e5ad9e4e6b6f2e448dcc3e8d6e0399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90ec880358e354ac2da73645cfee44e6') in 0.0145378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_ElevatorDoor_L.fbx
+  artifactKey: Guid(57db26cabc4dd184c9801281cc2f2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_ElevatorDoor_L.fbx using Guid(57db26cabc4dd184c9801281cc2f2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30c630a0449fd30d6b87ea7ea6083320') in 0.014063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_18.fbx
+  artifactKey: Guid(3463a529acab2ac47a4249ae595d9c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_18.fbx using Guid(3463a529acab2ac47a4249ae595d9c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5c164caaae7d257a445e786e985769c') in 0.0177792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_Door_01_L.fbx
+  artifactKey: Guid(3b2ac8816da18534bb04bbad5eb6c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_Door_01_L.fbx using Guid(3b2ac8816da18534bb04bbad5eb6c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea60ca8f1a5a78703b1591e90acb55a7') in 0.0160103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_20_Door_L.fbx
+  artifactKey: Guid(8e8c5add9db74ea4988f00158fc926f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_20_Door_L.fbx using Guid(8e8c5add9db74ea4988f00158fc926f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c2dbfa183d99a27bb04df42eba253ec') in 0.0141899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_Door_02_R.fbx
+  artifactKey: Guid(cd0b03e03b46ecf40a3c091fc032898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_Door_02_R.fbx using Guid(cd0b03e03b46ecf40a3c091fc032898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96207091cfd5beb1ab30709664fb4b4b') in 0.0137441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_16.fbx
+  artifactKey: Guid(19d3caf199b50d4469baf9ce561e8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_16.fbx using Guid(19d3caf199b50d4469baf9ce561e8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f2973196e6a56d1aec4e8f61dae47b2') in 0.0159755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_16_Door_L.fbx
+  artifactKey: Guid(549f54168d0fc5049b3043acc28b2ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_16_Door_L.fbx using Guid(549f54168d0fc5049b3043acc28b2ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c2f5eb949efbb8460e369ff5148569e') in 0.0120577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_FireStation_01.fbx
+  artifactKey: Guid(03b37c5cf06d7a04fa348545c8147ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_FireStation_01.fbx using Guid(03b37c5cf06d7a04fa348545c8147ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44748b6784f96f64f5dcbf5e4c21783a') in 0.0151692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_05_V3.fbx
+  artifactKey: Guid(0c80cacaca0b8c24192db37afdb6cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_05_V3.fbx using Guid(0c80cacaca0b8c24192db37afdb6cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33b91ca65501a0693cba17a9f60bc63e') in 0.01368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_09_Door.fbx
+  artifactKey: Guid(fac19dfe31c107f4b88d4bb903df5819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_09_Door.fbx using Guid(fac19dfe31c107f4b88d4bb903df5819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f56c54a1f6f603c7066285c2490670') in 0.0122149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Police_01_Door_R_02.fbx
+  artifactKey: Guid(069ee19bca6c97d4e87495a228ca1da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Police_01_Door_R_02.fbx using Guid(069ee19bca6c97d4e87495a228ca1da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '049aa97717d5d65e07473d1fb5e21e1a') in 0.0112147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_28.fbx
+  artifactKey: Guid(81394b395a697004d92fe0e33860370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_28.fbx using Guid(81394b395a697004d92fe0e33860370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22a4a6bbabccc9c039ec64e771176707') in 0.012989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Bottle_03.fbx
+  artifactKey: Guid(97686afee6f79a14ca9ffc8ceddf4895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Bottle_03.fbx using Guid(97686afee6f79a14ca9ffc8ceddf4895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e182dc85e9b033b81a518f3700ea1225') in 0.010111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_TrafficLight_02.fbx
+  artifactKey: Guid(c3760171eb34edd4a916878d767b8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_TrafficLight_02.fbx using Guid(c3760171eb34edd4a916878d767b8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f093e1db5ae929f450eb2df0929fb7e5') in 0.0119477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_29.fbx
+  artifactKey: Guid(3d7bab20783042d4c8727e03cb9c7c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_29.fbx using Guid(3d7bab20783042d4c8727e03cb9c7c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e61346335aece755df6e4452af0d6d39') in 0.0136376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Hotel_01_Door.fbx
+  artifactKey: Guid(ec50fb50416c6f7419b85f2d82182dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Hotel_01_Door.fbx using Guid(ec50fb50416c6f7419b85f2d82182dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67845d931378377fa290eefa538b1303') in 0.0114166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_11_Door_L.fbx
+  artifactKey: Guid(9cf74973a289d4f48b6345d7e18641ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_11_Door_L.fbx using Guid(9cf74973a289d4f48b6345d7e18641ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5a0c90057c13c81dc766c760772664d') in 0.0138933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Railway_01_Door_L.fbx
+  artifactKey: Guid(c827facfbdde5014b904b2d0cbed1822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Railway_01_Door_L.fbx using Guid(c827facfbdde5014b904b2d0cbed1822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cb11dc712f30642a2bb22fc32572c36') in 0.013786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Skatepark_01.fbx
+  artifactKey: Guid(55f3731651ab6434cb4704fea1487432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Skatepark_01.fbx using Guid(55f3731651ab6434cb4704fea1487432) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b13e57a6d849c243684e4a2754fb8a90') in 0.0168418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_10.fbx
+  artifactKey: Guid(847528fd9848cc546a7cd5c77a5c3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_10.fbx using Guid(847528fd9848cc546a7cd5c77a5c3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea71e1d6132bd302b0ded145b48d857') in 0.0175938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_06_V2.fbx
+  artifactKey: Guid(8bec472f58b20b140bcae8e38875f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_06_V2.fbx using Guid(8bec472f58b20b140bcae8e38875f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94609522e31f4c2c8f0f621982e4bc72') in 0.0148511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Hotel_02_Door_L.fbx
+  artifactKey: Guid(f1b53ae9e2ddbbc42a738c9a01f60db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Hotel_02_Door_L.fbx using Guid(f1b53ae9e2ddbbc42a738c9a01f60db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2998202ec84f1c8abf1e689d35e4bc9d') in 0.0111138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Port_04_Crane_01.fbx
+  artifactKey: Guid(cd370634b65205a41970a626255074a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Port_04_Crane_01.fbx using Guid(cd370634b65205a41970a626255074a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c31af5bff795d70f4966ea0d92bc427') in 0.0128901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Port_03.fbx
+  artifactKey: Guid(e2c21c953541fd84dbec525ecc907c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Port_03.fbx using Guid(e2c21c953541fd84dbec525ecc907c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b287cefd99d85400f231521a6a59c14f') in 0.0142278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_09.fbx
+  artifactKey: Guid(0495173dacb9a91449d562ea79182777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Office_09.fbx using Guid(0495173dacb9a91449d562ea79182777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f402ee31f8d750bd84e5d0f3b56ea2b6') in 0.0148069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Police_01_Door_R_01.fbx
+  artifactKey: Guid(c27fedf8911e3e94db638375a6f1b728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Police_01_Door_R_01.fbx using Guid(c27fedf8911e3e94db638375a6f1b728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '890f34094c214517e3f0020dc75f14cf') in 0.012889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_07_Door_R.fbx
+  artifactKey: Guid(9aa8ebf1733f63148a370b8df2142230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_07_Door_R.fbx using Guid(9aa8ebf1733f63148a370b8df2142230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdc1930c30eef115c19151d3a42350f3') in 0.0143078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Bottle_02.fbx
+  artifactKey: Guid(6338f4690eecaa843af6459d7a3ed548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Food/SM_Food_Bottle_02.fbx using Guid(6338f4690eecaa843af6459d7a3ed548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '682f88a79e53949bcce287da96a6c4ff') in 0.0156791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_07_Door_L.fbx
+  artifactKey: Guid(455032636fddfe24793a3a910f5792f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_07_Door_L.fbx using Guid(455032636fddfe24793a3a910f5792f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6998ba8b2eac6a07c6201e08ab048e0b') in 0.0150911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_06_Door_R.fbx
+  artifactKey: Guid(9d332a4b16f84d74190837ee5876424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_06_Door_R.fbx using Guid(9d332a4b16f84d74190837ee5876424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90b22958f7449ee95e3ccea5a212168b') in 0.0149088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_07_V1.fbx
+  artifactKey: Guid(1f36f8dbdfa5dcc42b9f9dcae0445ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_House_07_V1.fbx using Guid(1f36f8dbdfa5dcc42b9f9dcae0445ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c92c8e152a9fb97a5e51b9ed7af7dbd3') in 0.0176956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Skyscraper_01_Door_L.fbx
+  artifactKey: Guid(15fedeffee7905e4a83dcf1e485ed1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Skyscraper_01_Door_L.fbx using Guid(15fedeffee7905e4a83dcf1e485ed1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d8a388774ef07f352f3c87e13afe3f2') in 0.0123887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_School_01_Door_R.fbx
+  artifactKey: Guid(58bfbf28e0b00fd45beddeab5d4c817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_School_01_Door_R.fbx using Guid(58bfbf28e0b00fd45beddeab5d4c817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bc1d99258f8ab8bdff22af2ba21ed37') in 0.0122615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Parking_01.fbx
+  artifactKey: Guid(c50ad4db07f6bc24fa4b735b3be06af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Parking_01.fbx using Guid(c50ad4db07f6bc24fa4b735b3be06af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e64fcddfb955bedd3c06ea53c93e9f08') in 0.0150612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_34.fbx
+  artifactKey: Guid(024573f2b07873049ba0e0a6de7fc283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/FloorProps/SM_FloorProps_RoadSign_34.fbx using Guid(024573f2b07873049ba0e0a6de7fc283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef3d060d2829414b223a562ccba9eb1c') in 0.0110318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Railway_01.fbx
+  artifactKey: Guid(c403e1ceebb2d8f4a8d564d4a01b20b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Railway_01.fbx using Guid(c403e1ceebb2d8f4a8d564d4a01b20b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e5ad0842d2d577cd4bc98a213068a4c') in 0.015873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Construction_02.fbx
+  artifactKey: Guid(9bf52326f0c8d0e4eb1b94225c4b1ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Construction_02.fbx using Guid(9bf52326f0c8d0e4eb1b94225c4b1ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e2be31d06440726a6fac78df2c8b1a1') in 0.0142563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_SideDoor_01.fbx
+  artifactKey: Guid(2b525597fb423d448810f842db085642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/JC_LP_MegaCity/Models/Buildings/SM_Buildings_Commercial_SideDoor_01.fbx using Guid(2b525597fb423d448810f842db085642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb0e11f156a7724fc17d75491e830b44') in 0.0128684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

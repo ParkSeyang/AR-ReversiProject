@@ -1,0 +1,535 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-02-28T11:30:44.4892726Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32386 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-28T11:30:44Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker72
+-projectPath
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+-logFile
+Logs/AssetImportWorker72.log
+-srvPort
+58049
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/AR-ReversiProject
+C:/Users/USER/Documents/GitHub/AR-ReversiProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [36812]  Target information:
+
+Player connection [36812]  * "[IP] 172.30.1.55 [Port] 0 [Flags] 2 [Guid] 2938096294 [EditorId] 2938096294 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BTF4SNP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36812] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36812] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 111.37 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/AR-ReversiProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              241097baefc84e458a6dc571032edec5
+  Correlation Id:          2e1677b044b26191d80a4bb1d64b199d
+  External correlation Id: 7620760141901773589
+  Machine Id:              dJ8Tfn01EciPmnYvmSiKPSjQkro=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.01s, handshake: 1.64s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-02-28T11:30:46.1352178Z"
+[Licensing::Module] Licensing Background thread has ended after 1.65s
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003477 seconds.
+- Loaded All Assemblies, in  0.432 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 841ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (147ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (415ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568654860447-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.094 seconds
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 11.72 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.390 seconds
+Domain Reload Profiling: 2474ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (805ms)
+		LoadAssemblies (616ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (200ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1390ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (838ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 18.27 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7030 unused Assets / (4.1 MB). Loaded Objects now: 7948.
+Memory consumption went from 309.6 MB to 305.5 MB.
+Total: 27.013900 ms (FindLiveObjects: 0.851300 ms CreateObjectMapping: 0.758000 ms MarkObjects: 22.613800 ms  DeleteObjects: 2.789200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1389154.627803 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/Presets/MAT_StoneBox.mat
+  artifactKey: Guid(c24030d29be61374789fa59b2b2ac90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/Presets/MAT_StoneBox.mat using Guid(c24030d29be61374789fa59b2b2ac90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0df2e97481abc0c26a103e1315ca553c') in 0.455014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.688123 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_FloorCircular.mat
+  artifactKey: Guid(f7644ed5fc107334e8919bb4c742c931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_FloorCircular.mat using Guid(f7644ed5fc107334e8919bb4c742c931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '431b3a20d124a2c488f1189f2b50b297') in 2.0973058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.247736 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/StandardExamples/MAT_ GlowEyesStandard.mat
+  artifactKey: Guid(2086fc2dcc2351246bf617f5c4fe54df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/StandardExamples/MAT_ GlowEyesStandard.mat using Guid(2086fc2dcc2351246bf617f5c4fe54df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '316957ebad4af4ebe5b6a92829b6d3ff') in 0.0219881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_AlienStatueDither.mat
+  artifactKey: Guid(c9158e72d04cb474c8dc09f3d83f4ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_AlienStatueDither.mat using Guid(c9158e72d04cb474c8dc09f3d83f4ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3afd6c1f995062ac8f9879e3c1b2adc8') in 2.9168536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c066690681e4cf2a0ca260be9bff6b2') in 0.5083639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_LightPBR.mat
+  artifactKey: Guid(d997884f26cc2b649b380db2b1dae5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_LightPBR.mat using Guid(d997884f26cc2b649b380db2b1dae5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'beebd84540e485425000508bdda8343f') in 2.43863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_Ghost.mat
+  artifactKey: Guid(798392db2b59f4040bf1ae01d21908bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_Ghost.mat using Guid(798392db2b59f4040bf1ae01d21908bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fff032943fde0e89efef7bbb7892268') in 4.6082165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_GlowRed.mat
+  artifactKey: Guid(44b7e48f531edd54b813c39eb8379abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_GlowRed.mat using Guid(44b7e48f531edd54b813c39eb8379abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ec3b06d5af0820807144ce78f6ca6e4') in 0.3194229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_StatueGlitch.mat
+  artifactKey: Guid(f4f1ac02a2d5d36408f3444fa371264b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_StatueGlitch.mat using Guid(f4f1ac02a2d5d36408f3444fa371264b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d90bd744a12b9322f59e627f63fa989') in 3.2228333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_FloorPanel2x2.mat
+  artifactKey: Guid(c6c32196c887419478c92f486446e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_FloorPanel2x2.mat using Guid(c6c32196c887419478c92f486446e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '123bd72af57043b990433cbacf55ecae') in 3.3933571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/Environment/MAT_SkyFlatAllIn13DShader.mat
+  artifactKey: Guid(2e3f31af59380a849b44b9edfe6f318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/Environment/MAT_SkyFlatAllIn13DShader.mat using Guid(2e3f31af59380a849b44b9edfe6f318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d269a825192fe1943daf1914aaf748a') in 0.0132265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_EllenHair.mat
+  artifactKey: Guid(02d19508536c8f24b95b4b3954cdcedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_EllenHair.mat using Guid(02d19508536c8f24b95b4b3954cdcedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce68ff43dd98dd0d5ddfcb5fc32e4238') in 3.7135184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/StandardExamples/MAT_KnightMetalStandard.mat
+  artifactKey: Guid(ecc0eb9577a09ca4090a071c5d6cf54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/StandardExamples/MAT_KnightMetalStandard.mat using Guid(ecc0eb9577a09ca4090a071c5d6cf54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a6aa1ca222a7ba9218e5477330b4630') in 0.0197146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_Platform.mat
+  artifactKey: Guid(891e08a63c045fc4284d6ad601cf62c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_Platform.mat using Guid(891e08a63c045fc4284d6ad601cf62c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7f87ce67cc30d67fb9940460ecf1970') in 2.9670109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_ScreenSpace.mat
+  artifactKey: Guid(d71298f964e1deb45863a6f9088a337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_ScreenSpace.mat using Guid(d71298f964e1deb45863a6f9088a337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc29029e161344cc9a7910a00d78a91f') in 0.3011838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_TestObj1.mat
+  artifactKey: Guid(019356c1c5a2d534fba94fc0970ca05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_TestObj1.mat using Guid(019356c1c5a2d534fba94fc0970ca05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccc39f2681fd5d8949ef8a1c4a7eb810') in 3.3608944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/Environment/MAT_DemoWall.mat
+  artifactKey: Guid(7f016dc8a2b3b504f9a6dd9d60eaa10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/Environment/MAT_DemoWall.mat using Guid(7f016dc8a2b3b504f9a6dd9d60eaa10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a67db74192c829774efc0eb8f5fc1189') in 2.8711423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_ColoringGradient.mat
+  artifactKey: Guid(25e57e8854757ca4aa6014ce69968fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_ColoringGradient.mat using Guid(25e57e8854757ca4aa6014ce69968fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94b2630b86653cf24c35af008daa5b4d') in 2.844196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_SkeletonEyes.mat
+  artifactKey: Guid(e9bf0299254d5aa408e5d22f4135d193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_SkeletonEyes.mat using Guid(e9bf0299254d5aa408e5d22f4135d193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44a07cc1e11d688d18e43edf45aac50b') in 2.0734065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Materials/Stage/Stage.mat
+  artifactKey: Guid(fd3619eef46537347a3946889f3de92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack/Demo Elements/Materials/Stage/Stage.mat using Guid(fd3619eef46537347a3946889f3de92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04c16d6d30456535297ffad3a3c886bd') in 0.0171618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_Copy.mat
+  artifactKey: Guid(3e74e60fcd3ce634eb20e8ed73f27eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_Copy.mat using Guid(3e74e60fcd3ce634eb20e8ed73f27eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55bc93a57a740144c024136c484c031e') in 3.9211149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_TestObj2.mat
+  artifactKey: Guid(1c32cd3e3420da14ca2f44fa1b744521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_TestObj2.mat using Guid(1c32cd3e3420da14ca2f44fa1b744521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad989c672bd39dc35170e8ede982c0da') in 3.7099909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_Copy.mat
+  artifactKey: Guid(2f6f5fe75535db341af0ac792ff5ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_Copy.mat using Guid(2f6f5fe75535db341af0ac792ff5ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de132a31764e67bd71804d8f10c23d5') in 0.0229507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Materials/OrangeWall.mat
+  artifactKey: Guid(6271a62f4bbd49641a54f55a64209956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Materials/OrangeWall.mat using Guid(6271a62f4bbd49641a54f55a64209956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca7960ddfbb0eaa6119bed093219c0f6') in 0.0113124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_HandDrawn.mat
+  artifactKey: Guid(6e4dc87464cff2e408fed69c2ebe7792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_HandDrawn.mat using Guid(6e4dc87464cff2e408fed69c2ebe7792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '260eaf1e3162fea4b42901e4433ea422') in 0.35795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_Grass.mat
+  artifactKey: Guid(05f16112d2b984347a1d81411fc41fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_Grass.mat using Guid(05f16112d2b984347a1d81411fc41fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c70697fd82b0cdc47683fe47bb7961b1') in 2.2265748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_Gameboy.mat
+  artifactKey: Guid(54a2aae61de6ffc4d9d2f75684d1f6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_Gameboy.mat using Guid(54a2aae61de6ffc4d9d2f75684d1f6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e4d94e8a8dcbf17bc2872c1d81c4081') in 3.9835887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_DemoDefault.mat
+  artifactKey: Guid(2c1bc918e25be5040abbf47f0f524573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_DemoDefault.mat using Guid(2c1bc918e25be5040abbf47f0f524573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5edb7baddd7a4aa9b3da1090ebddbb1b') in 3.9179287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_Spitter.mat
+  artifactKey: Guid(d069b6c30d0871c46a0f94c41e5ea009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_Spitter.mat using Guid(d069b6c30d0871c46a0f94c41e5ea009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cca62256af11e5e7ec4475807992146c') in 4.3982828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_TestObj1SSS.mat
+  artifactKey: Guid(2638f7b14353fd047b1fbea650de0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/DemoMaterials/MAT_Baked_TestObj1SSS.mat using Guid(2638f7b14353fd047b1fbea650de0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6ac991c5610d22a749746ff83f9d9d1') in 4.3871984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326896 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_WhitePlasticMat.mat
+  artifactKey: Guid(80285b73a70e8104ba23d4fc70337737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Baked Shaders Demo/Materials/Presets/MAT_Baked_WhitePlasticMat.mat using Guid(80285b73a70e8104ba23d4fc70337737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e29b7c168de595913323afbd59ce4f8') in 4.0663446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_ChomperBase.mat
+  artifactKey: Guid(47631be4051e35346967d3456abc0b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_ChomperBase.mat using Guid(47631be4051e35346967d3456abc0b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '767f9eb5695dc1c3c3e76690763919c9') in 0.0842729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/Presets/MAT_CarBlack.mat
+  artifactKey: Guid(9e9bf79a6ed8b494da9e03b648f9445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/Presets/MAT_CarBlack.mat using Guid(9e9bf79a6ed8b494da9e03b648f9445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfdc681dc36944c3eb295bf588a576e4') in 0.0692044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_BuildingsRamp1.mat
+  artifactKey: Guid(e4b55a1d7a20173428e6466d938bd59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AllIn13DShader/Demo/Materials/DemoMaterials/MAT_BuildingsRamp1.mat using Guid(e4b55a1d7a20173428e6466d938bd59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0c0f24abb4ec6f7f14c366b588dedb0') in 2.8600649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A9.mat
+  artifactKey: Guid(eaa745927e1989445913dcae1a842fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/Panoramic/Materials/SKY_A9.mat using Guid(eaa745927e1989445913dcae1a842fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ec9c64a1936dc1f7a112a7d31d3654a') in 0.3454423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Materials/SKY_A8_high contrast.mat
+  artifactKey: Guid(0988ee44c8faf84498e14f2472fe0f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Materials/SKY_A8_high contrast.mat using Guid(0988ee44c8faf84498e14f2472fe0f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '719fb984755c4226a6ecd258957e2bd2') in 0.3718128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Materials/SKY_A6_high contrast.mat
+  artifactKey: Guid(6e41360608db8db448ec0100ef9878b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/PackageResource/BeautifulSkyPack02/CubeMap/Materials/SKY_A6_high contrast.mat using Guid(6e41360608db8db448ec0100ef9878b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60863a48e089327a107abd53f143f5a0') in 0.2291592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
