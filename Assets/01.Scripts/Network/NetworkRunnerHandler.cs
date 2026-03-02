@@ -129,10 +129,10 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
     {
         OnPlayerCountChanged?.Invoke(runner.SessionInfo.PlayerCount);
         
-        // [복구] 4명이 모였을 때만 게임 시작 시퀀스 (GameManager 스폰 등은 OnSceneLoadDone에서 처리)
-        if (runner.IsServer && runner.SessionInfo.PlayerCount == 4)
+        // [복구] 2명이 모였을 때만 게임 시작 시퀀스 (GameManager 스폰 등은 OnSceneLoadDone에서 처리)
+        if (runner.IsServer && runner.SessionInfo.PlayerCount >= 2)
         {
-            Debug.Log("[Network] 4 Players joined. Waiting for lobby sequence to finish...");
+            Debug.Log("[Network] 2 Players joined. Waiting for lobby sequence to finish...");
         }
     }
 
