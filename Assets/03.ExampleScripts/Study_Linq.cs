@@ -2,17 +2,16 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;  // C#에서 지원하는 Linq 네임스페이스
-using Study;
 
-namespace Study.Examples.Fusion
-{ 
-    public class Study_Linq : MonoBehaviour 
-    {
+
+
+public class Study_Linq : MonoBehaviour
+{
     private List<Item> items;
     
     #region Linq Part 1
 
-    void Linq1() 
+    void Linq1()
     {
         //Linq의 원형 = 어디서든 만들어서 쓸 수 있다.
         
@@ -44,7 +43,7 @@ namespace Study.Examples.Fusion
         {
             Debug.Log(item.Name);
         }
-        
+
     }
     
     #endregion
@@ -222,17 +221,13 @@ namespace Study.Examples.Fusion
     }
 
     #endregion
-
-
+    
+    
+    
     public void Start()
     {
         items = Item.GetDummyData();
        // Linq1();
-        Linq2(); 
-    } 
-    
-    
+        Linq2();
     }
 }
-
-

@@ -1,7 +1,7 @@
 ﻿using Fusion;
 using UnityEngine;
 
-namespace Study.Examples.Fusion
+namespace Study.Fusion
 {
     // 여기에 선언된 정보는 프로젝트의 네트워크로 동기화 되어야할 입력 Data라고 정의한다.
     // 아래처럼 INetworkInput을 상속받은 Data를 기반으로 정보(상태)를 동기화

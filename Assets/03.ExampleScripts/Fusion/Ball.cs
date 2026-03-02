@@ -1,7 +1,7 @@
 ﻿using Fusion;
 using UnityEngine.Rendering;
 
-namespace Study.Examples.Fusion
+namespace Study.Fusion
 {
     public class Ball : NetworkBehaviour
     {

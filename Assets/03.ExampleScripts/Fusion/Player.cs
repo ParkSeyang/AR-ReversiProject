@@ -2,7 +2,7 @@
 using Fusion;
 using UnityEngine;
 
-namespace Study.Examples.Fusion
+namespace Study.Fusion
 {
     public class Player : NetworkBehaviour
     {
