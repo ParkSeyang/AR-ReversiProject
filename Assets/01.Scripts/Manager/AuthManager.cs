@@ -9,8 +9,18 @@ public class AuthManager : SingletonBase<AuthManager>
     private FirebaseAuth firebaseAuth;
     private FirebaseUser currentUser;
 
-    public string DisplayName => (currentUser != null && string.IsNullOrEmpty(currentUser.DisplayName) == false) 
-                                 ? currentUser.DisplayName : "Guest";
+    public string DisplayName 
+    {
+        get
+        {
+            // 1. Firebase 유저 정보가 있다면 최우선 반환
+            if (currentUser != null && string.IsNullOrEmpty(currentUser.DisplayName) == false)
+                return currentUser.DisplayName;
+
+            // 2. 없다면 로컬에 저장된 이름을 반환 (우회 로직의 핵심)
+            return PlayerPrefs.GetString("LocalPlayerName", "Guest_" + UnityEngine.Random.Range(1000, 9999));
+        }
+    }
     
     // [수정] 인스턴스를 통해 접근 가능하도록 복구
     public bool IsFirebaseInitialized { get; private set; } = false;

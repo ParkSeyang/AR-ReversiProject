@@ -197,7 +197,7 @@ namespace Youstianus
             if (nickNameInputField != null && !string.IsNullOrWhiteSpace(nickNameInputField.text))
             {
                 // 닉네임을 저장하여 다른 씬(MainLoby)에서 쓸 수 있게 함
-                PlayerPrefs.SetString("PlayerNickName", nickNameInputField.text);
+                PlayerPrefs.SetString("LocalPlayerName", nickNameInputField.text);
                 PlayerPrefs.Save();
                 
                 StartCoroutine(FadeOutAndLoadScene("MainLoby"));

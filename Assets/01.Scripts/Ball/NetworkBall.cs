@@ -8,11 +8,8 @@ using Fusion;
 public class NetworkBall : NetworkBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField] private float moveSpeed = 50.0f; // 공의 비행 속도
+    [SerializeField] private float moveSpeed = 120.0f; // 공의 비행 속도
     [SerializeField] private float lifeTime = 5.0f;   // 공의 수명 (초)
-
-    [Header("Collision Settings")]
-    [SerializeField] private LayerMask wallLayer;    
 
     [Networked] private TickTimer lifeTimer { get; set; }
     [Networked] private float damage { get; set; }        
@@ -42,18 +39,37 @@ public class NetworkBall : NetworkBehaviour
         lifeTimer = TickTimer.CreateFromSeconds(Runner, lifeTime);
     }
 
+    public override void Spawned()
+    {
+        // [수정] 인스턴스 할당 및 리지드바디 초기 설정
+        ballRigidbody = GetComponent<Rigidbody>();
+        
+        // [추가] HitBox.Awake 등에 의해 콜라이더가 꺼지는 현상을 방지하기 위해 명시적으로 활성화
+        var col = GetComponent<Collider>();
+        if (col != null)
+        {
+            col.enabled = true;
+            col.isTrigger = true; // 충돌 이벤트 감지용
+        }
+
+        // 서버에서 초기 속도 한 번만 주입
+        if (HasStateAuthority == true && ballRigidbody != null)
+        {
+            ballRigidbody.linearVelocity = transform.forward * moveSpeed;
+        }
+    }
+
     public override void FixedUpdateNetwork()
     {
         if (Object == null || Object.IsValid == false) return;
 
-        // [물리 기반 비행] Rigidbody의 속도를 직접 제어하여 물리 충돌 감지 성능을 극대화함
+        // [수정] 서버와 클라이언트 모두에서 속도를 강제로 유지하여 시각적 지연을 최소화합니다.
         if (ballRigidbody != null)
         {
-            // 중력 영향 없이 정면으로 일직선 비행 유지 (Unity 6 표준: linearVelocity)
             ballRigidbody.linearVelocity = transform.forward * moveSpeed;
         }
 
-        // 수명이 다하면 서버에서 제거
+        // 수명 체크 및 제거는 서버(Host)에서만 수행
         if (HasStateAuthority == true && lifeTimer.Expired(Runner) == true)
         {
             Runner.Despawn(Object);
@@ -64,13 +80,6 @@ public class NetworkBall : NetworkBehaviour
     {
         // 서버에서만 충돌 판정을 수행
         if (HasStateAuthority == false) return;
-
-        // 벽 레이어 충돌 시 즉시 소멸
-        if (wallLayer.Contains(other.gameObject))
-        {
-            Runner.Despawn(Object);
-            return;
-        }
 
         // 전투 시스템 타겟 확인
         if (CombatSystem.Instance.HasHitTarget(other) == true)

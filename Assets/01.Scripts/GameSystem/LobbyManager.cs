@@ -73,9 +73,13 @@ public class LobbyManager : NetworkBehaviour
     public void AddPlayerData(PlayerRef player, int teamId)
     {
         if (HasStateAuthority == false) return;
+        
         if (PlayerDataDic.ContainsKey(player) == false)
         {
-            PlayerDataDic.Add(player, new LobbyPlayerData { IsReady = false, TeamID = teamId, Nickname = "Joining..." });
+            // [중요] 입장 순서에 따라 0, 1, 0, 1 순차 배정 보장 (외부 전달 teamId가 아닌 내부 개수 기준)
+            int assignedTeam = PlayerDataDic.Count % 2;
+            PlayerDataDic.Add(player, new LobbyPlayerData { IsReady = false, TeamID = assignedTeam, Nickname = "Joining..." });
+            Debug.Log($"[Lobby] Player {player.PlayerId} added to Team {assignedTeam}");
         }
     }
 

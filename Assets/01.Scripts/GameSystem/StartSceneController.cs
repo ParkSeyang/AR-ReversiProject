@@ -140,7 +140,7 @@ public class StartSceneController : MonoBehaviour
     #region Firebase Auth & Transition
 
     /// <summary>
-    /// 확인 버튼 클릭 시 Firebase 익명 로그인을 수행하고 닉네임을 등록합니다.
+    /// 확인 버튼 클릭 시 로컬 닉네임을 먼저 저장하고, Firebase 인증은 백그라운드에서 시도하며 즉시 로비로 이동합니다.
     /// </summary>
     public async void OnOkButtonClick()
     {
@@ -150,31 +150,21 @@ public class StartSceneController : MonoBehaviour
         {
             string enteredName = nickNameInputField.text;
 
-            // 1. AuthManager 초기화 대기 (혹시 아직 초기화 중일 경우)
-            if (AuthManager.Instance.IsFirebaseInitialized == false)
+            // 1. 로컬에 즉시 저장 (우회 로직의 핵심: Firebase 없이도 게임 가능하게 함)
+            PlayerPrefs.SetString(NICKNAME_SAVE_KEY, enteredName);
+            PlayerPrefs.Save();
+
+            // 2. Firebase 인증은 시도만 하고, 성공 여부를 기다리지 않고 통과시킴
+            if (AuthManager.Instance.IsFirebaseInitialized == true)
             {
-                Debug.LogWarning("[Start] AuthManager is still initializing...");
-                return;
+                // 백그라운드에서 조용히 실행 (await 하지 않거나 실패해도 무시)
+                _ = AuthManager.Instance.SignInAnonymously().ContinueWith(async task => {
+                    if (task.Result == true) await AuthManager.Instance.UpdateDisplayName(enteredName);
+                });
             }
 
-            // 2. Firebase 익명 로그인 시도
-            bool isLoginSuccess = await AuthManager.Instance.SignInAnonymously();
-            
-            if (isLoginSuccess == true)
-            {
-                // 3. Firebase DisplayName 업데이트
-                await AuthManager.Instance.UpdateDisplayName(enteredName);
-                
-                // 4. 기존 로직과의 호환성을 위해 로컬 저장도 병행
-                PlayerPrefs.SetString(NICKNAME_SAVE_KEY, enteredName);
-                PlayerPrefs.Save();
-                
-                StartCoroutine(FadeOutAndMoveToLobby());
-            }
-            else
-            {
-                Debug.LogError("[Start] Firebase Login Failed.");
-            }
+            Debug.Log($"[Auth Bypass] Proceeding to Lobby with name: {enteredName}");
+            StartCoroutine(FadeOutAndMoveToLobby());
         }
     }
 

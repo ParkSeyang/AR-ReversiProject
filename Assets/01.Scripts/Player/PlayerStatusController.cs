@@ -87,37 +87,55 @@ public class PlayerStatusController : NetworkBehaviour, ICombatAgent
     /// </summary>
     public void TakeDamage(float damage, HitInfo hitInfo)
     {
+        // 1. 서버(Host)만 실제 체력을 수정할 수 있음
         if (HasStateAuthority == false || player == null) return;
 
-        // 현재는 방어력 시스템이 없으므로 데미지를 그대로 체력에 반영
-        player.SetHP(player.HP - damage);
+        // 2. 이미 탈락(HP <= 0)한 상태면 중복 처리 방지
+        if (player.HP <= 0) return;
 
-        // [옵저버 패턴] 데미지 이벤트 발생 (피격 이펙트, UI 등 연동용)
+        // 3. 체력 차감 및 네트워크 동기화 (HP는 [Networked] 속성)
+        float nextHP = Mathf.Max(0, player.HP - damage);
+        player.HP = nextHP;
+
+        Debug.Log($"[Combat] {player.PlayerName} took {damage} damage. Remaining HP: {player.HP}");
+
+        // 4. [옵저버 패턴] 전투 이벤트 등록 (모든 클라이언트에 이펙트 등을 띄우기 위함)
         CombatEvent damageEvent = new CombatEvent 
         { 
+            Sender = hitInfo.sender,
             Receiver = this, 
             Damage = damage, 
             HitInfo = hitInfo 
         };
         CombatSystem.Instance.AddCombatEvent(damageEvent);
 
+        // 5. 상태에 따른 후속 처리
         if (player.HP <= 0)
         {
-            HandleDeath();
+            RPC_HandleDeath();
         }
         else
         {
-            // 피격 애니메이션 트리거 (필요 시)
-            GetComponent<Animator>()?.SetTrigger("Hit");
+            // 모든 클라이언트에서 피격 애니메이션 재생
+            RPC_PlayHitAnimation();
         }
     }
 
-    private void HandleDeath()
+    [Rpc(RpcSources.StateAuthority, RpcTargets.All)]
+    private void RPC_PlayHitAnimation()
     {
-        Debug.Log($"{player.PlayerName} has been knocked out!");
+        GetComponent<Animator>()?.SetTrigger("Hit");
+    }
+
+    [Rpc(RpcSources.StateAuthority, RpcTargets.All)]
+    private void RPC_HandleDeath()
+    {
+        Debug.Log($"[Combat] {player.PlayerName} is OUT!");
         GetComponent<Animator>()?.SetTrigger("Dead");
         
-        // 여기에 팀 포인트 차감이나 라운드 종료 체크 로직 추가 예정
+        // 사망 후 콜라이더 비활성화 등을 통해 추가 타격 방지
+        var col = GetComponent<Collider>();
+        if (col != null) col.enabled = false;
     }
 
     /// <summary>

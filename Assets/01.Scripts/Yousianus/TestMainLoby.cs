@@ -41,7 +41,7 @@ namespace Youstianus
         {
             if (nickNameText != null)
             {
-                string savedNick = PlayerPrefs.GetString("PlayerNickName", "Guest");
+                string savedNick = PlayerPrefs.GetString("LocalPlayerName", "Guest");
                 nickNameText.text = $"{savedNick}";
             }
 

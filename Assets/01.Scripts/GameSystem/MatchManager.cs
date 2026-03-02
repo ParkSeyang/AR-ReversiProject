@@ -17,6 +17,10 @@ public class MatchManager : NetworkBehaviour
     [SerializeField] private float roundDuration = 120f;
     [SerializeField] private int targetWins = 2;
 
+    [Header("Spawn Points (Assign in Inspector)")]
+    [SerializeField] private Transform[] bluePoints;
+    [SerializeField] private Transform[] redPoints;
+
     [Networked] public EMatchState CurrentState { get; set; }
     
     // [추가] UI에서 안전하게 접근하기 위한 Safe Getter
@@ -29,6 +33,12 @@ public class MatchManager : NetworkBehaviour
     private void Awake()
     {
         if (Instance == null) Instance = this;
+
+        // [추가] 인스펙터에서 할당된 씬 전용 스폰 포인트들을 싱글톤 매니저로 전달
+        if (NetworkRunnerHandler.Instance != null)
+        {
+            NetworkRunnerHandler.Instance.SetSpawnPoints(bluePoints, redPoints);
+        }
     }
 
     public override void Spawned()
@@ -75,15 +85,20 @@ public class MatchManager : NetworkBehaviour
         {
             p.SetHP(p.MaxHP);
             
-            // 팀별 스폰 포인트 인덱스 계산 (Blue: 1,2 / Red: 3,4)
-            int spawnPointNum = (p.TeamID == 0) ? (++blueIdx) : (++redIdx + 2);
+            // [수정] NetworkRunnerHandler를 거치지 않고 자신의 인스펙터 필드를 즉시 사용합니다.
+            Transform[] targetPoints = (p.TeamID == 0) ? bluePoints : redPoints;
+            int pointIndex = (p.TeamID == 0) ? (blueIdx++) : (redIdx++);
             
-            GameObject point = GameObject.Find("SpawnPoint " + spawnPointNum);
-            if (point != null)
+            // 안전하게 인덱스 범위 체크
+            if (targetPoints != null && pointIndex < targetPoints.Length)
             {
-                p.transform.position = point.transform.position;
-                p.transform.rotation = point.transform.rotation;
-                if (p.TeamID == 0) p.transform.rotation *= Quaternion.Euler(0, 180, 0);
+                Transform targetTransform = targetPoints[pointIndex];
+                if (targetTransform != null)
+                {
+                    p.transform.position = targetTransform.position;
+                    p.transform.rotation = targetTransform.rotation;
+                    if (p.TeamID == 0) p.transform.rotation *= Quaternion.Euler(0, 180, 0);
+                }
             }
             
             p.GetComponent<Animator>()?.Rebind();

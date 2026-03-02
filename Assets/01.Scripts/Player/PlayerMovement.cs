@@ -48,8 +48,9 @@ public class PlayerMovement : NetworkBehaviour
         navAgent.acceleration = acceleration;
         navAgent.stoppingDistance = 0.1f;
 
-        // 에이전트 본연의 이동 및 회전 기능을 사용함
-        navAgent.updatePosition = true;
+        // [수정] NavMeshAgent가 직접 transform을 수정하지 못하게 막습니다. (순간이동 방지의 핵심)
+        // 대신 경로 계산만 담당하게 하고, 실제 이동은 FixedUpdateNetwork에서 수동으로 처리합니다.
+        navAgent.updatePosition = false; 
         navAgent.updateRotation = true;
     }
 
@@ -60,6 +61,13 @@ public class PlayerMovement : NetworkBehaviour
 
         if (Object == null || Object.IsValid == false) return;
 
+        // [추가] NavMeshAgent의 계산된 위치를 현재 transform 위치와 동기화시킵니다.
+        // 이렇게 해야 에이전트가 캐릭터를 잃어버리지 않고 장애물을 정확히 판단합니다.
+        if (navAgent != null && navAgent.isActiveAndEnabled == true)
+        {
+            navAgent.nextPosition = transform.position;
+        }
+
         // 공격 중이면 이동 중지
         if (TryGetComponent<PlayerAttack>(out var attack) && attack.IsAttacking == true)
         {
@@ -67,7 +75,7 @@ public class PlayerMovement : NetworkBehaviour
             return;
         }
 
-        // [중요] 실시간 속도 동기화: Player.cs의 MoveSpeed 변수를 NavMeshAgent에 대입
+        // 실시간 속도 동기화
         if (player != null && navAgent != null && navAgent.isActiveAndEnabled == true)
         {
             navAgent.speed = player.MoveSpeed;
@@ -81,7 +89,17 @@ public class PlayerMovement : NetworkBehaviour
                 MoveTo(inputData.ClickPosition);
             }
         }
+
+        // [추가] 경로 계산 결과를 transform에 수동으로 적용 (장애물 충돌 유지)
+        if (navAgent != null && navAgent.isActiveAndEnabled == true && navAgent.hasPath)
+        {
+            // 에이전트가 가고자 하는 방향으로 transform을 실제로 이동시킵니다.
+            // (Fusion의 위치 동기화와 호환되도록 transform.position을 직접 수정)
+            transform.position = navAgent.nextPosition;
+        }
     }
+
+    private Vector3 lastPosition;
 
     public override void Render()
     {
@@ -92,16 +110,17 @@ public class PlayerMovement : NetworkBehaviour
         {
             float currentSpeed = 0f;
             
-            // 로컬 플레이어인 경우 에이전트의 속도를 직접 참조
             if (Object.HasInputAuthority == true && navAgent != null && navAgent.isActiveAndEnabled == true)
             {
+                // 로컬 플레이어: 에이전트의 실제 속도 사용
                 currentSpeed = navAgent.velocity.magnitude;
             }
             else
             {
-                // 리모트 플레이어(Proxy)는 Network Transform에 의해 위치가 이동하므로,
-                // 시각적인 보간(Interpolation) 결과나 이동 변화량을 기반으로 애니메이션 재생
-                // 여기서는 간단하게 속도 파라미터를 0으로 두거나, 추후 NetworkTransform의 속도값으로 보완 가능
+                // [수정] 리모트 플레이어: 이전 프레임과의 위치 차이를 통해 가상의 속도 계산 (슬라이딩 방지)
+                Vector3 moveDelta = transform.position - lastPosition;
+                currentSpeed = moveDelta.magnitude / Time.deltaTime;
+                lastPosition = transform.position;
             }
             
             animator.SetFloat(SpeedHash, currentSpeed > 0.1f ? currentSpeed : 0f);

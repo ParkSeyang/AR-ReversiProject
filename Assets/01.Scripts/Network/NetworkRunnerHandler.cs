@@ -14,7 +14,20 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
     [Header("Network Prefabs")]
     [SerializeField] private NetworkObject[] playerPrefabs = new NetworkObject[4]; 
     [SerializeField] private NetworkObject lobbyManagerPrefab; 
-    [SerializeField] private NetworkObject matchManagerPrefab; 
+    [SerializeField] private NetworkObject matchManagerPrefab;
+
+    private Transform[] blueSpawnPoints; 
+    private Transform[] redSpawnPoints;  
+
+    /// <summary>
+    /// [추가] PlayGame 씬 로드 시 씬에 배치된 스폰 포인트들을 주입받습니다.
+    /// </summary>
+    public void SetSpawnPoints(Transform[] blue, Transform[] red)
+    {
+        blueSpawnPoints = blue;
+        redSpawnPoints = red;
+        Debug.Log("[Network] Spawn Points registered from the current scene.");
+    }
 
     [Header("Session Settings")]
     [SerializeField] private string defaultSessionName = "DodgeballRoom";
@@ -67,7 +80,7 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
     }
 
     /// <summary>
-    /// [핵심] 특정 플레이어를 팀에 맞는 스폰 포인트에 즉시 생성합니다.
+    /// [핵심] 특정 플레이어를 팀에 맞는 스폰 포인트에 즉시 생성합니다. (인스펙터 참조 방식)
     /// </summary>
     public void SpawnPlayerAtPoint(PlayerRef player, int charIndex, int teamId)
     {
@@ -76,17 +89,18 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
         // 이미 소환된 캐릭터가 있다면 중복 생성 방지
         if (spawnedCharacters.ContainsKey(player) == true) return;
 
-        // 1. 팀별 스폰 포인트 인덱스 결정
-        // Team 0 (Blue): 포인트 1, 2 사용 / Team 1 (Red): 포인트 3, 4 사용
+        // 1. 해당 팀의 소환된 인원 확인
         int teamMemberCount = spawnedCharacters.Values.Count(obj => obj.GetComponent<Player>().TeamID == teamId);
-        int spawnPointIndex = (teamId == 0) ? (teamMemberCount + 1) : (teamMemberCount + 3);
+        
+        // 2. 인스펙터에서 할당된 포인트 리스트에서 적절한 위치 선택
+        Transform[] targetPoints = (teamId == 0) ? blueSpawnPoints : redSpawnPoints;
+        int pointIndex = Mathf.Clamp(teamMemberCount, 0, targetPoints.Length - 1);
+        
+        Transform targetTransform = targetPoints[pointIndex];
+        Vector3 pos = (targetTransform != null) ? targetTransform.position : Vector3.zero;
+        Quaternion rot = (targetTransform != null) ? targetTransform.rotation : Quaternion.identity;
 
-        // 2. 하이어라키에서 'SpawnPoint X' 찾기
-        GameObject point = GameObject.Find("SpawnPoint " + spawnPointIndex);
-        Vector3 pos = (point != null) ? point.transform.position : Vector3.zero;
-        Quaternion rot = (point != null) ? point.transform.rotation : Quaternion.identity;
-
-        // 블루팀은 레드팀(상대 진영)을 바라보게 회전 보정
+        // 블루팀(0)은 상대 진영을 바라보게 보정 (포인트의 방향이 정방향일 경우)
         if (teamId == 0) rot *= Quaternion.Euler(0, 180, 0);
 
         // 3. 캐릭터 스폰
@@ -100,7 +114,7 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
         }
 
         spawnedCharacters[player] = spawnedObject;
-        Debug.Log($"[Network] Spawned Player {player.PlayerId} at SpawnPoint {spawnPointIndex} (Team: {teamId})");
+        Debug.Log($"[Network] Spawned Player {player.PlayerId} at {targetTransform.name} (Team: {teamId})");
     }
 
     #region INetworkRunnerCallbacks
