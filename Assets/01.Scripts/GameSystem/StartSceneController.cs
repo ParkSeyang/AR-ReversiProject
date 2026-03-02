@@ -142,7 +142,7 @@ public class StartSceneController : MonoBehaviour
     /// <summary>
     /// 확인 버튼 클릭 시 로컬 닉네임을 먼저 저장하고, Firebase 인증은 백그라운드에서 시도하며 즉시 로비로 이동합니다.
     /// </summary>
-    public async void OnOkButtonClick()
+    public void OnOkButtonClick()
     {
         if (isTransitioning == true) return;
 

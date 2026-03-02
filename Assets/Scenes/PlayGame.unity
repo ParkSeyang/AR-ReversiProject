@@ -2553,7 +2553,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &857221022
 Transform:
@@ -5184,14 +5184,14 @@ GameObject:
   - component: {fileID: 1534165687}
   - component: {fileID: 1534165691}
   - component: {fileID: 1534165690}
-  - component: {fileID: 1534165689}
   - component: {fileID: 1534165688}
+  - component: {fileID: 1534165689}
   m_Layer: 7
   m_Name: RedTeamGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1534165687
 Transform:
@@ -5531,7 +5531,7 @@ GameObject:
   - component: {fileID: 1649898626}
   - component: {fileID: 1649898627}
   m_Layer: 0
-  m_Name: NavMesh
+  m_Name: NavMeshSurface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5582,7 +5582,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 9eea52952968c304388c01d296c4fde2, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: a1201d5ea284b5f4a842f4d296b6ead0, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &1687433159
 GameObject:
@@ -6803,6 +6803,7 @@ GameObject:
   - component: {fileID: 1979069944}
   - component: {fileID: 1979069947}
   - component: {fileID: 1979069946}
+  - component: {fileID: 1979069948}
   - component: {fileID: 1979069945}
   m_Layer: 0
   m_Name: Cube
@@ -6820,8 +6821,8 @@ Transform:
   m_GameObject: {fileID: 1979069943}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
-  m_LocalScale: {x: 17.951427, y: 1, z: 0.20148203}
+  m_LocalPosition: {x: -0.03, y: 1.4286, z: 0}
+  m_LocalScale: {x: 19.565338, y: 1.1429983, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1426056391}
@@ -6845,8 +6846,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.6509824, z: 1}
+  m_Center: {x: 0, y: -0.3254907, z: 0}
 --- !u!23 &1979069946
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6904,6 +6905,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979069943}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!208 &1979069948
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979069943}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2005400519
 GameObject:
   m_ObjectHideFlags: 0

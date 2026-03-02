@@ -26,13 +26,39 @@ public class PlayerMovement : NetworkBehaviour
         player = GetComponent<Player>();
 
         ConfigureNavMeshAgent();
+        ApplyAreaMaskByTeam(); // [추가] 팀에 따른 이동 가능 구역 설정
 
         // [핵심] 본인 캐릭터(Input Authority)가 아니라면 NavMesh Agent를 비활성화함
-        // 리모트 플레이어는 Network Transform이 전달하는 위치 정보만 따르게 하여 떨림을 방지함
         if (Object.HasInputAuthority == false)
         {
             navAgent.enabled = false;
         }
+    }
+
+    /// <summary>
+    /// [추가] 플레이어의 팀ID를 기반으로 NavMesh Area Mask를 동적으로 할당합니다.
+    /// </summary>
+    private void ApplyAreaMaskByTeam()
+    {
+        if (navAgent == null || player == null) return;
+
+        // 기본적으로 모든 팀은 Walkable(0번) 구역을 갈 수 있습니다.
+        int mask = 1 << NavMesh.GetAreaFromName("Walkable");
+
+        // 팀ID에 따라 전용 구역 추가 (Areas 탭에 등록된 이름과 정확히 일치해야 함)
+        if (player.TeamID == 0) // Blue Team
+        {
+            int blueArea = NavMesh.GetAreaFromName("BlueArea");
+            if (blueArea != -1) mask |= (1 << blueArea);
+        }
+        else if (player.TeamID == 1) // Red Team
+        {
+            int redArea = NavMesh.GetAreaFromName("RedArea");
+            if (redArea != -1) mask |= (1 << redArea);
+        }
+
+        navAgent.areaMask = mask;
+        Debug.Log($"[NavMesh] Player {player.PlayerName} (Team {player.TeamID}) AreaMask set to: {mask}");
     }
 
     private void ConfigureNavMeshAgent()
