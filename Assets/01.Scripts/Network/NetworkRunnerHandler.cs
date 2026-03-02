@@ -46,15 +46,7 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
 
         var result = await networkRunner.StartGame(startGameArgs);
         
-        if (result.Ok == true)
-        {
-            if (mode == GameMode.Host)
-            {
-                if (lobbyManagerPrefab != null) networkRunner.Spawn(lobbyManagerPrefab);
-                if (matchManagerPrefab != null) networkRunner.Spawn(matchManagerPrefab);
-            }
-        }
-        else
+        if (result.Ok == false)
         {
             Shutdown();
         }
@@ -110,14 +102,13 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
 
     public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
     {
-        if (runner.IsServer == true)
+        if (runner.IsServer == true && LobbyManager.Instance != null)
         {
-            // 인원수에 맞춰 블루(0), 레드(1) 순차 배정
-            int assignedTeam = spawnedCharacters.Count % 2;
-            if (LobbyManager.Instance != null)
-            {
-                LobbyManager.Instance.AddPlayerData(player, assignedTeam);
-            }
+            // [수정] 소환된 캐릭터 수가 아니라, 로비 데이터에 등록된 인원수를 기준으로 팀을 배정합니다 (더 정확함)
+            int assignedTeam = LobbyManager.Instance.PlayerDataDic.Count % 2;
+            
+            Debug.Log($"[Network] Player {player.PlayerId} joined. Assigned Team: {(assignedTeam == 0 ? "Blue" : "Red")}");
+            LobbyManager.Instance.AddPlayerData(player, assignedTeam);
         }
     }
 

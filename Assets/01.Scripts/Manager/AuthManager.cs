@@ -26,10 +26,27 @@ public class AuthManager : SingletonBase<AuthManager>
         
         if (dependencyStatus == DependencyStatus.Available)
         {
-            firebaseAuth = FirebaseAuth.DefaultInstance;
+            // [수정] google-services.json 파일의 Database URL 누락 에러를 방지하기 위해 수동 초기화(AppOptions)를 수행합니다.
+            // ZeroDarkMos 님, 아래 "" 안의 값들을 Firebase 콘솔 프로젝트 설정에서 확인하여 직접 입력해 주세요.
+            AppOptions options = new AppOptions
+            {
+                DatabaseUrl = new Uri("https://studynetwork-42c19-default-rtdb.firebaseio.com/"),
+                ApiKey = "AIzaSyBzo_zDCkQL-NhucyIAstv3RziWGjseCEI",
+                AppId = "1:7557307168:android:aff2cd10f624353abfd545",
+                ProjectId = "studynetwork-42c19"
+            };
+
+            // 설정된 옵션으로 Firebase App 생성 및 인증 인스턴스 할당
+            FirebaseApp app = FirebaseApp.Create(options);
+            firebaseAuth = FirebaseAuth.GetAuth(app);
+            
             firebaseAuth.StateChanged += OnAuthStateChanged;
             IsFirebaseInitialized = true;
-            Debug.Log("[Auth] Firebase Initialized.");
+            Debug.Log("[Auth] Firebase Manual Initialization Success.");
+        }
+        else
+        {
+            Debug.LogError($"[Auth] Could not resolve all Firebase dependencies: {dependencyStatus}");
         }
     }
 

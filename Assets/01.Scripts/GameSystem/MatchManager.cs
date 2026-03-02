@@ -18,9 +18,18 @@ public class MatchManager : NetworkBehaviour
     [SerializeField] private int targetWins = 2;
 
     [Networked] public EMatchState CurrentState { get; set; }
+    
+    // [추가] UI에서 안전하게 접근하기 위한 Safe Getter
+    public EMatchState SafeCurrentState => (Object != null && Object.IsValid) ? CurrentState : EMatchState.Waiting;
+
     [Networked] public int BlueScore { get; set; }
     [Networked] public int RedScore { get; set; }
     [Networked] private TickTimer roundTimer { get; set; }
+
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+    }
 
     public override void Spawned()
     {
@@ -150,7 +159,10 @@ public class MatchManager : NetworkBehaviour
 
     public float GetRemainingTime()
     {
-        if (roundTimer.IsRunning == false) return roundDuration;
+        // [수정] Spawned() 호출 전 또는 네트워크 연결 전에는 기본값 반환하여 에러 방지
+        if (Object == null || Object.IsValid == false || roundTimer.IsRunning == false) 
+            return roundDuration;
+
         return roundTimer.RemainingTime(Runner) ?? 0f;
     }
 }

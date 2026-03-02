@@ -23,8 +23,17 @@ public class HUDUI : BaseUI
     [SerializeField] private TextMeshProUGUI redTeamListText1;
     [SerializeField] private TextMeshProUGUI redTeamListText2;
 
+    [Header("UI Containers")]
+    [SerializeField] private GameObject hudContainer; // [추가] HUD 전체를 담고 있는 부모 오브젝트
+
     private float updateInterval = 0.1f;
     private float nextUpdateTime = 0f;
+
+    public override void Open()
+    {
+        base.Open();
+        RefreshHUD();
+    }
 
     private void LateUpdate()
     {
@@ -38,28 +47,48 @@ public class HUDUI : BaseUI
 
     private void RefreshHUD()
     {
-        if (MatchManager.Instance == null) return;
+        // [수정] MatchManager가 존재하더라도 네트워크 소환 전이면 안전하게 종료
+        if (MatchManager.Instance == null || MatchManager.Instance.Object == null || MatchManager.Instance.Object.IsValid == false) 
+        {
+            if (hudContainer != null) hudContainer.SetActive(false);
+            return;
+        }
 
-        UpdateTimerAndScore();
-        UpdatePlayerSlots();
+        // [핵심] 안전한 Getter를 통해 현재 경기 상태를 체크합니다.
+        bool isPlaying = MatchManager.Instance.SafeCurrentState == EMatchState.Playing;
+        
+        if (hudContainer != null)
+        {
+            if (hudContainer.activeSelf != isPlaying) hudContainer.SetActive(isPlaying);
+        }
+
+        // 경기 중일 때만 데이터 업데이트
+        if (isPlaying == true)
+        {
+            UpdateTimerAndScore();
+            UpdatePlayerSlots();
+        }
     }
 
     private void UpdateTimerAndScore()
     {
+        if (MatchManager.Instance == null) return;
+
         // [수정] 남은 시간을 초 단위 정수(예: 120)로 즉시 표시
         float remainingTime = MatchManager.Instance.GetRemainingTime();
         
         if (timeText != null)
         {
             timeText.text = Mathf.FloorToInt(remainingTime).ToString();
-            
-            // 10초 미만일 때 강조 색상 적용
             timeText.color = (remainingTime <= 10f) ? Color.red : Color.white;
         }
 
         if (combinedScoreText != null)
         {
-            combinedScoreText.text = $"{MatchManager.Instance.BlueScore} : {MatchManager.Instance.RedScore}";
+            // 점수 또한 MatchManager가 유효할 때만 가져옴
+            int blue = MatchManager.Instance.Object.IsValid ? MatchManager.Instance.BlueScore : 0;
+            int red = MatchManager.Instance.Object.IsValid ? MatchManager.Instance.RedScore : 0;
+            combinedScoreText.text = $"{blue} : {red}";
         }
     }
 

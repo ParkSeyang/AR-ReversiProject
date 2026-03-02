@@ -13,10 +13,10 @@ public class CombatSystem : SingletonBase<CombatSystem>
         // 데미지가 발생했을 때 호출
         public Action<CombatEvent> OnSomeoneTakeDamage;
         
-        // 회복이 발생했을 때 호출 // 요거 지우고
+        // 회복이 발생했을 때 호출
         public Action<CombatEvent> OnSomeoneHeal;
 
-        // 가드에 성공했을 때 호출 // 요거 지우고 
+        // 가드에 성공했을 때 호출
         public Action<CombatEvent> OnSomeoneGuard;
     }
 
@@ -34,7 +34,7 @@ public class CombatSystem : SingletonBase<CombatSystem>
     }
 
     /// <summary>
-    /// 외부(예: 체력 포션 사용 등)에서 힐 이벤트를 발생시킵니다.  요거 지우고 
+    /// 외부(예: 체력 포션 사용 등)에서 힐 이벤트를 발생시킵니다.
     /// </summary>
     public void InvokeHealEvent(CombatEvent healEvent)
     {

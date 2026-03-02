@@ -19,8 +19,18 @@ public class LobbyManager : NetworkBehaviour
 
     [Networked] public bool IsMatchStarting { get; set; }
 
+    // [추가] UI에서 안전하게 접근하기 위한 Safe Getter
+    public bool SafeIsMatchStarting => (Object != null && Object.IsValid) ? IsMatchStarting : false;
+    public int PlayerCount => (Object != null && Object.IsValid) ? PlayerDataDic.Count : 0;
+
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+    }
+
     public override void Spawned()
     {
+        // 씬 배치형이라도 Spawned는 호출됩니다. 인스턴스 보장.
         Instance = this;
         Debug.Log("[LobbyManager] 인게임 준비 상태 동기화 시스템 활성화.");
     }
