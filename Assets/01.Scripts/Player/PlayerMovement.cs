@@ -83,46 +83,59 @@ public class PlayerMovement : NetworkBehaviour
 
     public override void FixedUpdateNetwork()
     {
-        // 입력 권한이 있는 로컬 플레이어만 이동 명령을 내림
-        if (Object.HasInputAuthority == false) return;
-
         if (Object == null || Object.IsValid == false) return;
 
-        // [추가] NavMeshAgent의 계산된 위치를 현재 transform 위치와 동기화시킵니다.
-        // 이렇게 해야 에이전트가 캐릭터를 잃어버리지 않고 장애물을 정확히 판단합니다.
-        if (navAgent != null && navAgent.isActiveAndEnabled == true)
-        {
-            navAgent.nextPosition = transform.position;
-        }
-
-        // 공격 중이면 이동 중지
-        if (TryGetComponent<PlayerAttack>(out var attack) && attack.IsAttacking == true)
-        {
-            StopMovement();
-            return;
-        }
-
-        // 실시간 속도 동기화
-        if (player != null && navAgent != null && navAgent.isActiveAndEnabled == true)
-        {
-            navAgent.speed = player.MoveSpeed;
-        }
-
-        // 입력 수집 및 이동 실행
+        // [중요] 모든 유저는 입력 데이터를 수집하지만, 실제 이동 처리는 서버 권한자만 수행합니다.
         if (GetInput(out NetworkInputData inputData))
         {
-            if (inputData.Buttons.IsSet(NetworkInputData.BUTTON_MOVE))
+            // 서버(Host)에서만 NavMesh 목적지를 갱신
+            if (HasStateAuthority == true && navAgent != null && navAgent.isActiveAndEnabled == true)
             {
-                MoveTo(inputData.ClickPosition);
+                if (inputData.Buttons.IsSet(NetworkInputData.BUTTON_MOVE))
+                {
+                    Server_SetMoveDestination(inputData.ClickPosition);
+                }
             }
         }
 
-        // [추가] 경로 계산 결과를 transform에 수동으로 적용 (장애물 충돌 유지)
-        if (navAgent != null && navAgent.isActiveAndEnabled == true && navAgent.hasPath)
+        // --- 서버 전용 이동 업데이트 로직 ---
+        if (HasStateAuthority == true && navAgent != null && navAgent.isActiveAndEnabled == true)
         {
-            // 에이전트가 가고자 하는 방향으로 transform을 실제로 이동시킵니다.
-            // (Fusion의 위치 동기화와 호환되도록 transform.position을 직접 수정)
-            transform.position = navAgent.nextPosition;
+            // 공격 중이면 이동 중지
+            if (TryGetComponent<PlayerAttack>(out var attack) && attack.IsAttacking == true)
+            {
+                StopMovement();
+            }
+
+            // 실시간 속도 동기화
+            if (player != null) navAgent.speed = player.MoveSpeed;
+
+            // NavMeshAgent의 계산된 위치를 Transform에 적용 (서버가 위치의 주도권을 가짐)
+            if (navAgent.hasPath == true)
+            {
+                // 에이전트가 계산한 다음 위치를 transform에 직접 주입
+                // (이 좌표가 NetworkTransform을 통해 모든 클라이언트에게 부드럽게 전파됨)
+                navAgent.nextPosition = transform.position; 
+                transform.position = navAgent.nextPosition;
+            }
+        }
+    }
+
+    /// <summary>
+    /// 서버에서 NavMesh 목적지를 설정합니다.
+    /// </summary>
+    private void Server_SetMoveDestination(Vector3 targetPosition)
+    {
+        if (navAgent == null || navAgent.isOnNavMesh == false) return;
+
+        // 목적지가 유효한 NavMesh 위인지 확인 후 설정
+        if (NavMesh.SamplePosition(targetPosition, out NavMeshHit hit, 10f, navAgent.areaMask))
+        {
+            navAgent.SetDestination(hit.position);
+        }
+        else
+        {
+            navAgent.SetDestination(targetPosition);
         }
     }
 
@@ -132,56 +145,24 @@ public class PlayerMovement : NetworkBehaviour
     {
         if (Object == null || Object.IsValid == false) return;
 
-        // 애니메이션 처리
+        // 애니메이션 처리 (로컬/리모트 공통)
         if (animator != null)
         {
-            float currentSpeed = 0f;
-            
-            if (Object.HasInputAuthority == true && navAgent != null && navAgent.isActiveAndEnabled == true)
-            {
-                // 로컬 플레이어: 에이전트의 실제 속도 사용
-                currentSpeed = navAgent.velocity.magnitude;
-            }
-            else
-            {
-                // [수정] 리모트 플레이어: 이전 프레임과의 위치 차이를 통해 가상의 속도 계산 (슬라이딩 방지)
-                Vector3 moveDelta = transform.position - lastPosition;
-                currentSpeed = moveDelta.magnitude / Time.deltaTime;
-                lastPosition = transform.position;
-            }
+            // 이전 프레임과의 위치 차이를 통해 실제 이동 속도 계산 (가장 정확하고 떨림 없음)
+            Vector3 moveDelta = transform.position - lastPosition;
+            float currentSpeed = moveDelta.magnitude / Time.deltaTime;
+            lastPosition = transform.position;
             
             animator.SetFloat(SpeedHash, currentSpeed > 0.1f ? currentSpeed : 0f);
         }
     }
 
     /// <summary>
-    /// 지정된 목적지로 NavMesh를 사용하여 이동 명령을 내립니다. (로컬 전용)
-    /// </summary>
-    public Vector3 MoveTo(Vector3 targetPosition)
-    {
-        if (Object.HasInputAuthority == false) return transform.position;
-        if (navAgent == null || navAgent.isActiveAndEnabled == false) return transform.position;
-
-        if (Vector3.Distance(transform.position, targetPosition) < 0.1f) return transform.position;
-
-        if (NavMesh.SamplePosition(targetPosition, out NavMeshHit hit, 100f, navAgent.areaMask))
-        {
-            navAgent.SetDestination(hit.position);
-            return hit.position;
-        }
-        else
-        {
-            navAgent.SetDestination(targetPosition);
-            return targetPosition;
-        }
-    }
-
-    /// <summary>
-    /// 캐릭터의 모든 이동을 즉시 중단합니다.
+    /// 캐릭터의 모든 이동을 즉시 중단합니다. (서버 전용)
     /// </summary>
     public void StopMovement()
     {
-        if (navAgent != null && navAgent.isActiveAndEnabled == true && navAgent.isOnNavMesh == true)
+        if (HasStateAuthority == true && navAgent != null && navAgent.isActiveAndEnabled == true && navAgent.isOnNavMesh == true)
         {
             navAgent.ResetPath();
             navAgent.velocity = Vector3.zero;
