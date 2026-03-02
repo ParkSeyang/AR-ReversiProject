@@ -14,14 +14,10 @@ public class UIManager : SingletonBase<UIManager>
     public bool IsPopupOpen { get; private set; }
     private bool isUIManagementEnabled = true;
 
-    /// <summary>
-    /// UI 요소를 매니저의 관리 장부에 등록합니다.
-    /// </summary>
     public void RegisterUI(BaseUI baseUI)
     {
         if (baseUI == null) return;
 
-        // 이미 DontDestroyOnLoad에서 관리 중인 UI가 있다면 중복 등록을 방지함
         if (uiDictionary.TryGetValue(baseUI.UIType, out var existingUI))
         {
             if (existingUI != null && existingUI.gameObject.scene.name == "DontDestroyOnLoad")
@@ -38,7 +34,6 @@ public class UIManager : SingletonBase<UIManager>
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // 씬 로드 시마다 UI 장부를 갱신하고 상태를 초기화함
         OnInitialize();
     }
 
@@ -46,15 +41,11 @@ public class UIManager : SingletonBase<UIManager>
     {
         string sceneName = SceneManager.GetActiveScene().name;
         bool isTitleScene = sceneName.Contains("Start") || sceneName.Contains("Title");
+        bool isLobbyScene = sceneName.Contains("Loby") || sceneName.Contains("Lobby");
         
-        // 1. EventSystem 중복 방지 및 단일 활성화 유지
         ManageEventSystem();
-
-        // 2. UI 캔버스 중복 제거 및 DontDestroyOnLoad 관리
         CleanupDuplicateUIs();
-
-        // 3. 초기 UI 상태 설정
-        InitializeUIStates(isTitleScene);
+        InitializeUIStates(isTitleScene, isLobbyScene);
     }
 
     private void ManageEventSystem()
@@ -95,7 +86,6 @@ public class UIManager : SingletonBase<UIManager>
         BaseUI[] allUIs = Object.FindObjectsByType<BaseUI>(FindObjectsInactive.Include, FindObjectsSortMode.None);
         uiDictionary.Clear();
 
-        // 단계 1: 이미 DDOL에 있는 UI들을 장부에 먼저 등록
         foreach (var uiBase in allUIs)
         {
             if (uiBase == null) continue;
@@ -107,7 +97,6 @@ public class UIManager : SingletonBase<UIManager>
             }
         }
 
-        // 단계 2: 새로 로드된 루트(Canvas)들을 검사하여 파괴하거나 DDOL로 이동
         var newRoots = allUIs
             .Where(ui => ui != null && ui.gameObject.scene.name != "DontDestroyOnLoad")
             .Select(ui => ui.transform.root.gameObject)
@@ -134,7 +123,7 @@ public class UIManager : SingletonBase<UIManager>
         }
     }
 
-    private void InitializeUIStates(bool isTitleScene)
+    private void InitializeUIStates(bool isTitleScene, bool isLobbyScene)
     {
         foreach (var ui in uiDictionary.Values)
         {
@@ -144,14 +133,19 @@ public class UIManager : SingletonBase<UIManager>
             {
                 if (isTitleScene == true) ui.Open(); else ui.Close();
             }
+            else if (ui.UIType == UIType.Lobby)
+            {
+                if (isLobbyScene == true) ui.Open(); else ui.Close();
+            }
             else if (ui.IsPopup == false)
             {
-                // HUD나 퀵슬롯 같은 비팝업 UI는 인게임에서만 오픈
-                if (isTitleScene == false) ui.Open(); else ui.Close();
+                // 인게임 전용 UI (HUD 등)는 타이틀도 로비도 아닐 때만 켬
+                bool isGameScene = isTitleScene == false && isLobbyScene == false;
+                if (isGameScene == true) ui.Open(); else ui.Close();
             }
             else
             {
-                ui.Close(); // 팝업은 기본적으로 닫힘
+                ui.Close();
             }
         }
         
@@ -190,6 +184,8 @@ public class UIManager : SingletonBase<UIManager>
     public void SetAllInGameUIActive(bool isActive)
     {
         isUIManagementEnabled = isActive;
+        string sceneName = SceneManager.GetActiveScene().name;
+        bool isLobbyScene = sceneName.Contains("Loby") || sceneName.Contains("Lobby");
 
         foreach (var ui in uiDictionary.Values)
         {
@@ -197,15 +193,25 @@ public class UIManager : SingletonBase<UIManager>
 
             if (isActive == true) 
             { 
-                // 게임 시작 시: 타이틀 UI는 닫고, HUD/퀵슬롯 등은 활성화
-                if (ui.UIType == UIType.Title) ui.Close();
+                // 게임 시작 시: 타이틀과 로비는 닫고, HUD/퀵슬롯 등 활성화
+                if (ui.UIType == UIType.Title || ui.UIType == UIType.Lobby) ui.Close();
                 else if (ui.IsPopup == false) ui.Open(); 
             }
             else
             {
-                // 로비 상태 시: 타이틀 UI만 노출
-                if (ui.UIType == UIType.Title) ui.Open();
-                else ui.Close();
+                // 게임 중이 아닐 때: 현재가 로비면 로비만 켬, 그 외(타이틀)면 타이틀만 켬
+                if (ui.UIType == UIType.Lobby)
+                {
+                    if (isLobbyScene == true) ui.Open(); else ui.Close();
+                }
+                else if (ui.UIType == UIType.Title)
+                {
+                    if (isLobbyScene == false) ui.Open(); else ui.Close();
+                }
+                else
+                {
+                    ui.Close();
+                }
             }
         }
 
@@ -222,21 +228,17 @@ public class UIManager : SingletonBase<UIManager>
     public void RefreshUIState()
     {
         IsPopupOpen = uiDictionary.Values.Any(ui => ui != null && ui.IsPopup && ui.gameObject.activeSelf);
-        
-        // 멀티플레이어 환경에서는 Time.timeScale 조절 대신 커서 제어만 수행함
         SetControlState(IsPopupOpen == false);
     }
 
     private void SetControlState(bool canControl)
     {
-        // 피구 게임(탑다운) 특성상 커서가 항상 보여야 조준과 이동이 가능함
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
 
     public void ShowWarning(string message)
     {
-        // 경고 팝업 로직 (구현된 UI가 있을 경우 활성화)
         Debug.Log($"[UI Warning] {message}");
     }
 
