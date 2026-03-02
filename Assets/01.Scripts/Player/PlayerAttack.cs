@@ -82,13 +82,27 @@ public class PlayerAttack : NetworkBehaviour
         if (movement != null) movement.StopMovement();
         if (navAgent != null) navAgent.updateRotation = false;
 
-        // TransformExtensions 툴 활용 (조준)
         Vector3 lookDir = transform.FlatDirectionTo(targetPosition);
         if (lookDir != Vector3.zero)
         {
             transform.rotation = Quaternion.LookRotation(lookDir);
         }
 
+        // 로컬/호스트에서 애니메이션 재생
+        if (animator != null) animator.SetTrigger(AttackHash);
+
+        // [추가] 다른 클라이언트(Proxies)들에게도 애니메이션 재생 요청
+        if (HasStateAuthority == true)
+        {
+            RPC_PlayAttackAnimation();
+        }
+    }
+
+    [Rpc(RpcSources.StateAuthority, RpcTargets.Proxies)]
+    private void RPC_PlayAttackAnimation()
+    {
+        // 입력 권한자는 이미 StartAttackSequence에서 재생했으므로 제외
+        if (Object.HasInputAuthority == true) return;
         if (animator != null) animator.SetTrigger(AttackHash);
     }
 

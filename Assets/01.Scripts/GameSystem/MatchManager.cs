@@ -28,6 +28,11 @@ public class MatchManager : NetworkBehaviour
 
     [Networked] public int BlueScore { get; set; }
     [Networked] public int RedScore { get; set; }
+
+    // [추가] UI에서 안전하게 접근하기 위한 Safe Getter
+    public int SafeBlueScore => (Object != null && Object.IsValid) ? BlueScore : 0;
+    public int SafeRedScore => (Object != null && Object.IsValid) ? RedScore : 0;
+
     [Networked] private TickTimer roundTimer { get; set; }
 
     private void Awake()

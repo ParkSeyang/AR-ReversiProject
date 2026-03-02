@@ -16,7 +16,7 @@ public class Player : NetworkBehaviour
     [Networked] public float MoveSpeed { get; set; }
 
     [Header("Identity")]
-    [Networked] public string PlayerName { get; set; }
+    [Networked] public NetworkString<_16> PlayerName { get; set; }
     [Networked] public int TeamID { get; set; }
     [Networked] public bool IsReady { get; set; }
     [Networked] public int SelectedCharIndex { get; set; }

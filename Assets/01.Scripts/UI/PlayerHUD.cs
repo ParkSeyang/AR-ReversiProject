@@ -38,11 +38,10 @@ public class PlayerHUD : MonoBehaviour
         if (player == null) player = GetComponentInParent<Player>();
         if (player == null) return;
 
-        // [1] 닉네임 표시
+        // [1] 닉네임 표시 (NetworkString을 string으로 변환)
         if (nameText != null)
         {
-            // Player.cs의 PlayerName 변수를 가져와서 텍스트에 세팅
-            nameText.text = player.PlayerName;
+            nameText.text = player.PlayerName.ToString();
         }
 
         // [2] 팀에 따른 HP바 색상 설정
@@ -70,10 +69,14 @@ public class PlayerHUD : MonoBehaviour
                              mainCamera.transform.rotation * Vector3.up);
         }
 
-        // [3] 혹시 닉네임이 뒤늦게 로드되었을 경우를 위한 방어 로직 (비어있을 때만 체크)
-        if (nameText != null && string.IsNullOrEmpty(nameText.text) == false && nameText.text != player.PlayerName)
+        // [3] 닉네임 실시간 동기화 (텍스트가 비었거나 실제 데이터와 다를 때만 갱신)
+        if (nameText != null)
         {
-            nameText.text = player.PlayerName;
+            string currentSyncedName = player.PlayerName.ToString();
+            if (string.IsNullOrEmpty(nameText.text) == true || nameText.text != currentSyncedName)
+            {
+                nameText.text = currentSyncedName;
+            }
         }
     }
 }

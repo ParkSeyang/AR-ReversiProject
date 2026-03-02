@@ -28,8 +28,9 @@ public class PlayerMovement : NetworkBehaviour
         ConfigureNavMeshAgent();
         ApplyAreaMaskByTeam(); // [추가] 팀에 따른 이동 가능 구역 설정
 
-        // [핵심] 본인 캐릭터(Input Authority)가 아니라면 NavMesh Agent를 비활성화함
-        if (Object.HasInputAuthority == false)
+        // [핵심 수정] 서버(Host)이거나 본인 캐릭터(Input Authority)인 경우에만 NavMesh Agent를 활성화함
+        // 서버에서 꺼버리면 클라이언트가 장애물을 뚫고 가는 것을 서버가 물리적으로 막지 못함
+        if (Object.HasInputAuthority == false && Runner.IsServer == false)
         {
             navAgent.enabled = false;
         }
