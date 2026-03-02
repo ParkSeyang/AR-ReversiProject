@@ -67,7 +67,7 @@ public class PlayGameUI : BaseUI
         if (btnExitRoom != null) btnExitRoom.onClick.AddListener(OnClickExitRoom);
     }
 
-    private void Start() => InitializeUI();
+    protected override void Start() => InitializeUI();
 
     private void InitializeUI()
     {
@@ -97,18 +97,18 @@ public class PlayGameUI : BaseUI
 
     private void SwitchToGameRoom()
     {
+        // [수정] LobbyManager가 네트워크상에서 아직 준비되지 않았다면 리턴하여 에러 방지
+        if (LobbyManager.Instance == null || LobbyManager.Instance.Object == null || LobbyManager.Instance.Object.IsValid == false) return;
+
         sessionRoomPanel.SetActive(false);
         if (gameRoomPanel != null) gameRoomPanel.SetActive(true);
 
         if (sessionNumberText != null) sessionNumberText.text = runner.SessionInfo.Name;
 
-        // [중요] 접속하자마자 내 닉네임과 캐릭터 정보를 서버 LobbyManager에 등록 요청
-        if (LobbyManager.Instance != null)
-        {
-            string myName = PlayerPrefs.GetString("LocalPlayerName", "Guest");
-            int myCharIndex = PlayerPrefs.GetInt("SelectedCharIndex", 0);
-            LobbyManager.Instance.RPC_SetCharacterAndName(runner.LocalPlayer, myCharIndex, myName);
-        }
+        // [중요] 이제 LobbyManager가 확실히 초기화된 상태이므로 안전하게 RPC 호출 가능
+        string myName = PlayerPrefs.GetString("LocalPlayerName", "Guest");
+        int myCharIndex = PlayerPrefs.GetInt("SelectedCharIndex", 0);
+        LobbyManager.Instance.RPC_SetCharacterAndName(runner.LocalPlayer, myCharIndex, myName);
     }
 
     private void OnToggleReady()
@@ -227,8 +227,9 @@ public class PlayGameUI : BaseUI
     {
         if (NetworkRunnerHandler.Instance == null) return;
 
+        // [수정] "ROOM_" 접두사를 제거하고 4자리 순수 숫자 코드로 생성
         string roomName = string.IsNullOrEmpty(roomCodeInputField.text) 
-                          ? $"ROOM_{Random.Range(1000, 9999)}" 
+                          ? Random.Range(0, 10000).ToString("D4") 
                           : roomCodeInputField.text;
 
         Debug.Log($"[UI] Hosting Session: {roomName}");

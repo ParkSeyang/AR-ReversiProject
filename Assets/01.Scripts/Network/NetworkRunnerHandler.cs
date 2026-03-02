@@ -26,11 +26,16 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
     {
         if (networkRunner != null) return;
 
-        string finalSessionName = string.IsNullOrWhiteSpace(customRoomName) ? defaultSessionName : customRoomName;
+        // [수정] 4자리 숫자 조합의 랜덤 세션 이름 생성 (예: 0123, 7788)
+        string finalSessionName = customRoomName;
         
-        if (mode == GameMode.Host && customRoomName == "")
+        if (mode == GameMode.Host && string.IsNullOrWhiteSpace(customRoomName))
         {
-            finalSessionName = UnityEngine.Random.Range(1000, 9999).ToString();
+            finalSessionName = UnityEngine.Random.Range(0, 10000).ToString("D4");
+        }
+        else if (string.IsNullOrWhiteSpace(customRoomName))
+        {
+            finalSessionName = defaultSessionName;
         }
 
         networkRunner = gameObject.AddComponent<NetworkRunner>();
