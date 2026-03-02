@@ -32,7 +32,7 @@ public class TitleUI : BaseUI
         btnJoin.onClick.AddListener(() => OnClickStartGame(GameMode.Client));
     }
 
-    private void OnClickStartGame(GameMode mode)
+    private async void OnClickStartGame(GameMode mode)
     {
         if (string.IsNullOrEmpty(roomNameInput.text) == true || string.IsNullOrEmpty(playerNameInput.text) == true)
         {
@@ -52,7 +52,7 @@ public class TitleUI : BaseUI
         UIManager.Instance.SetAllInGameUIActive(true);
 
         // 3. 네트워크 세션 접속
-        NetworkRunnerHandler.Instance.StartGame(mode, roomNameInput.text);
+        await NetworkRunnerHandler.Instance.StartGame(mode, roomNameInput.text);
     }
 
     public override void Refresh()

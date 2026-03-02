@@ -1,24 +1,45 @@
 using UnityEngine;
 using UnityEngine.AI;
 using Fusion;
+using System.Linq;
 
 namespace Youstianus
 {
     public enum ETeam { Blue, Red }
 
     [RequireComponent(typeof(NavMeshAgent))]
+    [RequireComponent(typeof(Rigidbody))]
     public class PlayerController : NetworkBehaviour
     {
+        public static PlayerController Local { get; private set; }
+
         [Header("Movement Settings")]
-        [SerializeField] private float moveSpeed = 10f;       // 8 -> 10으로 상향
-        [SerializeField] private float rotationSpeed = 3000f; // 2000 -> 3000 (즉시 회전)
-        [SerializeField] private float acceleration = 200f;   // 100 -> 200 (가속 시간 삭제 수준)
+        [SerializeField] private float moveSpeed = 10f;
+        [SerializeField] private float rotationSpeed = 3000f;
+        [SerializeField] private float acceleration = 200f;
+
+        [Header("Attack Settings")]
+        [SerializeField] private NetworkPrefabRef[] weaponPrefabs; 
+        [SerializeField] private Transform firePoint;             
+
+        [Header("UI Settings")]
+        [SerializeField] private GameObject hpBarPrefab; 
+        private UI_HpBar hpBarInstance;
 
         [Networked] public ETeam Team { get; set; }
-        [Networked] public bool IsAttacking { get; set; } // 공격 상태 추가
+        [Networked] public bool IsAttacking { get; set; }
+        [Networked] public bool IsInHitStun { get; set; } 
+        [Networked] public NetworkString<_32> NickName { get; set; } 
+        [Networked] public int SpawnPointIndex { get; set; } 
+        [Networked] public int CharacterTypeIndex { get; set; } 
+        [Networked] private TickTimer attackCooldownTimer { get; set; } 
+        [Networked] private TickTimer inputBlockTimer { get; set; } 
 
         private NavMeshAgent navAgent;
         private Animator animator;
+        private Rigidbody rb;
+        private PlayerData playerData; 
+        private ChangeDetector changeDetector; 
         private static readonly int SpeedHash = Animator.StringToHash("Speed");
         private bool hasShotInCurrentAttack = false;
 
@@ -26,164 +47,362 @@ namespace Youstianus
         {
             navAgent = GetComponent<NavMeshAgent>();
             animator = GetComponentInChildren<Animator>();
-            
-            ConfigureNavMeshAgent();
+            rb = GetComponent<Rigidbody>();
+            playerData = GetComponent<PlayerData>();
+
+            if (Object.HasInputAuthority)
+            {
+                Local = this;
+                string savedNick = PlayerPrefs.GetString("PlayerNickName", "Guest");
+                RPC_SetInitialData(savedNick, NetworkRunnerHandler.Instance != null ? NetworkRunnerHandler.Instance.SelectedCharacterIndex : 0);
+            }
+
+            if (rb != null)
+            {
+                rb.isKinematic = true;
+                rb.useGravity = false;
+            }
+
+            if (navAgent != null) navAgent.enabled = false;
+            changeDetector = GetChangeDetector(ChangeDetector.Source.SimulationState);
             ApplyTeamAreaMask();
+
+            if (navAgent != null)
+            {
+                if (transform.parent != null) transform.localPosition = Vector3.zero;
+                navAgent.enabled = true; 
+                navAgent.Warp(transform.position);
+                navAgent.ResetPath();
+                if (navAgent.isOnNavMesh) navAgent.SetDestination(transform.position);
+            }
+
+            ConfigureNavMeshAgent();
+            UpdateInGameUI();
+            InitializeHpBar();
         }
 
-        private void ConfigureNavMeshAgent()
+        private void InitializeHpBar()
         {
-            if (navAgent == null) return;
-            
-            navAgent.speed = moveSpeed;
-            navAgent.angularSpeed = rotationSpeed;
-            navAgent.acceleration = acceleration;
-            navAgent.stoppingDistance = 0.1f;
-            
-            navAgent.updateRotation = true;
-            navAgent.updatePosition = true;
+            if (hpBarPrefab == null) return;
+            RectTransform container = (IngameUI.Instance != null) ? IngameUI.Instance.HPBarContainer : null;
+            GameObject hpBarObj = Instantiate(hpBarPrefab, container);
+            hpBarObj.name = $"HPBar_{NickName}";
+            RectTransform rt = hpBarObj.GetComponent<RectTransform>();
+            if (rt != null)
+            {
+                rt.SetParent(container, false);
+                rt.localScale = Vector3.one;
+                rt.localPosition = Vector3.zero;
+            }
+            hpBarInstance = hpBarObj.GetComponent<UI_HpBar>();
+            UpdateHpBarVisuals();
+        }
+
+        private void UpdateHpBarVisuals()
+        {
+            if (hpBarInstance == null) return;
+            bool isEnemy = false;
+            if (Local != null && Local != this) isEnemy = (Local.Team != this.Team);
+            hpBarInstance.Initialize(this.transform, isEnemy);
+        }
+
+        [Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]
+        public void RPC_SetInitialData(string nick, int charIndex)
+        {
+            NickName = nick;
+            CharacterTypeIndex = charIndex;
         }
 
         public override void Render()
         {
             if (Object == null || !Object.IsValid) return;
 
-            if (animator != null && navAgent != null)
+            if (Object.HasInputAuthority && Input.GetKeyDown(KeyCode.W)) PlayHit();
+
+            if (hpBarInstance != null && playerData != null)
+            {
+                hpBarInstance.UpdateHP(playerData.CurrentHP, playerData.MaxHP, playerData.IsDead);
+                if (Local != null && Local != this) hpBarInstance.SetColor(Local.Team != this.Team);
+            }
+
+            if (playerData != null && playerData.IsDead)
+            {
+                if (animator != null)
+                {
+                    AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+                    if (!stateInfo.IsName("Die")) animator.Play("Die");
+                    else if (stateInfo.normalizedTime >= 0.95f) animator.speed = 0;
+                }
+                return;
+            }
+
+            foreach (var change in changeDetector.DetectChanges(this))
+            {
+                if (change == nameof(NickName) || change == nameof(SpawnPointIndex)) UpdateInGameUI();
+                if (change == nameof(Team))
+                {
+                    ApplyTeamAreaMask();
+                    UpdateHpBarVisuals();
+                }
+            }
+
+            if (animator != null && navAgent != null && navAgent.isActiveAndEnabled)
             {
                 float currentSpeed = navAgent.velocity.magnitude;
                 animator.SetFloat(SpeedHash, currentSpeed > 0.1f ? currentSpeed : 0f);
             }
 
-            // 자동 감지 로직 호출
             CheckAttackProgress();
+            CheckHitProgress();
+
+            // [추가] 로컬 플레이어 본인의 쿨타임 UI 갱신
+            if (Object.HasInputAuthority && IngameUI.Instance != null && playerData != null)
+            {
+                float remaining = attackCooldownTimer.RemainingTime(Runner) ?? 0f;
+                IngameUI.Instance.UpdateCooltime(remaining, playerData.AttackCooldown);
+            }
+        }
+
+        private void UpdateInGameUI()
+        {
+            if (IngameUI.Instance != null && SpawnPointIndex > 0)
+            {
+                int slotIndex = SpawnPointIndex - 1;
+                IngameUI.Instance.UpdatePlayerNameUI(slotIndex, NickName.ToString());
+            }
         }
 
         private void CheckAttackProgress()
         {
             if (!IsAttacking || animator == null) return;
-
             var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-
-            // "Attack"은 Animator의 State 이름입니다.
             if (stateInfo.IsName("Attack"))
             {
-                // 약 40% 지점에서 발사 (수동 이벤트가 없을 때의 보험)
                 if (!hasShotInCurrentAttack && stateInfo.normalizedTime >= 0.4f)
                 {
                     Shoot();
                     hasShotInCurrentAttack = true;
                 }
-
-                // 95% 지점에서 종료 (수동 이벤트가 없을 때의 보험)
-                if (stateInfo.normalizedTime >= 0.95f)
-                {
-                    OnAttackEnd();
-                }
+                if (stateInfo.normalizedTime >= 0.95f) OnAttackEnd();
             }
+            else if (!animator.IsInTransition(0)) OnAttackEnd();
+        }
+
+        private void CheckHitProgress()
+        {
+            if (!IsInHitStun || animator == null) return;
+            if (!HasStateAuthority) return;
+            var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+            if (stateInfo.IsName("Hit"))
+            {
+                if (stateInfo.normalizedTime >= 0.9f) OnHitEnd();
+            }
+            else if (!animator.IsInTransition(0)) OnHitEnd();
+        }
+
+        private void ConfigureNavMeshAgent()
+        {
+            if (navAgent == null) return;
+            float speed = (playerData != null) ? playerData.MoveSpeed : moveSpeed;
+            navAgent.speed = speed;
+            navAgent.angularSpeed = rotationSpeed;
+            navAgent.acceleration = acceleration;
+            navAgent.stoppingDistance = 0.1f;
+            navAgent.updateRotation = true;
+            navAgent.updatePosition = true;
         }
 
         public Vector3 MoveTo(Vector3 targetPosition)
         {
-            // 공격 중이면 이동 명령 무시
-            if (IsAttacking) return transform.position;
-
-            if (Object.HasInputAuthority || Object.HasStateAuthority)
+            if (GameManager.Instance != null && GameManager.Instance.State != EGameState.Playing)
             {
-                if (navAgent != null)
-                {
-                    // 너무 가까운 거리는 무시하고 현재 위치 반환
-                    if (Vector3.Distance(transform.position, targetPosition) < 0.1f) return transform.position;
+                StopNavAgent();
+                return transform.position;
+            }
 
-                    // 팀 구역(areaMask)을 고려하여 가장 가까운 유효 위치를 찾습니다.
-                    if (NavMesh.SamplePosition(targetPosition, out NavMeshHit hit, 100f, navAgent.areaMask))
-                    {
-                        navAgent.SetDestination(hit.position);
-                        return hit.position; // 보정된 위치 반환
-                    }
-                    else
-                    {
-                        navAgent.SetDestination(targetPosition);
-                        return targetPosition;
-                    }
+            if (playerData != null && playerData.IsDead || IsAttacking || IsInHitStun || !inputBlockTimer.ExpiredOrNotRunning(Runner))
+            {
+                StopNavAgent();
+                return transform.position;
+            }
+            
+            if (navAgent != null && navAgent.isActiveAndEnabled)
+            {
+                navAgent.isStopped = false; 
+                if (Vector3.Distance(transform.position, targetPosition) < 0.1f) return transform.position;
+                if (NavMesh.SamplePosition(targetPosition, out NavMeshHit hit, 100f, navAgent.areaMask))
+                {
+                    navAgent.SetDestination(hit.position);
+                    return hit.position;
                 }
             }
             return targetPosition;
+        }
+
+        private void StopNavAgent()
+        {
+            if (navAgent != null && navAgent.isActiveAndEnabled)
+            {
+                navAgent.isStopped = true;
+                navAgent.velocity = Vector3.zero;
+                navAgent.ResetPath();
+            }
         }
 
         public void Attack()
         {
             if (Object.HasInputAuthority)
             {
-                // [개선] 공격 가능 여부와 상관없이 Q를 누르는 즉시 마우스 방향을 바라보게 하여 반응성을 높입니다.
-                FaceMouseDirection();
+                if (GameManager.Instance != null && GameManager.Instance.State != EGameState.Playing) return;
+                if (playerData != null && (playerData.IsDead || IsInHitStun)) return;
+                if (IsAttacking || !attackCooldownTimer.ExpiredOrNotRunning(Runner)) return;
 
-                if (IsAttacking) return; // 중복 공격 방지
-
-                // 공격 상태로 전환하고 즉시 이동을 멈춥니다.
+                inputBlockTimer = TickTimer.CreateFromSeconds(Runner, 0.5f);
                 IsAttacking = true;
                 hasShotInCurrentAttack = false; 
 
-                if (navAgent != null)
-                {
-                    navAgent.ResetPath();
-                    navAgent.velocity = Vector3.zero; // 물리적 관성 제거
-                    navAgent.updateRotation = false; // 공격 중 NavMeshAgent가 회전을 제어하지 못하도록 차단
-                }
+                StopNavAgent();
+                FaceMouseDirection();
+                RPC_PlayAttack();
 
-                if (animator != null) animator.SetTrigger("Attack");
-                Debug.Log($"{Team} Team Attack (Auto Detection)!");
+                if (playerData != null)
+                    attackCooldownTimer = TickTimer.CreateFromSeconds(Runner, playerData.AttackCooldown);
             }
         }
 
         private void FaceMouseDirection()
         {
-            // 마우스 클릭 지점(또는 평면 교차점)을 향해 즉시 회전합니다.
             if (Camera.main == null) return;
-            
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Plane groundPlane = new Plane(Vector3.up, new Vector3(0, transform.position.y, 0));
-            
             if (groundPlane.Raycast(ray, out float enter))
             {
                 Vector3 hitPoint = ray.GetPoint(enter);
                 Vector3 lookDir = (hitPoint - transform.position).normalized;
                 lookDir.y = 0;
-                
-                if (lookDir != Vector3.zero)
-                {
-                    // [개선] 쿼터니언을 사용하여 즉시 회전(Snap)시킵니다.
-                    transform.rotation = Quaternion.LookRotation(lookDir);
-                }
+                if (lookDir != Vector3.zero) transform.rotation = Quaternion.LookRotation(lookDir);
             }
         }
 
-        // --- 애니메이션 이벤트 수신용 메서드 ---
         public void Shoot()
         {
-            // 애니메이션에서 '던지는 프레임'에 도달했을 때 호출됩니다.
-            Debug.Log($"{Team} Team SHOOT! (Projectile Spawned)");
+            if (hasShotInCurrentAttack) return;
+            if (!HasStateAuthority) return;
+            int weaponIndex = CharacterTypeIndex;
+            if (weaponIndex < 0 || weaponIndex >= weaponPrefabs.Length || !weaponPrefabs[weaponIndex].IsValid) return;
+            
+            hasShotInCurrentAttack = true;
+            Vector3 spawnPos = firePoint != null ? firePoint.position : transform.position + transform.forward + Vector3.up;
+            Runner.Spawn(weaponPrefabs[weaponIndex], spawnPos, transform.rotation, Object.InputAuthority, (runner, obj) => 
+            {
+                obj.transform.localScale = Vector3.one;
+                if (obj.TryGetComponent<AxeProjectile>(out var axe)) axe.OwnerTeam = this.Team;
+                if (obj.TryGetComponent<SwordProjectile>(out var sword)) sword.OwnerTeam = this.Team;
+            });
         }
 
-        // 공격 애니메이션이 완전히 끝날 때 호출할 이벤트
         public void OnAttackEnd()
         {
+            if (!HasStateAuthority) return;
             IsAttacking = false;
-            if (navAgent != null) navAgent.updateRotation = true; // 이동 시 다시 회전 허용
-            Debug.Log("Attack Finished - Movement Enabled.");
+            if (navAgent != null && navAgent.isActiveAndEnabled)
+            {
+                navAgent.isStopped = false; 
+                navAgent.updateRotation = true;
+            }
         }
 
-        public void PlayHit()
+        public void OnHitEnd()
         {
+            if (!HasStateAuthority) return;
+            IsInHitStun = false;
+            if (navAgent != null && navAgent.isActiveAndEnabled)
+            {
+                navAgent.isStopped = false;
+                navAgent.updateRotation = true;
+            }
+        }
+
+        public void ResetPlayer()
+        {
+            if (playerData != null)
+            {
+                playerData.CurrentHP = playerData.MaxHP;
+                playerData.IsDead = false;
+            }
+            IsAttacking = false;
+            IsInHitStun = false;
+            
+            if (animator != null)
+            {
+                animator.speed = 1;
+                animator.Play("Idle", 0, 0f);
+            }
+
+            var col = GetComponent<Collider>();
+            if (col != null) col.enabled = true;
+
+            // [수정] 스폰 포인트로 명시적 순간이동 (Warp)
+            if (navAgent != null)
+            {
+                navAgent.enabled = false; // 좌표 수정을 위해 잠시 끔
+
+                // NetworkRunnerHandler에 등록된 실제 스폰 포인트 좌표 가져오기
+                if (NetworkRunnerHandler.Instance != null && SpawnPointIndex > 0)
+                {
+                    int pointIndex = SpawnPointIndex - 1;
+                    if (NetworkRunnerHandler.Instance.spawnPoints != null && 
+                        pointIndex < NetworkRunnerHandler.Instance.spawnPoints.Length)
+                    {
+                        Transform targetPoint = NetworkRunnerHandler.Instance.spawnPoints[pointIndex];
+                        if (targetPoint != null)
+                        {
+                            transform.position = targetPoint.position;
+                            transform.rotation = targetPoint.rotation;
+                        }
+                    }
+                }
+
+                navAgent.enabled = true;
+                navAgent.Warp(transform.position); // 네브메쉬 위치 강제 동기화
+                StopNavAgent();
+            }
+        }
+
+        public void PlayHit() => RPC_PlayHit();
+        public void PlayDie() => RPC_PlayDie();
+
+        [Rpc(RpcSources.InputAuthority, RpcTargets.All)]
+        private void RPC_PlayAttack()
+        {
+            StopNavAgent();
+            if (animator != null) animator.SetTrigger("Attack");
+        }
+
+        [Rpc(RpcSources.StateAuthority, RpcTargets.All)]
+        public void RPC_PlayHit()
+        {
+            if (playerData != null && playerData.IsDead) return;
+            inputBlockTimer = TickTimer.CreateFromSeconds(Runner, 0.5f);
+            StopNavAgent();
+            IsInHitStun = true; 
             if (animator != null) animator.SetTrigger("Hit");
         }
 
-        public void PlayDie()
+        [Rpc(RpcSources.StateAuthority, RpcTargets.All)]
+        public void RPC_PlayDie()
         {
-            if (animator != null) animator.SetTrigger("Die");
+            IsAttacking = false;
+            IsInHitStun = false;
+            if (animator != null)
+            {
+                animator.speed = 1;
+                animator.Play("Die", 0, 0f);
+            }
+            if (navAgent != null) navAgent.enabled = false;
+            var col = GetComponent<Collider>();
+            if (col != null) col.enabled = false;
         }
-
-        public void FootL() { }
-        public void FootR() { }
 
         private void ApplyTeamAreaMask()
         {
@@ -192,5 +411,8 @@ namespace Youstianus
             int teamMask = (Team == ETeam.Blue) ? (1 << 3) : (1 << 4); 
             navAgent.areaMask = walkableMask | teamMask;
         }
+
+        public void FootL() { }
+        public void FootR() { }
     }
 }
