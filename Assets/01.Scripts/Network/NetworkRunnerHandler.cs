@@ -115,10 +115,11 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
         }
 
         playerTeamMap.Clear();
-        // 앞의 2명은 Blue, 뒤의 2명은 Red (인원이 부족하면 순서대로)
+        // 전체 인원의 절반은 Blue, 나머지는 Red (2명일 경우 1:1, 4명일 경우 2:2)
+        int halfCount = players.Count / 2;
         for (int i = 0; i < players.Count; i++)
         {
-            Youstianus.ETeam team = (i < 2) ? Youstianus.ETeam.Blue : Youstianus.ETeam.Red;
+            Youstianus.ETeam team = (i < halfCount) ? Youstianus.ETeam.Blue : Youstianus.ETeam.Red;
             playerTeamMap.Add(players[i], team);
         }
     }
