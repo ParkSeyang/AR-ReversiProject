@@ -142,8 +142,8 @@ private void CheckMatchSuccess(int count)
 {
     UpdatePlayerCount(count);
 
-    // [복구] 실제 2명이 모였을 때만 성공 연출 시작
-    if (count >= 2 && isReady && matchSuccessSequence == null)
+    // [복구] 실제 4명이 모였을 때만 성공 연출 시작
+    if (count >= 4 && isReady && matchSuccessSequence == null)
     {
         matchSuccessSequence = StartCoroutine(MatchSuccessSequenceRoutine());
     }
@@ -153,7 +153,7 @@ private void CheckMatchSuccess(int count)
         private void UpdatePlayerCount(int count)
         {
             if (waitingPeopleText != null)
-                waitingPeopleText.text = $"대기중.. ({count} / 2)";
+                waitingPeopleText.text = $"대기중.. ({count} / 4)";
         }
 
         private IEnumerator MatchSuccessSequenceRoutine()
