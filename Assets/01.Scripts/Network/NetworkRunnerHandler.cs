@@ -77,11 +77,20 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
     {
         if (networkRunner == null || !networkRunner.IsServer) return;
 
+        // 1. 딕셔너리에 등록된 플레이어 제거
         foreach (var kvp in spawnedCharacters.ToList())
         {
             if (kvp.Value != null) networkRunner.Despawn(kvp.Value);
         }
         spawnedCharacters.Clear();
+
+        // 2. [보강] 딕셔너리에 없더라도 씬에 남아있는 모든 PlayerController 제거 (더미 포함)
+        var allPlayers = GameObject.FindObjectsByType<Youstianus.PlayerController>(FindObjectsSortMode.None);
+        foreach (var pc in allPlayers)
+        {
+            var no = pc.GetComponent<NetworkObject>();
+            if (no != null && no.IsValid) networkRunner.Despawn(no);
+        }
     }
 
     /// <summary>
@@ -94,11 +103,14 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
         // 1. 팀 랜덤 배정 (4명 기준)
         AssignRandomTeams();
 
-        // 2. 소환
+        // 2. 실제 플레이어 소환
         foreach (var player in networkRunner.ActivePlayers)
         {
             SpawnPlayer(networkRunner, player);
         }
+
+        // 3. 부족한 인원만큼 더미 다시 소환
+        SpawnDummies(networkRunner);
     }
 
     private void AssignRandomTeams()
@@ -115,8 +127,10 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
         }
 
         playerTeamMap.Clear();
-        // 전체 인원의 절반은 Blue, 나머지는 Red (2명일 경우 1:1, 4명일 경우 2:2)
-        int halfCount = players.Count / 2;
+        // 1명일 경우 Blue, 그 외에는 절반씩 나눔 (1명: Blue 1, 2명: Blue 1/Red 1, 4명: Blue 2/Red 2)
+        int halfCount = Mathf.Max(1, players.Count / 2);
+        if (players.Count == 1) halfCount = 1; // 1명일 때는 무조건 Blue
+
         for (int i = 0; i < players.Count; i++)
         {
             Youstianus.ETeam team = (i < halfCount) ? Youstianus.ETeam.Blue : Youstianus.ETeam.Red;
@@ -156,6 +170,13 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
             assignedTeam = Youstianus.ETeam.Blue; // 예외 방지용 기본값
         }
 
+        // [수정] 본인이면 선택한 캐릭터 인덱스 사용, 그 외(다른 클라이언트)는 일단 0번 (추후 동기화 필요)
+        int prefabIndex = 0;
+        if (player == runner.LocalPlayer)
+        {
+            prefabIndex = SelectedCharacterIndex;
+        }
+
         // 팀 내 순서 계산 (해당 팀의 몇 번째 멤버인지)
         int teamMemberIndex = playerTeamMap.Where(x => x.Value == assignedTeam).ToList().FindIndex(x => x.Key == player);
         int spawnPointArrayIndex = (assignedTeam == Youstianus.ETeam.Blue) ? teamMemberIndex : teamMemberIndex + 2;
@@ -164,8 +185,10 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
         Vector3 spawnPos = spawnPoint != null ? spawnPoint.position : Vector3.zero;
         Quaternion spawnRot = (assignedTeam == Youstianus.ETeam.Blue) ? Quaternion.Euler(0, 180, 0) : Quaternion.Euler(0, 0, 0);
 
-        // 캐릭터 소환 (다른 플레이어의 캐릭터 타입은 동기화 변수를 통해 자동으로 맞춰짐)
-        NetworkObject networkPlayerObject = runner.Spawn(playerCharacterPrefabs[0], spawnPos, spawnRot, player, (runner, obj) => {
+        // 선택한 프리팹으로 소환
+        if (prefabIndex < 0 || prefabIndex >= playerCharacterPrefabs.Length) prefabIndex = 0;
+
+        NetworkObject networkPlayerObject = runner.Spawn(playerCharacterPrefabs[prefabIndex], spawnPos, spawnRot, player, (runner, obj) => {
             var pc = obj.GetComponent<Youstianus.PlayerController>();
             if (pc != null)
             {
@@ -200,23 +223,23 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
 
         for (int i = 0; i < dummiesNeeded; i++)
         {
-            // 더미는 PlayerRef.None으로 소환하거나, 서버 권한으로 관리
-            // 여기서는 단순 외형 및 로직 구동을 위해 소환 로직 구현
             int dummyIndex = currentPlayers + i;
             Youstianus.ETeam dummyTeam = (dummyIndex < 2) ? Youstianus.ETeam.Blue : Youstianus.ETeam.Red;
             
+            // 더미 캐릭터도 다양하게 (0~3번 순환)
+            int prefabIndex = dummyIndex % playerCharacterPrefabs.Length;
+
             int spawnPointArrayIndex = dummyIndex;
             Transform spawnPoint = (spawnPoints != null && spawnPoints.Length > spawnPointArrayIndex) ? spawnPoints[spawnPointArrayIndex] : null;
             Vector3 spawnPos = spawnPoint != null ? spawnPoint.position : Vector3.zero;
             Quaternion spawnRot = (dummyTeam == Youstianus.ETeam.Blue) ? Quaternion.Euler(0, 180, 0) : Quaternion.Euler(0, 0, 0);
 
-            runner.Spawn(playerCharacterPrefabs[0], spawnPos, spawnRot, null, (runner, obj) => {
+            runner.Spawn(playerCharacterPrefabs[prefabIndex], spawnPos, spawnRot, null, (runner, obj) => {
                 var pc = obj.GetComponent<Youstianus.PlayerController>();
                 if (pc != null)
                 {
                     pc.Team = dummyTeam;
                     pc.SpawnPointIndex = spawnPointArrayIndex + 1;
-                    // AI 또는 Dummy 표시 로직이 있다면 여기서 설정
                 }
             });
         }

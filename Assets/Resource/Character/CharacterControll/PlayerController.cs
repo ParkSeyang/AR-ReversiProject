@@ -33,6 +33,7 @@ namespace Youstianus
         [Networked] public int SpawnPointIndex { get; set; } 
         [Networked] public int CharacterTypeIndex { get; set; } 
         [Networked] private TickTimer attackCooldownTimer { get; set; } 
+        [Networked] private TickTimer shootTimer { get; set; } 
         [Networked] private TickTimer inputBlockTimer { get; set; } 
 
         private NavMeshAgent navAgent;
@@ -113,6 +114,36 @@ namespace Youstianus
             CharacterTypeIndex = charIndex;
         }
 
+        public override void FixedUpdateNetwork()
+        {
+            if (Object == null || !Object.IsValid) return;
+
+            // 로컬 플레이어로부터 입력을 받아 처리
+            if (GetInput(out NetworkInputData inputData))
+            {
+                // 공격 입력 (Q 키)
+                if (inputData.Buttons.IsSet(NetworkInputData.BUTTON_ATTACK))
+                {
+                    Attack();
+                }
+
+                // 이동 입력 (마우스 우클릭)
+                if (inputData.Buttons.IsSet(NetworkInputData.BUTTON_MOVE))
+                {
+                    MoveTo(inputData.ClickPosition);
+                }
+            }
+
+            // [수정] 네트워크 타이머를 기반으로 발사 체크 (서버 동기화 보장)
+            if (IsAttacking && !hasShotInCurrentAttack && shootTimer.Expired(Runner))
+            {
+                if (HasStateAuthority) Shoot();
+                hasShotInCurrentAttack = true;
+            }
+
+            CheckAttackProgress();
+        }
+
         public override void Render()
         {
             if (Object == null || !Object.IsValid) return;
@@ -152,7 +183,6 @@ namespace Youstianus
                 animator.SetFloat(SpeedHash, currentSpeed > 0.1f ? currentSpeed : 0f);
             }
 
-            CheckAttackProgress();
             CheckHitProgress();
 
             // [추가] 로컬 플레이어 본인의 쿨타임 UI 갱신
@@ -176,16 +206,16 @@ namespace Youstianus
         {
             if (!IsAttacking || animator == null) return;
             var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+            
+            // 애니메이션 종료 체크 (서버에서는 보이지 않더라도 attackCooldownTimer에 의해 제어됨)
             if (stateInfo.IsName("Attack"))
             {
-                if (!hasShotInCurrentAttack && stateInfo.normalizedTime >= 0.4f)
-                {
-                    Shoot();
-                    hasShotInCurrentAttack = true;
-                }
                 if (stateInfo.normalizedTime >= 0.95f) OnAttackEnd();
             }
-            else if (!animator.IsInTransition(0)) OnAttackEnd();
+            else if (!animator.IsInTransition(0) && attackCooldownTimer.ExpiredOrNotRunning(Runner))
+            {
+                OnAttackEnd();
+            }
         }
 
         private void CheckHitProgress()
@@ -251,22 +281,30 @@ namespace Youstianus
 
         public void Attack()
         {
+            // 모든 권한 공통 체크 (서버 포함)
+            if (GameManager.Instance != null && GameManager.Instance.State != EGameState.Playing) return;
+            if (playerData != null && (playerData.IsDead || IsInHitStun)) return;
+            if (IsAttacking || !attackCooldownTimer.ExpiredOrNotRunning(Runner)) return;
+
+            // 서버 권한: 상태 값 갱신
+            if (HasStateAuthority)
+            {
+                IsAttacking = true;
+                hasShotInCurrentAttack = false;
+                // 공격 애니메이션의 발사 지점(약 0.4초)까지의 타이머 설정
+                shootTimer = TickTimer.CreateFromSeconds(Runner, 0.4f);
+                
+                if (playerData != null)
+                    attackCooldownTimer = TickTimer.CreateFromSeconds(Runner, playerData.AttackCooldown);
+            }
+
+            // 입력 권한: 로컬 연출 및 RPC 호출
             if (Object.HasInputAuthority)
             {
-                if (GameManager.Instance != null && GameManager.Instance.State != EGameState.Playing) return;
-                if (playerData != null && (playerData.IsDead || IsInHitStun)) return;
-                if (IsAttacking || !attackCooldownTimer.ExpiredOrNotRunning(Runner)) return;
-
                 inputBlockTimer = TickTimer.CreateFromSeconds(Runner, 0.5f);
-                IsAttacking = true;
-                hasShotInCurrentAttack = false; 
-
                 StopNavAgent();
                 FaceMouseDirection();
                 RPC_PlayAttack();
-
-                if (playerData != null)
-                    attackCooldownTimer = TickTimer.CreateFromSeconds(Runner, playerData.AttackCooldown);
             }
         }
 
@@ -293,11 +331,25 @@ namespace Youstianus
             
             hasShotInCurrentAttack = true;
             Vector3 spawnPos = firePoint != null ? firePoint.position : transform.position + transform.forward + Vector3.up;
+            
+            // PlayerData에서 현재 공격력 가져오기
+            int currentDamage = (playerData != null) ? playerData.AttackDamage : 20;
+
             Runner.Spawn(weaponPrefabs[weaponIndex], spawnPos, transform.rotation, Object.InputAuthority, (runner, obj) => 
             {
                 obj.transform.localScale = Vector3.one;
-                if (obj.TryGetComponent<AxeProjectile>(out var axe)) axe.OwnerTeam = this.Team;
-                if (obj.TryGetComponent<SwordProjectile>(out var sword)) sword.OwnerTeam = this.Team;
+                
+                // 투사체에 팀 정보와 공격력 설정
+                if (obj.TryGetComponent<AxeProjectile>(out var axe))
+                {
+                    axe.OwnerTeam = this.Team;
+                    axe.Damage = currentDamage;
+                }
+                if (obj.TryGetComponent<SwordProjectile>(out var sword))
+                {
+                    sword.OwnerTeam = this.Team;
+                    sword.Damage = currentDamage;
+                }
             });
         }
 

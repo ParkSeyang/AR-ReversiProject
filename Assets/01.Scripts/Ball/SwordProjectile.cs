@@ -17,6 +17,7 @@ namespace Youstianus
         [SerializeField] private Vector3 rotationSpeed = new Vector3(0, 0, 720f); 
 
         [Networked] public ETeam OwnerTeam { get; set; } // 던진 사람의 팀 정보
+        [Networked] public int Damage { get; set; }     // [추가] 공격력 동기화
         [Networked] private TickTimer lifeTimer { get; set; }
 
         public override void Spawned()
@@ -77,10 +78,10 @@ namespace Youstianus
                     // [중요] 같은 팀이면 무시 (자폭 방지)
                     if (targetPc.Team == OwnerTeam) return;
 
-                    targetData.TakeDamage(20); // 기본 데미지 20 적용
+                    targetData.TakeDamage(Damage); // 동기화된 공격력 사용
                     targetPc.RPC_PlayHit();
                     
-                    Debug.Log($"[Sword] Hit Enemy: {other.name}!");
+                    Debug.Log($"[Sword] Hit Enemy: {other.name} with {Damage} damage!");
                     Runner.Despawn(Object);
                 }
             }
