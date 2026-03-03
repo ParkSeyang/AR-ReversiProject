@@ -185,11 +185,42 @@ public class NetworkRunnerHandler : SingletonBase<NetworkRunnerHandler>, INetwor
             {
                 runner.Spawn(gameManagerPrefab, Vector3.zero, Quaternion.identity);
             }
+            
+            // 부족한 인원만큼 더미 소환 (4명 기준)
+            SpawnDummies(runner);
         }
     }
 
-    // SpawnDummies 로직은 실제 4인 플레이를 위해 비활성화 (필요 시 주석 해제)
-    private void SpawnDummies(NetworkRunner runner) { }
+    private void SpawnDummies(NetworkRunner runner)
+    {
+        if (!runner.IsServer) return;
+
+        int currentPlayers = runner.ActivePlayers.Count();
+        int dummiesNeeded = 4 - currentPlayers;
+
+        for (int i = 0; i < dummiesNeeded; i++)
+        {
+            // 더미는 PlayerRef.None으로 소환하거나, 서버 권한으로 관리
+            // 여기서는 단순 외형 및 로직 구동을 위해 소환 로직 구현
+            int dummyIndex = currentPlayers + i;
+            Youstianus.ETeam dummyTeam = (dummyIndex < 2) ? Youstianus.ETeam.Blue : Youstianus.ETeam.Red;
+            
+            int spawnPointArrayIndex = dummyIndex;
+            Transform spawnPoint = (spawnPoints != null && spawnPoints.Length > spawnPointArrayIndex) ? spawnPoints[spawnPointArrayIndex] : null;
+            Vector3 spawnPos = spawnPoint != null ? spawnPoint.position : Vector3.zero;
+            Quaternion spawnRot = (dummyTeam == Youstianus.ETeam.Blue) ? Quaternion.Euler(0, 180, 0) : Quaternion.Euler(0, 0, 0);
+
+            runner.Spawn(playerCharacterPrefabs[0], spawnPos, spawnRot, null, (runner, obj) => {
+                var pc = obj.GetComponent<Youstianus.PlayerController>();
+                if (pc != null)
+                {
+                    pc.Team = dummyTeam;
+                    pc.SpawnPointIndex = spawnPointArrayIndex + 1;
+                    // AI 또는 Dummy 표시 로직이 있다면 여기서 설정
+                }
+            });
+        }
+    }
 
     #region INetworkRunnerCallbacks Implementation
 
